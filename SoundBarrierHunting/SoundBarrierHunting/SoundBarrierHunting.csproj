@@ -80,6 +80,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\favicon.ico" />
+    <Content Include="Content\HomeCSS.css" />
     <Content Include="Global.asax" />
     <Content Include="Web.config" />
   </ItemGroup>
