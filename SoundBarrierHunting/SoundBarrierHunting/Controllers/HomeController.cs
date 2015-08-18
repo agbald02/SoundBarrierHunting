@@ -8,7 +8,7 @@ namespace SoundBarrierHunting.Controllers
 {
     public class HomeController : Controller
     {
-        // GET: Home
+        [Route("Home")]
         public ActionResult Index()
         {
             return View();

@@ -1,6 +1,12 @@
-﻿.whole {
-    background-color:black;
+﻿.text{
+    text-align:center;
+    font-family: Arial;
+    font-size: 25px;
 }
-.text{
-    color:white;
+.logo{
+    left:50%;
+    right:-50%;
+    width:450px;
+    height:500px;
+    padding-top:20px;
 }
