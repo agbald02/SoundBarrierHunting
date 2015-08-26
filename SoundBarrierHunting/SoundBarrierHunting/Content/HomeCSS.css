@@ -1,15 +1,45 @@
-﻿.text{
-    text-align:center;
-    font-family: Arial;
-    font-size: 25px;
+﻿.navcontainer ul {
+    padding-left:475px;
+    display: inline;
 }
-.logo{
-    left:50%;
-    right:-50%;
-    width:450px;
-    height:500px;
-    padding-top:20px;
+
+.navbar{
+    position:fixed;
+    width:100%;
+    background:black;
 }
-.email{
-    font-style:italic;
+.navbar-right{
+    padding-right:50px;
 }
+
+.SoundBarrierHorizontal{
+    padding-bottom:50px;
+    height:85px;
+    width:250px;
+
+}
+
+#sidebarGlyphs{
+    font-size:40px;
+}
+
+#sidebarListItem{
+    padding-bottom:50px;
+    text-decoration-color:white;
+}
+.sidebar{ 
+    height:947px;
+    background-color:black;
+    width:65px;
+}
+
+.sidebar-nav{
+    font-size:10px;
+    list-style-type:none;
+    padding-left:10px;
+    padding-top:225px;
+}
+
+
+
+
