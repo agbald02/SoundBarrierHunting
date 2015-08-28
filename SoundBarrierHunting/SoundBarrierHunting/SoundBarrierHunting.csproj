@@ -124,7 +124,7 @@
     <Content Include="Views\Shared\_SideBar.cshtml" />
     <Content Include="Views\Shared\_NavBarBottom.cshtml" />
     <Content Include="Views\Shared\_NavTop.cshtml" />
-    <Content Include="Views\Home\AboutHome.cshtml" />
+    <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\ArticlesHome.cshtml" />
     <Content Include="Views\Home\VideosHome.cshtml" />
     <Content Include="Views\Home\ProductsHome.cshtml" />
