@@ -123,13 +123,11 @@
     <Content Include="Scripts\jquery-2.1.4.min.map" />
     <Content Include="Views\Shared\_SideBar.cshtml" />
     <Content Include="Views\Shared\_NavBarBottom.cshtml" />
-    <Content Include="Views\Home\_Home.cshtml" />
-    <Content Include="Views\Home\_AboutHome.cshtml" />
-    <Content Include="Views\Home\_ProductsHome.cshtml" />
-    <Content Include="Views\Home\_ArticlesHome.cshtml" />
-    <Content Include="Views\Home\_VideosHome.cshtml" />
-    <Content Include="Views\Shared\_HomeLayout.cshtml" />
     <Content Include="Views\Shared\_NavTop.cshtml" />
+    <Content Include="Views\Home\AboutHome.cshtml" />
+    <Content Include="Views\Home\ArticlesHome.cshtml" />
+    <Content Include="Views\Home\VideosHome.cshtml" />
+    <Content Include="Views\Home\ProductsHome.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

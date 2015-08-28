@@ -8,31 +8,26 @@ namespace SoundBarrierHunting.Controllers
 {
     public class HomeController : Controller
     {
-        [Route("Home")]
         public ActionResult Index()
         {
             return View();
 
         }
-        public ViewResult Home()
+        public ActionResult AboutHome()
         {
-            return View("_Home");
+            return View("AboutHome");
         }
-        public ViewResult About()
+        public ActionResult ProductsHome()
         {
-            return View("_AboutHome");
+            return View("ProductsHome");
         }
-        public ViewResult Products()
+        public ActionResult ArticlesHome()
         {
-            return View("_ProductsHome");
+            return View("ArticlesHome");
         }
-        public ViewResult Articles()
+        public ActionResult VideosHome()
         {
-            return View("_ArticlesHome");
-        }
-        public ViewResult Videos()
-        {
-            return View("_VideosHome");
+            return View("VideosHome");
         }
     }
 }
