@@ -12,6 +12,7 @@ namespace SoundBarrierHunting.Controllers
         public ActionResult Index()
         {
             return View();
+
         }
         public ViewResult Home()
         {
