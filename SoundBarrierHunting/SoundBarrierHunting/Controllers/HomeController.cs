@@ -15,19 +15,19 @@ namespace SoundBarrierHunting.Controllers
         }
         public ActionResult About()
         {
-            return View("About");
+            return View();
         }
-        public ActionResult ProductsHome()
+        public ActionResult Products()
         {
-            return View("ProductsHome");
+            return View();
         }
         public ActionResult Articles()
         {
-            return View("Articles");
+            return View();
         }
-        public ActionResult VideosHome()
+        public ActionResult Videos()
         {
-            return View("VideosHome");
+            return View();
         }
     }
 }

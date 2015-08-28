@@ -13,17 +13,39 @@
     <link rel="shortcut icon" href="@Url.Content("~/Content/favicon.ico")" />
     <link rel="stylesheet" href="~/Content/bootstrap.css" />
     <link rel="stylesheet" href="~/Content/bootstrap-theme.css" />
-    <link rel="stylesheet" type="text/css" href="~/Content/HomeCSS.css" />
+    <link rel="stylesheet" type="text/css" href="~/Content/HomePageCSS.css" />
+    <link rel="stylesheet" type="text/css" href="~/Content/NavCSS.css" />
 
 </head>
 <body>
-    @Html.Partial("_NavTop")
-    @Html.Partial("_SideBar")
-    
+@Html.Partial("_NavTop")
+@Html.Partial("_SideBar")
+
     <div class="row">
+        <div class="col-md-12" id="HomepageContainer">
+            
+            <div class="row">
+                <div class="col-md-3"></div>
+            </div>
 
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="text-center" id="Banner">
+                        <img src="~/Content/Banner.png" />
+                    </div>
+                    <div id="HomepageVideo">
+                        <iframe width="1020" height="630"
+                                src="https://www.youtube.com/embed/EM4vblG6BVQ?list=PLIhBySVIZvYvGRPpExZpLLs_zS2jfzY_5"
+                                frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
 
+            <div class="row">
+                <div class="col-md-2"></div>
+            </div>
+
+        </div>
     </div>
-
 </body>
 </html>
