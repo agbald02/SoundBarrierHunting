@@ -21,9 +21,9 @@ namespace SoundBarrierHunting.Controllers
         {
             return View("ProductsHome");
         }
-        public ActionResult ArticlesHome()
+        public ActionResult Articles()
         {
-            return View("ArticlesHome");
+            return View("Articles");
         }
         public ActionResult VideosHome()
         {
