@@ -121,7 +121,6 @@
     <Content Include="packages.config" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Scripts\jquery-2.1.4.min.map" />
-    <Content Include="Views\Shared\_NavBarTop.cshtml" />
     <Content Include="Views\Shared\_SideBar.cshtml" />
     <Content Include="Views\Shared\_NavBarBottom.cshtml" />
     <Content Include="Views\Home\_Home.cshtml" />
@@ -130,6 +129,7 @@
     <Content Include="Views\Home\_ArticlesHome.cshtml" />
     <Content Include="Views\Home\_VideosHome.cshtml" />
     <Content Include="Views\Shared\_HomeLayout.cshtml" />
+    <Content Include="Views\Shared\_NavTop.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
