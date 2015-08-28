@@ -23,10 +23,16 @@
     font-size:40px;
 }
 
+#sidebarListItem > a{
+    padding-bottom:50px;
+    color:white;
+}
+
 #sidebarListItem{
     padding-bottom:50px;
-    text-decoration-color:white;
+    color:white;
 }
+
 .sidebar{ 
     height:947px;
     background-color:black;
