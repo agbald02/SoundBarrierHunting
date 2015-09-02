@@ -24,12 +24,13 @@
 }
 
 #sidebarListItem > a{
-    padding-bottom:50px;
+ 
     color:white;
 }
 
 #sidebarListItem{
     padding-bottom:50px;
+    padding-bottom:125px;
     color:white;
 }
 
