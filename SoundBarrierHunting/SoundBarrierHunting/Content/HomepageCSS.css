@@ -1,10 +1,12 @@
 ﻿#Banner{
     align-content:center;
-    padding-left:78%;
-    padding-top:75px;
 }
 
 #HomepageVideo{
-    padding-left:45%;
-    padding-top:25px;
+    padding-left:70%;
+    padding-top:15px;
+}
+
+.jumbotron{
+    background-color:black;
 }

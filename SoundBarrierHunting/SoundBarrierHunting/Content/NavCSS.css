@@ -25,7 +25,7 @@
 
 #sidebarListItem > a{
  
-    color:white;
+    color:black;
 }
 
 #sidebarListItem{
@@ -36,7 +36,7 @@
 
 .sidebar{ 
     height:100%;
-    background-color:black;
+    background-color:#00ff21;
     width:60px;
     position:fixed;
 }

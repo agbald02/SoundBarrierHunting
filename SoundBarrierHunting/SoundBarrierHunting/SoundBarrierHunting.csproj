@@ -96,6 +96,7 @@
     <Content Include="Content\Social Media\twitter.png" />
     <Content Include="Content\Social Media\youtube.png" />
     <Content Include="Content\SoundBarrierHorizontal.jpg" />
+    <Content Include="Content\WebsiteMainLogoWhite.jpg" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />

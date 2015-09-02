@@ -18,23 +18,39 @@
 
 </head>
 <body>
-@Html.Partial("_NavTop")
-@Html.Partial("_SideBar")
 
-    <div class="row">
-        <div class="col-md-12" id="HomepageContainer">
+@Html.Partial("_NavTop")
+    <div class="jumbotron">
+        @Html.Partial("_SideBar")
+        <div class="text-center" id="Banner">
+            <img src="~/Content/WebsiteMainLogoWhite.jpg" />
+        </div>
+    </div>
+        <div class="row">
             
+
             <div class="row">
                 <div class="col-md-3"></div>
             </div>
 
             <div class="row">
                 <div class="col-lg-6">
-                    <div class="text-center" id="Banner">
-                        <img src="~/Content/Banner.png" />
-                    </div>
-                    <div id="HomepageVideo">
-                        <iframe width="1020" height="630"
+
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-2"></div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-3"></div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class ="text-center" id="HomepageVideo">
+                        <iframe width="650" height="450"
                                 src="https://www.youtube.com/embed/EM4vblG6BVQ?list=PLIhBySVIZvYvGRPpExZpLLs_zS2jfzY_5"
                                 frameborder="0" allowfullscreen></iframe>
                     </div>
@@ -44,8 +60,6 @@
             <div class="row">
                 <div class="col-md-2"></div>
             </div>
-
         </div>
-    </div>
 </body>
 </html>
