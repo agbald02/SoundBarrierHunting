@@ -29,7 +29,7 @@ namespace SoundBarrierHunting.Controllers
         {
             return View();
         }
-        public ActionResult Contact()
+        public ActionResult ContactUs()
         {
             return View();
         }

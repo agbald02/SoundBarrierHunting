@@ -132,7 +132,7 @@
     <Content Include="Views\Home\SoundAdvice.cshtml" />
     <Content Include="Views\Home\Products.cshtml" />
     <Content Include="Views\Home\Science.cshtml" />
-    <Content Include="Views\Shared\Contact.cshtml" />
+    <Content Include="Views\Shared\ContactUs.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
