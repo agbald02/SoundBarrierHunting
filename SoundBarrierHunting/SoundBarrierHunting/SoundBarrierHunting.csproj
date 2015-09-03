@@ -129,8 +129,7 @@
     <Content Include="Views\Shared\_NavBarBottom.cshtml" />
     <Content Include="Views\Shared\_NavTop.cshtml" />
     <Content Include="Views\Home\About.cshtml" />
-    <Content Include="Views\Home\Articles.cshtml" />
-    <Content Include="Views\Home\Videos.cshtml" />
+    <Content Include="Views\Home\SoundAdvice.cshtml" />
     <Content Include="Views\Home\Products.cshtml" />
     <Content Include="Views\Home\Science.cshtml" />
     <None Include="Web.Debug.config">

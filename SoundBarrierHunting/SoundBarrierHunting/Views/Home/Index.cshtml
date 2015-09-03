@@ -7,9 +7,9 @@
 
 <html>
 <head>
+    <meta name="viewport" content="width=device-width" />
     <title>Sound Barrier Hunting</title>
     @*<meta name="google-site-verification" content="YmmQLwzGt4vQEh615L-Go4YbXYQqJtwbhu3GJjFF4BA" />*@
-    <meta name="viewport" content="width=device-width" />
     <link rel="shortcut icon" href="@Url.Content("~/Content/favicon.ico")" />
     <link rel="stylesheet" href="~/Content/bootstrap.css" />
     <link rel="stylesheet" href="~/Content/bootstrap-theme.css" />
@@ -18,48 +18,29 @@
 
 </head>
 <body>
-
+@Html.Partial("_SideBar")
 @Html.Partial("_NavTop")
-    <div class="jumbotron">
-        @Html.Partial("_SideBar")
-        <div class="text-center" id="Banner">
-            <img src="~/Content/WebsiteMainLogoWhite.jpg" />
+<div class="jumbotron">
+    <div class="text-center" id="Banner">
+        <img src="~/Content/WebsiteMainLogoWhite.jpg" />
+    </div>
+</div>
+    <div class="row">
+        <div class="col-md-3"></div>
+    </div>
+
+    <div class="row">
+        <div class="col-lg-6">
+            <div class="text-center" id="HomepageVideo">
+                <iframe width="650" height="450"
+                        src="https://www.youtube.com/embed/EM4vblG6BVQ?list=PLIhBySVIZvYvGRPpExZpLLs_zS2jfzY_5"
+                        frameborder="0" allowfullscreen></iframe>
+            </div>
         </div>
     </div>
-        <div class="row">
-            
 
-            <div class="row">
-                <div class="col-md-3"></div>
-            </div>
-
-            <div class="row">
-                <div class="col-lg-6">
-
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-md-2"></div>
-            </div>
-
-            <div class="row">
-                <div class="col-md-3"></div>
-            </div>
-
-            <div class="row">
-                <div class="col-lg-6">
-                    <div class ="text-center" id="HomepageVideo">
-                        <iframe width="650" height="450"
-                                src="https://www.youtube.com/embed/EM4vblG6BVQ?list=PLIhBySVIZvYvGRPpExZpLLs_zS2jfzY_5"
-                                frameborder="0" allowfullscreen></iframe>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-md-2"></div>
-            </div>
-        </div>
+    <div class="row">
+        <div class="col-md-3"></div>
+    </div>
 </body>
 </html>

@@ -21,15 +21,11 @@ namespace SoundBarrierHunting.Controllers
         {
             return View();
         }
-        public ActionResult Articles()
+        public ActionResult SoundAdvice()
         {
             return View();
         }
-        public ActionResult Videos()
-        {
-            return View();
-        }
-        public ActionResult Science()
+            public ActionResult Science()
         {
             return View();
         }

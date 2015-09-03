@@ -1,4 +1,5 @@
-﻿#Banner{
+﻿/*Index Page*/
+#Banner{
     align-content:center;
 }
 
@@ -9,4 +10,10 @@
 
 .jumbotron{
     background-color:black;
+}
+
+/*About Page*/
+#AboutDescription{
+    align-content:center;
+    font-weight:bold;
 }
