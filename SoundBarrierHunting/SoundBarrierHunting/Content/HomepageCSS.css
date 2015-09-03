@@ -1,7 +1,27 @@
-﻿/*Index Page*/
+﻿@font-face{
+    font-family:LocustResistance;
+    src:url(CGF-Locust-Resistance.ttf);
+}
+
+@font-face{
+    font-family:Bombardier;
+    src:url(BOMBARD_.ttf);
+}
+
+#HomepageTagline{
+    font-family:Bombardier;
+    font-size:35px;
+    justify-content:center;
+    padding-left:20%;
+    padding-top:10px;
+}
+
+/*Index Page*/
 #Banner{
+    padding-top:2px;
     align-content:center;
 }
+
 
 #HomepageVideo{
     padding-left:50%;
@@ -14,6 +34,26 @@
 
 /*About Page*/
 #AboutDescription{
+    text-indent:50px;
+    justify-content:center;
+    padding-left:20%;
     padding-top:100px;
     font-weight:bold;
+}
+
+/*Contact Page*/
+.contactInfo{
+    text-align:center;
+    padding-top:100px;
+}
+
+.contactHeader{
+    font-size:25px;
+    font-weight:bold;
+    font-style:italic;
+    text-decoration:underline;
+}
+
+.form-group{
+    font-size:18px;
 }
