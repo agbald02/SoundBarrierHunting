@@ -8,20 +8,18 @@
     src:url(BOMBARD_.ttf);
 }
 
-#HomepageTagline{
-    font-family:Bombardier;
-    font-size:35px;
-    justify-content:center;
-    padding-left:20%;
-    padding-top:10px;
-}
-
 /*Index Page*/
 #Banner{
     padding-top:2px;
     align-content:center;
 }
 
+#HomepageTagline{
+    font-family:Bombardier;
+    font-size:35px;
+    justify-content:center;
+    padding-left:20%;
+}
 
 #HomepageVideo{
     padding-left:50%;
@@ -39,6 +37,13 @@
     padding-left:20%;
     padding-top:100px;
     font-weight:bold;
+}
+
+#AboutNBHA{
+    padding-left:5%;
+    padding-top:150px;
+    width:1800px;
+    height:auto;
 }
 
 /*Contact Page*/

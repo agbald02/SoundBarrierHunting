@@ -88,6 +88,7 @@
     <Content Include="Content\favicon.ico" />
     <Content Include="Content\HomepageCSS.css" />
     <Content Include="Content\NavCSS.css" />
+    <Content Include="Content\NBHABlack.jpg" />
     <Content Include="Content\Social Media\facebook.png" />
     <Content Include="Content\Social Media\instagram.png" />
     <Content Include="Content\Social Media\linkedin.png" />
