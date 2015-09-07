@@ -15,21 +15,26 @@
       height:550px;
       margin: auto;
   }
+
+#carousel-caption > a{
+    color:white;
+    font-size:40px;
+    text-shadow: 1px 2px black, 0 0 25px red, 0 0 5px darkblue;
+}
+
 .carousel-caption{
-    color:#00ff21;
-    font-size:25px;
+    color:white;
+    font-size:20px;
+    text-shadow: 1px 2px black, 0 0 25px red, 0 0 5px darkblue;
 }
-.caption-header{
-    color:#00ff21;
-    font-size:25px;
-    font-weight:bold;
-}
+
 #Banner{
     padding-top:2px;
     align-content:center;
 }
 
 #HomepageTagline{
+    text-indent:50px;
     font-size:22px;
     justify-content:center;
     padding-left:15%;
@@ -37,6 +42,7 @@
 }
 
 #HomepageText{
+    text-indent:50px;
     font-size:22px;
     justify-content:center;
     padding-left:15%;
@@ -129,5 +135,12 @@
 /*Products*/
 #Subscribe{
     text-align:center;
+    padding-right:9%;
+}
+#ProductsText{
     padding-top:100px;
+    text-indent:50px;
+    justify-content:center;
+    width:1500px;
+    padding-left:18%;
 }
