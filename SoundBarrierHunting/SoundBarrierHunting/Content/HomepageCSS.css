@@ -12,9 +12,18 @@
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
       width: 70%;
-      height:650px;
+      height:550px;
       margin: auto;
   }
+.carousel-caption{
+    color:#00ff21;
+    font-size:20px;
+}
+.caption-header{
+    color:#00ff21;
+    font-size:25px;
+    font-weight:bold;
+}
 #Banner{
     padding-top:2px;
     align-content:center;
