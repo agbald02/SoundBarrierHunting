@@ -85,6 +85,7 @@
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\CommonHuntBustingNoises.png" />
     <Content Include="Content\favicon.ico" />
     <Content Include="Content\HomepageCSS.css" />
     <Content Include="Content\NavCSS.css" />
@@ -95,6 +96,7 @@
     <Content Include="Content\Social Media\twitter.png" />
     <Content Include="Content\Social Media\youtube.png" />
     <Content Include="Content\SoundBarrierHorizontal.jpg" />
+    <Content Include="Content\SoundGraph.jpg" />
     <Content Include="Content\WebsiteMainLogoWhite.jpg" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />

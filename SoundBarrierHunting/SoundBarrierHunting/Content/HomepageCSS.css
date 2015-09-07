@@ -84,12 +84,17 @@
     width:1500px;
     padding-left:25%;
 }
+
 #Science{
     text-indent:50px;
     justify-content:center;
     width:1500px;
     padding-left:25%;
 }
+#SoundGraph{
+    justify-content:center;
+}
+
 
 /*Contact Page*/
 .contactInfo{
@@ -106,4 +111,9 @@
 
 .form-group{
     font-size:18px;
+}
+/*Products*/
+#Subscribe{
+    text-align:center;
+    padding-top:100px;
 }
