@@ -81,12 +81,15 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\Banner.png" />
+    <Content Include="Content\Carousel\BoneCollector.jpg" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\CommonHuntBustingNoises.png" />
+    <Content Include="Content\Carousel\DoeAndFawn.jpg" />
     <Content Include="Content\favicon.ico" />
+    <Content Include="Content\Carousel\HeadingToWoods.jpg" />
     <Content Include="Content\HomepageCSS.css" />
     <Content Include="Content\NavCSS.css" />
     <Content Include="Content\NBHABlack.jpg" />
@@ -97,6 +100,7 @@
     <Content Include="Content\Social Media\youtube.png" />
     <Content Include="Content\SoundBarrierHorizontal.jpg" />
     <Content Include="Content\SoundGraph.jpg" />
+    <Content Include="Content\Carousel\StepInWoods.jpg" />
     <Content Include="Content\WebsiteMainLogoWhite.jpg" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -136,6 +140,7 @@
     <Content Include="Views\Home\Products.cshtml" />
     <Content Include="Views\Home\Science.cshtml" />
     <Content Include="Views\Shared\ContactUs.cshtml" />
+    <Content Include="Views\Shared\_Carousel.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

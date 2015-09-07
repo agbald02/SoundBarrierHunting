@@ -9,6 +9,12 @@
 }
 
 /*Index Page*/
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+      width: 70%;
+      height:650px;
+      margin: auto;
+  }
 #Banner{
     padding-top:2px;
     align-content:center;
