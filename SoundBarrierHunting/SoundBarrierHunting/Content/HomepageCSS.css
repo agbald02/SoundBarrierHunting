@@ -68,6 +68,29 @@
     padding-left:25%;
 }
 
+/*Science Page*/
+#ScienceHeadTop{
+    justify-content:center;
+    padding-top:175px;
+    font-weight:bold;
+    width:1500px;
+    padding-left:25%;
+}
+
+#ScienceHead{
+    justify-content:center;
+    padding-top:25px;
+    font-weight:bold;
+    width:1500px;
+    padding-left:25%;
+}
+#Science{
+    text-indent:50px;
+    justify-content:center;
+    width:1500px;
+    padding-left:25%;
+}
+
 /*Contact Page*/
 .contactInfo{
     text-align:center;
