@@ -34,10 +34,10 @@
 }
 
 #HomepageTagline{
-    text-indent:50px;
-    font-size:22px;
+    font-style:italic;
+    font-size:25px;
     justify-content:center;
-    padding-left:15%;
+    padding-left:12%;
     font-weight:bold;
 }
 
@@ -45,7 +45,7 @@
     text-indent:50px;
     font-size:22px;
     justify-content:center;
-    padding-left:15%;
+    padding-left:12%;
 }
 
 #HomepageVideo{
