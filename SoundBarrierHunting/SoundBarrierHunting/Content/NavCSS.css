@@ -1,10 +1,12 @@
 ﻿.visible-lg ul{
-    padding-left:785px;
+    padding-left:790px;
     display: inline;
     justify-content:center;
 }
 #navButtons{
-    color:#00ff21
+    color:#00ff21;
+    font-size:25px;
+        font-family:Bombardier;
 }
 .navbar{
     position:fixed;
@@ -16,6 +18,13 @@
 .navbar-right{
     padding-right:25px;
     padding-top:20px;
+}
+
+#NavBarBottomList{
+    padding-top:20px;
+    color:#00ff21;
+    font-size:25px;
+    font-family:Bombardier;
 }
 
 .SoundBarrierHorizontal{
