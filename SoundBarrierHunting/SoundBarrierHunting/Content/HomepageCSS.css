@@ -43,7 +43,7 @@
 
 #HomepageText{
     text-indent:50px;
-    font-size:22px;
+    font-size:20px;
     justify-content:center;
     padding-left:12%;
 }
@@ -58,7 +58,10 @@
 }
 
 /*About Page*/
-
+#AdamHeadshot{
+    width:200px;
+    padding-left:0%;
+}
 
 #AboutNBHA{
     padding-left:10%;
@@ -89,9 +92,14 @@
 }
 
 /*Science Page*/
+#ScienceBuckhead{
+    width:200px;
+    padding-top:85px;
+    padding-right:80px;
+}
 #ScienceHeadTop{
     justify-content:center;
-    padding-top:175px;
+    padding-top:25px;
     font-weight:bold;
     width:1500px;
     padding-left:25%;
@@ -143,4 +151,12 @@
     justify-content:center;
     width:1500px;
     padding-left:18%;
+}
+
+/*Sound Advice*/
+#SoundAdviceBuckhead{
+    width:11.7%;
+    padding-top:85px;
+    padding-right:100px;
+
 }

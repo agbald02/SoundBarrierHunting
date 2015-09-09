@@ -1,8 +1,10 @@
-﻿.navcontainer ul {
-    padding-left:475px;
+﻿.visible-lg ul{
+    padding-left:1075px;
     display: inline;
 }
-
+#navButtons{
+    color:#00ff21
+}
 .navbar{
     position:fixed;
     width:100%;
@@ -10,7 +12,8 @@
     z-index:1000;
 }
 .navbar-right{
-    padding-right:50px;
+    padding-right:25px;
+    padding-top:20px;
 }
 
 .SoundBarrierHorizontal{
