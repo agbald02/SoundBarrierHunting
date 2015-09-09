@@ -1,6 +1,7 @@
 ﻿.visible-lg ul{
-    padding-left:1075px;
+    padding-left:750px;
     display: inline;
+
 }
 #navButtons{
     color:#00ff21
@@ -10,6 +11,7 @@
     width:100%;
     background:black;
     z-index:1000;
+    height:65px;
 }
 .navbar-right{
     padding-right:25px;
