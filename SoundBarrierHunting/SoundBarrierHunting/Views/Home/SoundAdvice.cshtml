@@ -18,8 +18,41 @@
 @Html.Partial("_NavTop")
 @Html.Partial("_SideBar")
 @Html.Partial("_NavBarBottom")
-    <div class="text-center">
-        <img id="SoundAdviceBuckhead" src="~/Content/Buckhead.jpg" />
+    <div class="jumbotron">
+        <div class="text-center">
+            <img src="~/Content/DeerSkullsAndAntlers.jpg" id="SoundAdvicePhoto" />
+        </div>
+    </div>
+
+    <div class="text-left" id="SoundAdviceContainer">
+        <div class="col-md-9">
+            <div class="text-left">
+                <h2 id="SoundAdviceHeaderVideo">Videos</h2>
+                <iframe width="560" height="315" 
+                    src="https://www.youtube.com/embed/66ImvhrhuHc"
+                    frameborder="0" allowfullscreen>
+                </iframe>
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                <iframe width="560" height="315"
+                    src="https://www.youtube.com/embed/krj1O3tHbDg"
+                    frameborder="0" allowfullscreen></iframe>
+            </div>
+        </div>
+             
+        <div class="col-md-3">
+            <div class="text-left">
+                <h2 id="SoundAdviceHeaderArticle">Articles</h2>
+                <br />
+                <div id="SoundAdviceArticleParagraph">
+                    Several of our preliminary articles are currently being reviewed for
+                     publishing. Once they are publicly available, we will make them available
+                     to you as well. Stay tuned!
+                </div>
+            </div>
+        </div>
+
     </div>
 </body>
 </html>

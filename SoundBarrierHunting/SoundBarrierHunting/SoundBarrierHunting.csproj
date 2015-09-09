@@ -81,8 +81,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\AdamHeadshot.jpg" />
-    <Content Include="Content\Banner.png" />
-    <Content Include="Content\Buckhead.jpg" />
     <Content Include="Content\Carousel\BoneCollector.jpg" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
@@ -93,8 +91,10 @@
     <Content Include="Content\favicon.ico" />
     <Content Include="Content\Carousel\HeadingToWoods.jpg" />
     <Content Include="Content\HomepageCSS.css" />
+    <Content Include="Content\DeerSkullsAndAntlers.jpg" />
     <Content Include="Content\NavCSS.css" />
     <Content Include="Content\NBHABlack.jpg" />
+    <Content Include="Content\BootPhoto.jpg" />
     <Content Include="Content\Social Media\facebook.png" />
     <Content Include="Content\Social Media\instagram.png" />
     <Content Include="Content\Social Media\linkedin.png" />
@@ -116,6 +116,9 @@
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Content\Fonts\CGF-Locust-Resistance.ttf" />
     <Content Include="Content\Fonts\BOMBARD_.ttf" />
+    <Content Include="Content\Fonts\MonsterUnleashed.ttf" />
+    <Content Include="Content\Fonts\DroidSans-Bold.ttf" />
+    <Content Include="Content\Fonts\DroidSans.ttf" />
     <None Include="Scripts\jquery-2.1.4.intellisense.js" />
     <Content Include="Scripts\jquery-2.1.4.js" />
     <Content Include="Scripts\jquery-2.1.4.min.js" />

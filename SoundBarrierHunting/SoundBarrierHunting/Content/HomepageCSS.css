@@ -1,12 +1,33 @@
 ﻿@font-face{
-    font-family:LocustResistance;
-    src:url(CGF-Locust-Resistance.ttf);
+    font-family:DroidSans;
+    src:url(Fonts/DroidSans.ttf);
+}
+
+@font-face{
+    font-family:DroidSansBold;
+    src:url(Fonts/DroidSans-Bold.ttf);
+}
+
+@font-face{
+    font-family:MonsterUnleashed;
+    src:url(Fonts/MonsterUnleashed.ttf);
+}
+
+@font-face{
+    font-family:CGFLocustResistance;
+    src:url(Fonts/CGF-Locust-Resistance.ttf);
 }
 
 @font-face{
     font-family:Bombardier;
-    src:url(BOMBARD_.ttf);
+    src:url(Fonts/BOMBARD_.ttf);
 }
+
+.jumbotron{
+    background-color:black;
+    height:498px;
+}
+
 
 /*Index Page*/
 .carousel-inner > .item > img,
@@ -28,17 +49,11 @@
     text-shadow: 1px 2px 15px black, 0 0 25px black, 0 0 15px black;
 }
 
-#Banner{
-    padding-top:2px;
-    align-content:center;
-}
-
 #HomepageTagline{
-    font-style:italic;
-    font-size:25px;
     justify-content:center;
     padding-left:12%;
-    font-weight:bold;
+    font-size:30px;
+    font-family:Bombardier;
 }
 
 #HomepageText{
@@ -47,18 +62,13 @@
     justify-content:center;
     padding-left:12%;
     padding-bottom:50px;
+    font-size:18px;
+    font-family:DroidSans;
 }
 
-#HomepageVideo{
-    padding-left:50%;
-    padding-top:15px;
-}
-
-.jumbotron{
-    background-color:black;
-}
 
 /*About Page*/
+
 #AdamHeadshot{
     width:200px;
     padding-left:0%;
@@ -73,46 +83,53 @@
 
 #AboutSignature{
     justify-content:center;
-    font-weight:bold;
     width:1500px;
     padding-left:25%;
     padding-bottom:50px;
+    font-size:30px;
+    font-family:Bombardier;
 }
 
 #AboutHead{
     justify-content:center;
     padding-top:25px;
-    font-weight:bold;
     width:1500px;
     padding-left:25%;
+    font-size:30px;
+    font-family:Bombardier;
 }
 #About{
     text-indent:50px;
     justify-content:center;
     width:1500px;
     padding-left:25%;
+    font-size:18px;
+    font-family:DroidSans;
 }
 
 /*Science Page*/
-#ScienceBuckhead{
-    width:200px;
-    padding-top:85px;
-    padding-right:80px;
+#SciencePhoto{
+    height:450px;
+    width:1400px;
+    padding-left:50px;
 }
+
 #ScienceHeadTop{
     justify-content:center;
     padding-top:25px;
-    font-weight:bold;
     width:1500px;
     padding-left:25%;
+    font-size:30px;
+    font-family:Bombardier;
 }
 
 #ScienceHead{
     justify-content:center;
     padding-top:25px;
-    font-weight:bold;
     width:1500px;
     padding-left:25%;
+    font-size:30px;
+    font-family:Bombardier;
 }
 
 #Science{
@@ -120,6 +137,8 @@
     justify-content:center;
     width:1500px;
     padding-left:25%;
+    font-size:18px;
+    font-family:DroidSans;
 }
 
 #ScienceBottom{
@@ -138,6 +157,8 @@
 .contactInfo{
     text-align:center;
     padding-top:100px;
+    font-size:18px;
+    font-family:DroidSans;
 }
 
 .contactHeader{
@@ -145,6 +166,8 @@
     font-weight:bold;
     font-style:italic;
     text-decoration:underline;
+    font-size:30px;
+    font-family:Bombardier;
 }
 
 .form-group{
@@ -154,19 +177,42 @@
 #Subscribe{
     text-align:center;
     padding-right:9%;
+    font-size:18px;
+    font-family:DroidSans;
 }
 #ProductsText{
     padding-top:100px;
     text-indent:50px;
     justify-content:center;
     width:1500px;
-    padding-left:18%;
+    padding-left:21%;
+    font-size:18px;
+    font-family:DroidSans;
 }
 
 /*Sound Advice*/
-#SoundAdviceBuckhead{
-    width:11.7%;
-    padding-top:85px;
-    padding-right:100px;
-
+#SoundAdvicePhoto{
+    height:450px;
+    width:1400px;
+    padding-left:50px;
 }
+#SoundAdviceContainer{
+    padding-left:5%;
+    padding-bottom:500px;
+}
+
+#SoundAdviceHeaderVideo{
+    font-size:30px;
+    font-family:Bombardier;
+    padding-left:40%;
+}
+#SoundAdviceHeaderArticle{
+    font-family:Bombardier;
+    padding-left:10%;
+    font-size:30px;
+}
+#SoundAdviceArticleParagraph{
+    font-size:18px;
+    font-family:DroidSans;
+}
+
