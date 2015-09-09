@@ -23,6 +23,13 @@
     src:url(Fonts/BOMBARD_.ttf);
 }
 
+body {
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+		}
+
 .jumbotron{
     background-color:black;
     height:498px;
@@ -61,7 +68,7 @@
     font-size:20px;
     justify-content:center;
     padding-left:12%;
-    padding-bottom:50px;
+    padding-bottom:75px;
     font-size:18px;
     font-family:DroidSans;
 }
