@@ -6,8 +6,32 @@
     </a>
 
     <div class="collapse navbar-collapse">
-            <a href="http://goo.gl/forms/jLZkcuX7c3" class="navbar-brand navbar-right" id="navButtons" target="_blank">Subscribe</a>
-            <a href="@Url.Action("ContactUs")" class="navbar-brand navbar-right" id="navButtons">Contact Us</a>
+        <a href="@Url.Action("Index", "Home")" class="navbar-brand navbar-right" id="navButtons">
+            @*<span id="sidebarGlyphs" class="glyphicon glyphicon-home" style="color:limegreen"></span>*@
+            <div>Home</div>
+        </a>
+
+        <a href="@Url.Action("About", "Home")" class="navbar-brand navbar-right" id="navButtons">
+            @*<span id="sidebarGlyphs" class="glyphicon glyphicon-question-sign" style="color:black"></span>*@
+            <div>About Us</div>
+        </a>
+
+
+        <a href="@Url.Action("Science", "Home")" class="navbar-brand navbar-right" id="navButtons">
+            @*<span id="sidebarGlyphs" class="glyphicon glyphicon-align-center" style="color:black"></span>*@
+            <div>The Science</div>
+        </a>
+
+        <a href="@Url.Action("Products","Home")" class="navbar-brand navbar-right" id="navButtons">
+            @*<span id="sidebarGlyphs" class="glyphicon glyphicon-edit" style="color:black"></span>*@
+            <div>Products</div>
+        </a>
+
+        <a href="@Url.Action("SoundAdvice","Home")" class="navbar-brand navbar-right" id="navButtons">
+            @*<span id="sidebarGlyphs" class="glyphicon glyphicon-comment" sstyle="color:limegreen"></span>*@
+            <div>Sound Advice</div>
+        </a>
+        
 
             @*<div class="visible-lg">
         <ul class="nav navbar-nav">
