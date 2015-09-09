@@ -46,6 +46,7 @@
     font-size:20px;
     justify-content:center;
     padding-left:12%;
+    padding-bottom:50px;
 }
 
 #HomepageVideo{
@@ -75,6 +76,7 @@
     font-weight:bold;
     width:1500px;
     padding-left:25%;
+    padding-bottom:50px;
 }
 
 #AboutHead{
@@ -118,6 +120,14 @@
     justify-content:center;
     width:1500px;
     padding-left:25%;
+}
+
+#ScienceBottom{
+    text-indent:50px;
+    justify-content:center;
+    width:1500px;
+    padding-left:25%;
+    padding-bottom:50px;
 }
 #SoundGraph{
     justify-content:center;

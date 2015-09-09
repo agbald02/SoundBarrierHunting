@@ -1,7 +1,7 @@
 ﻿.visible-lg ul{
     padding-left:750px;
     display: inline;
-
+    justify-content:center;
 }
 #navButtons{
     color:#00ff21
@@ -49,7 +49,7 @@
     font-size:10px;
     list-style-type:none;
     padding-left:10px;
-    padding-top:225px;
+    padding-top:175px;
 }
 
 
