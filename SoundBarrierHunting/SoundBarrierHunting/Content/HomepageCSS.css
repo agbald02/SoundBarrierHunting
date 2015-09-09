@@ -75,9 +75,9 @@
 }
 
 #AboutNBHA{
-    padding-left:10%;
+    padding-left:18%;
     padding-top:100px;
-    width:1800px;
+    width:1675px;
     height:auto;
 }
 
@@ -147,9 +147,12 @@
     width:1500px;
     padding-left:25%;
     padding-bottom:50px;
+    font-size:18px;
+    font-family:DroidSans;
 }
 #SoundGraph{
     justify-content:center;
+    padding-left:2%;
 }
 
 
@@ -180,6 +183,13 @@
     font-size:18px;
     font-family:DroidSans;
 }
+
+#ProductsPhoto {
+    width: 1000px;
+    height:750px;
+    padding-bottom: 300px;
+}
+
 #ProductsText{
     padding-top:100px;
     text-indent:50px;

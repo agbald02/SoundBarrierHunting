@@ -81,6 +81,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\AdamHeadshot.jpg" />
+    <Content Include="Content\BannerIMG.jpg" />
+    <Content Include="Content\Carousel\BannerIMG.jpg" />
     <Content Include="Content\Carousel\BoneCollector.jpg" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
