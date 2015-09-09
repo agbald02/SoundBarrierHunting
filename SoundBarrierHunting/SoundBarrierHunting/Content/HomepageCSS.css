@@ -19,13 +19,13 @@
 #carousel-caption > a{
     color:white;
     font-size:40px;
-    text-shadow: 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    text-shadow: 1px 2px black, 0 0 25px black, 0 0 5px darkblue;
 }
 
 .carousel-caption{
     color:white;
     font-size:20px;
-    text-shadow: 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    text-shadow: 1px 2px black, 0 0 25px black, 0 0 5px darkblue;
 }
 
 #Banner{
