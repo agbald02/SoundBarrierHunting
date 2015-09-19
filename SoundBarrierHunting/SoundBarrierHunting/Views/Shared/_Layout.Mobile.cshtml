@@ -9,15 +9,9 @@
     <title>@ViewBag.Title</title>
 </head>
 <body>
-    <div data-role="page" id="page1">
-        <div data-theme="a" data-role="header" data-position="fixed">
-            @Html.Partial("_Nav.Mobile", "Shared")
-        </div>
-    </div>
-    <div data-role="content">
-        <ul data-role="listview" data-dividertheme="b" data-inset="false">
+@Html.Partial("_Nav.Mobile", "Shared")
+    <div>
             @RenderBody()
-        </ul>
     </div>
 </body>
 </html>
