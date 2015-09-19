@@ -365,9 +365,7 @@
     <Content Include="Views\Home\Science.cshtml" />
     <Content Include="Views\Shared\ContactUs.cshtml" />
     <Content Include="Views\Shared\_Carousel.cshtml" />
-    <Content Include="Views\Shared\_Layout.Mobile.cshtml" />
     <Content Include="Scripts\jquery.mobile-1.4.5.min.map" />
-    <Content Include="Views\Shared\_Nav.Mobile.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
