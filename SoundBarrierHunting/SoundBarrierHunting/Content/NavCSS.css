@@ -1,10 +1,10 @@
 ﻿.visible-lg ul{
-    padding-left:790px;
+    padding-left:650px;
     display: inline;
     justify-content:center;
 }
 #navButtons{
-    color:#00ff21;
+    color:white;
     font-size:25px;
         font-family:Bombardier;
 }
@@ -22,7 +22,7 @@
 
 #NavBarBottomList{
     padding-top:20px;
-    color:#00ff21;
+    color:white;
     font-size:25px;
     font-family:Bombardier;
 }
