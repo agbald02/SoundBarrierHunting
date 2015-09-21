@@ -28,6 +28,10 @@
     height:498px;
 }
 
+body{
+    background-color:#e4e4e4;
+}
+
 
 /*Index Page*/
 .carousel-inner > .item > img,

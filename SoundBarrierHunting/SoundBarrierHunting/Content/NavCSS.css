@@ -8,6 +8,12 @@
     font-size:25px;
         font-family:Bombardier;
 }
+
+#navButtons:hover { 
+    color:black;
+    background-color: white;
+}
+
 .navbar{
     position:fixed;
     width:100%;
@@ -25,6 +31,11 @@
     color:white;
     font-size:25px;
     font-family:Bombardier;
+}
+
+#NavBarBottomList:hover { 
+    color:black;
+    background-color: white;
 }
 
 .SoundBarrierHorizontal{
