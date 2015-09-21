@@ -82,6 +82,8 @@
   <ItemGroup>
     <Content Include="Content\AdamHeadshot.jpg" />
     <Content Include="Content\BannerIMG.jpg" />
+    <Content Include="Content\BannerNoNBHA.jpg" />
+    <Content Include="Content\BannerNoNBHA.png" />
     <Content Include="Content\Carousel\BannerIMG.jpg" />
     <Content Include="Content\Carousel\BoneCollector.jpg" />
     <Content Include="Content\bootstrap-theme.css" />
@@ -366,6 +368,7 @@
     <Content Include="Views\Shared\ContactUs.cshtml" />
     <Content Include="Views\Shared\_Carousel.cshtml" />
     <Content Include="Scripts\jquery.mobile-1.4.5.min.map" />
+    <Content Include="Views\Shared\_ButtonBand.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

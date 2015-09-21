@@ -23,10 +23,7 @@
     src:url(Fonts/BOMBARD_.ttf);
 }
 
-.jumbotron{
-    background-color:black;
-    height:498px;
-}
+
 
 body{
     background-color:#e4e4e4;
@@ -79,7 +76,7 @@ body{
 
 #AboutNBHA{
     padding-left:12%;
-    padding-top:100px;
+    padding-top:125px;
     width:1675px;
     height:auto;
 }
@@ -188,19 +185,20 @@ body{
 }
 
 #ProductsPhoto {
-    width: 1000px;
-    height:750px;
-    padding-bottom:300px;
+    width: 800px;
+    height:500px;
+    padding-top:90px;
 }
 
 #ProductsText{
-    padding-top:100px;
+    padding-top:50px;
     padding-left:0;
     text-indent:50px;
-    padding-left:325px;
+    padding-left:350px;
     font-size:18px;
     font-family:DroidSans;
     width:1500px;
+    padding-bottom:150px;
 }
 
 /*Sound Advice*/

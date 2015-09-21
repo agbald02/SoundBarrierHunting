@@ -1,72 +1,36 @@
-﻿<div class="navbar navbar-inverse navbar-static-top">
+﻿<div class="navbar navbar-inverse navbar-static-top" id="navbarTop">
 
-    <a href="@Url.Action("Index")" class="navbar-brand navbar-left">
+    @*<a href="@Url.Action("Index")" class="navbar-brand navbar-left">
         <img class="SoundBarrierHorizontal"
              src="~/Content/SoundBarrierHorizontal.jpg" />
-    </a>
+    </a>*@
+    <div class="navbar-brand navbar-left">
+        <p class="text-left" id="navRect">
+            <a href="@Url.Action("Index")">
+                 <img class="SoundBarrierNav"
+                    src="~/Content/BannerNoNBHA.png" />
+            </a>
+        </p>
+    </div>
 
     <div class="collapse navbar-collapse">
-        <a href="@Url.Action("Index", "Home")" class="navbar-brand navbar-right" id="navButtons">
-            @*<span id="sidebarGlyphs" class="glyphicon glyphicon-home" style="color:limegreen"></span>*@
-            <div>Home</div>
-        </a>
 
         <a href="@Url.Action("About", "Home")" class="navbar-brand navbar-right" id="navButtons">
-            @*<span id="sidebarGlyphs" class="glyphicon glyphicon-question-sign" style="color:black"></span>*@
             <div>About Us</div>
         </a>
 
-
         <a href="@Url.Action("Science", "Home")" class="navbar-brand navbar-right" id="navButtons">
-            @*<span id="sidebarGlyphs" class="glyphicon glyphicon-align-center" style="color:black"></span>*@
             <div>The Science</div>
         </a>
 
         <a href="@Url.Action("Products","Home")" class="navbar-brand navbar-right" id="navButtons">
-            @*<span id="sidebarGlyphs" class="glyphicon glyphicon-edit" style="color:black"></span>*@
             <div>Products</div>
         </a>
 
         <a href="@Url.Action("SoundAdvice","Home")" class="navbar-brand navbar-right" id="navButtons">
-            @*<span id="sidebarGlyphs" class="glyphicon glyphicon-comment" sstyle="color:limegreen"></span>*@
             <div>Sound Advice</div>
         </a>
-        
 
-            @*<div class="visible-lg">
-        <ul class="nav navbar-nav">
-
-            <li>
-                <a href="https://twitter.com/SBNeverBeHeard" target="_blank">
-                    <img src="~/Content/Social Media/twitter.png">
-                </a>
-            </li>
-
-            <li>
-                <a href="https://www.facebook.com/SoundBarrierHunting" target="_blank">
-                    <img src="~/Content/Social Media/facebook.png">
-                </a>
-            </li>
-
-            <li>
-                <a href="https://www.linkedin.com/company/sound-barrier-hunting" target="_blank">
-                    <img src="~/Content/Social Media/linkedin.png">
-                </a>
-            </li>
-
-            <li>
-                <a href="https://instagram.com/glen_baldfield/" target="_blank">
-                    <img src="~/Content/Social Media/instagram.png">
-                </a>
-            </li>
-
-            <li>
-                <a href="https://www.youtube.com/channel/UCLVRJtokdLVvvOGLUVVJcjA" target="_blank">
-                    <img src="~/Content/Social Media/youtube.png">
-                </a>
-            </li>
-        </ul>
-    </div>*@
         </div>
     </div>
 

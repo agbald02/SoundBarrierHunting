@@ -3,10 +3,21 @@
     display: inline;
     justify-content:center;
 }
+
+.jumbotronBand{
+    background-color:gray;
+    height:25px;
+}
+
 #navButtons{
+    padding-top:50px;
+    padding-right:50px;
+    padding-bottom:50px;
+    padding-left:40px;
+    justify-content:center;
     color:white;
     font-size:25px;
-        font-family:Bombardier;
+    font-family:Bombardier;
 }
 
 #navButtons:hover { 
@@ -14,16 +25,54 @@
     background-color: white;
 }
 
+.navbar-left{
+    padding-left:10%;
+    padding-top:30px;
+    padding-bottom:-10px;
+    z-index:0;
+}
+
+#navRect{
+    border-radius: 0px 0px 10px 10px;
+    border: 1px solid black;
+    background: black;
+    width: 400px;
+    height: 125px; 
+}
+
+#navbarTop{
+    position:absolute;
+    width:100%;
+    background:black;
+    z-index:1000;
+    height:115px;
+}
+
 .navbar{
     position:fixed;
     width:100%;
-    background:black;
+    background:rgba(128, 128, 128, 0.8);
     z-index:1000;
     height:65px;
 }
 .navbar-right{
     padding-right:25px;
-    padding-top:20px;
+}
+
+#BandBarButton > a:hover{
+    color: black;
+    background-color:lime;
+    font-size:15px;
+    padding-right:20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#BandBarButton > a{
+    color: black;
+    font-size:15px;
+    padding-left:20px;
+    padding-right:20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 #NavBarBottomList{
@@ -42,6 +91,12 @@
     padding-bottom:50px;
     height:85px;
     width:250px;
+}
+
+.SoundBarrierNav{
+    padding-left:20px;
+    width:375px;
+    height:125px;
 }
 
 #sidebarGlyphs{
