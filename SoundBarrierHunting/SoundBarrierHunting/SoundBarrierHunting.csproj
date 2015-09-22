@@ -312,8 +312,8 @@
     <Content Include="Content\jquery.mobile.theme-1.4.5.css" />
     <Content Include="Content\jquery.mobile.theme-1.4.5.min.css" />
     <Content Include="Content\NavCSS.css" />
+    <Content Include="Content\NBHABlack.jpg" />
     <Content Include="Content\BootPhoto.jpg" />
-    <Content Include="Content\NBHA.png" />
     <Content Include="Content\Social Media\facebook.png" />
     <Content Include="Content\Social Media\instagram.png" />
     <Content Include="Content\Social Media\linkedin.png" />

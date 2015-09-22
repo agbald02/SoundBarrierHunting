@@ -5,35 +5,30 @@
 }
 
 .jumbotronBand{
-    background-color:lightgreen;
-    height:35px;
+    background-color:gray;
+    height:25px;
 }
 
 #navButtons{
-    padding-left:30px;
-    padding-right:30px;
+    padding-top:50px;
+    padding-right:50px;
+    padding-bottom:50px;
+    padding-left:40px;
+    justify-content:center;
     color:white;
-    display:inline;
-    list-style:none;
     font-size:25px;
     font-family:Bombardier;
-}
-
-#navMenu{
-    padding-top:40px;
-    padding-right:100px;
 }
 
 #navButtons:hover { 
     color:black;
     background-color: white;
-    padding-top:40px;
-    padding-bottom:40px;
 }
 
 .navbar-left{
     padding-left:10%;
     padding-top:30px;
+    padding-bottom:-10px;
     z-index:0;
 }
 
@@ -46,6 +41,7 @@
 }
 
 #navbarTop{
+    position:absolute;
     width:100%;
     background:black;
     z-index:1000;
@@ -53,26 +49,29 @@
 }
 
 .navbar{
+    position:fixed;
     width:100%;
     background:rgba(128, 128, 128, 0.8);
     z-index:1000;
     height:65px;
 }
+.navbar-right{
+    padding-right:25px;
+}
 
 #BandBarButton > a:hover{
     color: black;
     background-color:lime;
-    padding-top:10%;
-    padding-bottom:10px;
-    padding-left:35px;
+    font-size:15px;
+    padding-right:20px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 #BandBarButton > a{
-    padding-right:20px;
     color: black;
-    font-size:20px;
-    padding-left:35px;
+    font-size:15px;
+    padding-left:20px;
+    padding-right:20px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 

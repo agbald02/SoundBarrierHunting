@@ -23,8 +23,10 @@
     src:url(Fonts/BOMBARD_.ttf);
 }
 
+
+
 body{
-    background-color:lightgray;
+    background-color:#e4e4e4;
 }
 
 
@@ -52,7 +54,6 @@ body{
     padding-left:8%;
     font-size:30px;
     font-family:Bombardier;
-    color:black;
 }
 
 #HomepageText{
@@ -75,7 +76,7 @@ body{
 
 #AboutNBHA{
     padding-left:12%;
-    padding-top:50px;
+    padding-top:125px;
     width:1675px;
     height:auto;
 }
@@ -214,14 +215,14 @@ body{
 #SoundAdviceHeaderVideo{
     font-size:30px;
     font-family:Bombardier;
-    padding-left:45%;
+    padding-left:40%;
 }
 #SoundAdviceHeaderArticle{
     font-family:Bombardier;
+    padding-left:5%;
     font-size:30px;
 }
 #SoundAdviceArticleParagraph{
-    text-indent:50px;
     font-size:18px;
     font-family:DroidSans;
 }
