@@ -1,34 +1,44 @@
-﻿.visible-lg ul{
-    padding-left:650px;
+﻿#listItems ul li{
+    padding-left:15px;
+    padding-right:15px;
     display: inline;
-    justify-content:center;
 }
 
-.jumbotronBand{
-    background-color:gray;
-    height:25px;
+#Band {
+    position:fixed;
+    background-color: #e6ffe4;
+    height:30px;
+    margin:0;
+    width:100%;
+    z-index:2000;
 }
 
 #navButtons{
-    padding-top:50px;
-    padding-right:50px;
-    padding-bottom:50px;
-    padding-left:40px;
-    justify-content:center;
+    padding-left:30px;
+    padding-right:30px;
     color:white;
+    display:inline;
+    list-style:none;
     font-size:25px;
     font-family:Bombardier;
 }
 
+#navMenu{
+    padding-top:60px;
+    padding-right:100px;
+}
+
+
 #navButtons:hover { 
     color:black;
     background-color: white;
+    padding-top:40px;
+    padding-bottom:40px;
 }
 
 .navbar-left{
     padding-left:10%;
     padding-top:30px;
-    padding-bottom:-10px;
     z-index:0;
 }
 
@@ -37,46 +47,46 @@
     border: 1px solid black;
     background: black;
     width: 400px;
-    height: 125px; 
+    height: 150px; 
 }
 
 #navbarTop{
-    position:absolute;
+    position:fixed;
     width:100%;
     background:black;
     z-index:1000;
-    height:115px;
+    height:130px;
 }
 
 .navbar{
-    position:fixed;
-    width:100%;
-    background:rgba(128, 128, 128, 0.8);
+    background:rgba(128, 128, 128, 0.3);
     z-index:1000;
-    height:65px;
-}
-.navbar-right{
-    padding-right:25px;
+    height:30px;
+    margin-bottom: 0;
 }
 
 #BandBarButton > a:hover{
     color: black;
     background-color:lime;
-    font-size:15px;
-    padding-right:20px;
+    padding-top:50%;
+    padding-bottom:5px;
+    padding-left:35px;
+    padding-right:35px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin:0;
 }
 
 #BandBarButton > a{
+    padding-top:20px;
+    padding-right:35px;
     color: black;
-    font-size:15px;
-    padding-left:20px;
-    padding-right:20px;
+    font-size:20px;
+    padding-left:35px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 #NavBarBottomList{
-    padding-top:20px;
+    padding-top:40px;
     color:white;
     font-size:25px;
     font-family:Bombardier;
@@ -85,21 +95,17 @@
 #NavBarBottomList:hover { 
     color:black;
     background-color: white;
-}
-
-.SoundBarrierHorizontal{
-    padding-bottom:50px;
-    height:85px;
-    width:250px;
+    padding-top:5px;
+    padding-bottom:30px;
 }
 
 .SoundBarrierNav{
     padding-left:20px;
     width:375px;
-    height:125px;
+    height:150px;
 }
 
-#sidebarGlyphs{
+/*#sidebarGlyphs{
     font-size:35px;
 }
 
@@ -125,9 +131,4 @@
     list-style-type:none;
     padding-left:10px;
     padding-top:175px;
-}
-
-
-
-
-
+}*/
