@@ -35,6 +35,7 @@ body{
       height:700px;
       margin:auto;
       padding-top:225px;
+      border-radius:10px;
   }
 
 #carousel-caption > a{
@@ -100,10 +101,10 @@ body{
 }
 
 #AboutSignature{
-    justify-content:center;
     width:1500px;
     padding-left:20%;
-    padding-bottom:50px;
+    padding-top:25px;
+    padding-bottom:25px;
     font-size:30px;
     font-family:Bombardier;
 }
@@ -125,11 +126,20 @@ body{
     font-family:DroidSans;
 }
 
+#Signature{
+    padding-left:20%;
+    padding-bottom:75px;
+    width:1500px;
+    font-size:18px;
+    font-family:DroidSans;
+}
+
 /*Science Page*/
 #SciencePhoto{
     height:700px;
     width:1400px;
     padding-top:200px;
+    border-radius:10px;
 }
 
 #ScienceHeadTop{
@@ -177,7 +187,7 @@ body{
 /*Contact Page*/
 .contactInfo{
     text-align:center;
-    padding-top:100px;
+    padding-top:225px;
     font-size:18px;
     font-family:DroidSans;
 }
@@ -206,6 +216,7 @@ body{
     width: 700px;
     height:500px;
     padding-top:200px;
+    border-radius:10px;
 }
 
 #ProductsText{
@@ -224,16 +235,16 @@ body{
     height:700px;
     width:1400px;
     padding-top:200px;
+    border-radius:10px;
 }
 #SoundAdviceContainer{
-    padding-left:5%;
+    padding-left:15%;
     padding-bottom:500px;
 }
 
 #SoundAdviceHeaderVideo{
     font-size:30px;
-    font-family:Bombardier;
-    padding-left:45%;
+    font-family:Bombardier
 }
 #SoundAdviceHeaderArticle{
     font-family:Bombardier;
@@ -248,6 +259,12 @@ body{
     font-size:30px;
     font-family:Bombardier;
     padding-top:10px;
-    padding-left:23%;
     padding-bottom:150px;
+}
+
+#video{
+    margin:10px;
+}
+#videoPadding{
+    margin-left:3%;
 }

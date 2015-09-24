@@ -6,6 +6,7 @@
 
 #Band {
     position:fixed;
+    border-radius:0px;
     background-color: #e6ffe4;
     height:30px;
     margin:0;
@@ -92,11 +93,23 @@
     font-family:Bombardier;
 }
 
-#NavBarBottomList:hover { 
+#NavBarBottomListLink{
+    padding-top:40px;
+    color:white;
+    font-size:25px;
+    font-family:Bombardier;
+}
+
+#NavBarBottomListLink:hover { 
     color:black;
+    align-content:center;
     background-color: white;
-    padding-top:5px;
+    padding-top:10px;
     padding-bottom:30px;
+    text-decoration: none;
+}
+#navBottomThing{
+    padding-top:5px;
 }
 
 .SoundBarrierNav{
