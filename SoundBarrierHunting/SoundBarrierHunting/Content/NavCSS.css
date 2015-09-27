@@ -24,9 +24,27 @@
     font-family:Bombardier;
 }
 
+#navButtonsSoundAdvice{
+    padding-left:30px;
+    padding-right:30px;
+    color:lime;
+    display:inline;
+    list-style:none;
+    font-size:25px;
+    font-family:Bombardier;
+}
+
 #navMenu{
     padding-top:60px;
     padding-right:100px;
+}
+
+#navButtonsSoundAdvice:hover { 
+    color:black;
+    background-color: lime;
+    padding-top:40px;
+    padding-bottom:40px;
+    text-decoration: none;
 }
 
 #navButtons:hover { 
