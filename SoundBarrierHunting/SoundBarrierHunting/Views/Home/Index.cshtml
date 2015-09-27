@@ -20,14 +20,49 @@
     @Html.Partial("_NavBarBottom")
     @Html.Partial("_Carousel")
 
-    <a href="#openModal">Open Modal</a>
-
-    <div id="openModal" class="modalDialog">
-        <div>
-            <a href="#close" title="Close" class="close">X</a>
-            <h2>Join us at Sound Barrier!</h2>
-            <div><a href="http://goo.gl/forms/jLZkcuX7c3" target="_blank">Subscribe&nbsp;</a>for updates and join us on social media!</div>
-            <p>You could do a lot of things here like have a pop-up ad that shows when your website loads, or create a login/register form for users.</p>
+    <!-- Modal -->
+    <div class="modal fade" id="openModal" tabindex="-1" role="dialog" aria-labelledby="memberModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="memberModalLabel">Join us at Sound Barrier!</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="text-center"><a href="http://goo.gl/forms/jLZkcuX7c3" target="_blank">Subscribe&nbsp;</a>for updates and join us on social media!</div>
+                    <div class="text-center" id="modalList">
+                        <ul id="modalSocialMedia">
+                            <li>
+                                <a href="https://twitter.com/SBNeverBeHeard" id="NavBarBottomList" target="_blank">
+                                    <img src="~/Content/Social Media/twitter.png">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.facebook.com/SoundBarrierHunting" id="NavBarBottomList" target="_blank">
+                                    <img src="~/Content/Social Media/facebook.png">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/company/sound-barrier-hunting" id="NavBarBottomList" target="_blank">
+                                    <img src="~/Content/Social Media/linkedin.png">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://instagram.com/soundbarrierhunting/" id="NavBarBottomList" target="_blank">
+                                    <img src="~/Content/Social Media/instagram.png">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.youtube.com/channel/UC7GApssU0dRgMRH7ODKOe5Q" id="NavBarBottomList" target="_blank">
+                                    <img src="~/Content/Social Media/youtube.png">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
         </div>
     </div>
 
@@ -55,11 +90,11 @@
     <script src="~/Scripts/jquery-ui.min.js"></script>
     <script src="~/Scripts/bootstrap.min.js"></script>
 
-    @*<script type="text/javascript">
-        $(window).load(function () {
-            $('.modalDialog').modal('show');
+    <script>
+        $(document).ready(function () {
+            $('#openModal').modal('show');
         });
-    </script>*@
+    </script>
 
 </body>
 </html>
