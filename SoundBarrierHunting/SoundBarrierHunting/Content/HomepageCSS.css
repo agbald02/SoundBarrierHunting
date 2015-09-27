@@ -95,24 +95,31 @@ body{
 }
 
 #HomepageTagline{
+        margin-left:200px;
+    margin-right:200px;
     padding-top:20px;
-    padding-left:8%;
     font-size:30px;
     font-family:Bombardier;
     color:black;
 }
 
 #HomepageText{
+    margin-left:200px;
+    margin-right:200px;
     text-indent:50px;
     font-size:20px;
     justify-content:center;
-    padding-left:8%;
     padding-bottom:75px;
     font-size:18px;
     font-family:DroidSans;
 }
 
-
+#RecentContent{
+    font-family:Bombardier;
+    font-size:25px;
+    color:black;
+    padding-bottom:200px;
+}
 /*About Page*/
 
 #AdamHeadshot{

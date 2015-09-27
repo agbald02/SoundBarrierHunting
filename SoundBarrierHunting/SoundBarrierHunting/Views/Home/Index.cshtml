@@ -19,73 +19,41 @@
     @Html.Partial("_ButtonBand")
     @Html.Partial("_NavBarBottom")
     @Html.Partial("_Carousel")
-
-    <!-- Modal -->
-    <div class="modal fade" id="openModal" tabindex="-1" role="dialog" aria-labelledby="memberModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h4 class="modal-title" id="memberModalLabel">Join us at Sound Barrier!</h4>
-                </div>
-                <div class="modal-body">
-                    <div class="text-center"><a href="http://goo.gl/forms/jLZkcuX7c3" target="_blank">Subscribe&nbsp;</a>for updates and join us on social media!</div>
-                    <div class="text-center" id="modalList">
-                        <ul id="modalSocialMedia">
-                            <li>
-                                <a href="https://twitter.com/SBNeverBeHeard" id="NavBarBottomList" target="_blank">
-                                    <img src="~/Content/Social Media/twitter.png">
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://www.facebook.com/SoundBarrierHunting" id="NavBarBottomList" target="_blank">
-                                    <img src="~/Content/Social Media/facebook.png">
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://www.linkedin.com/company/sound-barrier-hunting" id="NavBarBottomList" target="_blank">
-                                    <img src="~/Content/Social Media/linkedin.png">
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://instagram.com/soundbarrierhunting/" id="NavBarBottomList" target="_blank">
-                                    <img src="~/Content/Social Media/instagram.png">
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://www.youtube.com/channel/UC7GApssU0dRgMRH7ODKOe5Q" id="NavBarBottomList" target="_blank">
-                                    <img src="~/Content/Social Media/youtube.png">
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
-                </div>
+    @Html.Partial("_Modal")
+    
+    <div class="col-md-12">
+        <div class="row">
+            <div class="text-center" id="HomepageTagline">
+                Helping hunters get past the whitetail’s last great defense: hearing.  The only source of
+                sound concealment science, tips, and products for hunters.
+                <br />
+                <br />
+            </div>
+            <div class="text-left" id="HomepageText">
+                Let’s face it, there are a lot
+                of gimmicks and repackaged tips and products out there in the hunting world. Very little new
+                information is available that can actually give big gains in stealth, and success. That's why
+                we’ve spent the last 3 years researching, conducting scientific tests, applying physics principles,
+                and just grinding it out in the woods to bring a new advantage to hunters: sound concealment. From
+                the little-known science of deer hearing, to the real possibility of reaching 100% stealth for the
+                first time, we’ll share the secrets we’ve learned on how to truly take your hunting to the next level.
+                Join us on our website, Youtube, and Twitter, and invite your friends to be part of something new and
+                exciting, as we share how to never be heard again!
+                <br />
             </div>
         </div>
     </div>
-
-    <div class="col-md-11">
-        <div class="text-center" id="HomepageTagline">
-            Helping hunters get past the whitetail’s last great defense: hearing.  The only source of
-            sound concealment science, tips, and products for hunters.
-            <br />
-            <br />
-        </div>
-        <div class="text-left" id="HomepageText">
-            Let’s face it, there are a lot
-            of gimmicks and repackaged tips and products out there in the hunting world. Very little new
-            information is available that can actually give big gains in stealth, and success. That's why
-            we’ve spent the last 3 years researching, conducting scientific tests, applying physics principles,
-            and just grinding it out in the woods to bring a new advantage to hunters: sound concealment. From
-            the little-known science of deer hearing, to the real possibility of reaching 100% stealth for the
-            first time, we’ll share the secrets we’ve learned on how to truly take your hunting to the next level.
-            Join us on our website, Youtube, and Twitter, and invite your friends to be part of something new and
-            exciting, as we share how to never be heard again!
-            <br />
+    <div class="col-md-6" id="RecentContent">
+        <div class="text-center">
+            Recent video info
         </div>
     </div>
+    <div class="col-md-6" id="RecentContent">
+        <div class="text-center">
+            Woods-N-Water Shoutout
+        </div>
+    </div>
+
     <script src="~/Scripts/jquery-2.1.4.min.js"></script>
     <script src="~/Scripts/jquery-ui.min.js"></script>
     <script src="~/Scripts/bootstrap.min.js"></script>
