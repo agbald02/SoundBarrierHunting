@@ -22,7 +22,6 @@
     font-family:Bombardier;
     src:url(Fonts/BOMBARD_.ttf);
 }
-
 .modal-content{
     background-color:white;
     color:black;
@@ -50,15 +49,19 @@ modal-body{
     padding:10px;
 }
 
-body{
-    background-color:whitesmoke;
+#completePage{
+    position:absolute;
+    background-size:cover;
+    opacity:0.3;
 }
 
 #pagePanel{
+    position:relative;
     margin:0;
     padding:0;
-    background-color:white;
+    background-color:black;
     box-shadow: 0px 10px 15px #888888;
+    opacity:1.0;
 }
 
 #panelContent{
@@ -71,7 +74,24 @@ body{
     font-family:Bombardier;
     font-style:italic;
     letter-spacing:2px;
+    color:white;
+}
+
+#subscribeText > a{
+    position:fixed;
+    padding-top:200px;
+    margin-left:1%;
+    font-size:40px;
+    font-family:Bombardier;
     color:black;
+}
+
+#socialMediaText{
+    position:fixed;
+    padding-top:200px;
+    margin-left:85%;
+    font-size:40px;
+    font-family:Bombardier;
 }
 
 /*Index Page*/
@@ -119,7 +139,7 @@ body{
     margin-top:20px;
     font-size:30px;
     font-family:Bombardier;
-    color:black;
+    color:white;
 }
 
 #HomepageText{
@@ -130,6 +150,7 @@ body{
     margin-bottom:75px;
     font-size:18px;
     font-family:DroidSans;
+    color:lightgray;
 }
 
 #RecentContent{
@@ -162,13 +183,14 @@ body{
     margin-left:5%;
     font-size:30px;
     font-family:Bombardier;
+    color:white;
 }
 
 #AboutHead{
-    margin-top:25px;
     margin-left:5%;
     font-size:30px;
     font-family:Bombardier;
+    color:white;
 }
 #About{
     text-indent:50px;
@@ -176,6 +198,7 @@ body{
     margin-right:5%;
     font-size:18px;
     font-family:DroidSans;
+    color:lightgray;
 }
 
 #Signature{
@@ -183,6 +206,7 @@ body{
     padding-bottom:75px;
     font-size:18px;
     font-family:DroidSans;
+    color:lightgray;
 }
 
 /*Science Page*/
@@ -194,12 +218,12 @@ body{
 }
 
 #ScienceHeadTop{
-    justify-content:center;
     padding-top:25px;
     width:1500px;
     padding-left:20%;
     font-size:30px;
     font-family:Bombardier;
+    color:white;
 }
 
 #ScienceHead{
@@ -209,6 +233,7 @@ body{
     margin-right:5%;
     font-size:30px;
     font-family:Bombardier;
+    color:white;
 }
 
 #Science{
@@ -217,6 +242,7 @@ body{
     margin-left:5%;
     margin-right:5%;
     font-family:DroidSans;
+    color:lightgray;
 }
 
 #ScienceBottom{
@@ -226,12 +252,8 @@ body{
     margin-right:5%;
     margin-bottom:5%;
     font-family:DroidSans;
+    color:lightgray;
 }
-#SoundGraph{
-    justify-content:center;
-    padding-left:0%;
-}
-
 
 /*Contact Page*/
 .contactInfo{
@@ -239,6 +261,7 @@ body{
     padding-top:225px;
     font-size:18px;
     font-family:DroidSans;
+    color:lightgray;
 }
 
 .contactHeader{
@@ -248,6 +271,7 @@ body{
     text-decoration:underline;
     font-size:30px;
     font-family:Bombardier;
+    color:white;
 }
 
 .form-group{
@@ -291,22 +315,25 @@ body{
     font-size:30px;
     font-family:Bombardier;
     margin-left:5%;
+    color:white;
 }
 #SoundAdviceHeaderArticle{
     font-family:Bombardier;
     font-size:30px;
     margin-left:5%;
+    color:white;
 }
 #SoundAdviceArticleParagraph{
     text-indent:50px;
     font-size:18px;
     font-family:DroidSans;
     margin-left:5%;
+    color:lightgray;
 }
 #SoundAdviceVideoSentence{
     font-size:30px;
     font-family:Bombardier;
-
+    color:lightgray;
     margin-bottom:15%;
 }
 

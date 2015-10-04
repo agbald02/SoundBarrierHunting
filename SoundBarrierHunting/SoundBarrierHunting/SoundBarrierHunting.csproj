@@ -81,6 +81,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\AdamHeadshot.jpg" />
+    <Content Include="Content\arrows.JPG" />
     <Content Include="Content\BannerIMG.jpg" />
     <Content Include="Content\BannerNoNBHA.png" />
     <Content Include="Content\Carousel\BannerIMG.jpg" />
@@ -91,8 +92,11 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\CommonHuntBustingNoises.png" />
     <Content Include="Content\Carousel\DoeAndFawn.jpg" />
+    <Content Include="Content\Equipment.JPG" />
+    <Content Include="Content\EquipmentSmall.JPG" />
     <Content Include="Content\favicon.ico" />
     <Content Include="Content\Carousel\HeadingToWoods.jpg" />
+    <Content Include="Content\footTraffic.JPG" />
     <Content Include="Content\HomepageCSS.css" />
     <Content Include="Content\DeerSkullsAndAntlers.jpg" />
     <Content Include="Content\images\ajax-loader.gif" />
@@ -296,6 +300,7 @@
     <Content Include="Content\images\icons-svg\user-white.svg" />
     <Content Include="Content\images\icons-svg\video-black.svg" />
     <Content Include="Content\images\icons-svg\video-white.svg" />
+    <Content Include="Content\leaves.JPG" />
     <Content Include="Content\NavCSS.css" />
     <Content Include="Content\BootPhoto.jpg" />
     <Content Include="Content\NBHA.png" />
