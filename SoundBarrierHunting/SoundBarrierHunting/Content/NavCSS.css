@@ -1,4 +1,24 @@
-﻿#listItems ul li{
+﻿@media (max-width:767px) {
+    #navbarTop {display:none;}
+}
+
+@media (max-width:767px) {
+    #listItems {display:none;}
+}
+
+@media (max-width:767px) {
+    #Band {display:none;}
+}
+
+/*@media (max-width:1160px){
+    #navMenu {display:none;}
+}*/
+
+@media (max-width:1817px){
+    #navbarNBHA {display:none;}
+}
+
+#listItems ul li{
     padding-left:15px;
     padding-right:15px;
     display: inline;
@@ -67,6 +87,17 @@
     z-index:0;
 }
 
+#navbarTopMobile{
+    position:fixed;
+    width:100%;
+    background:black;
+    z-index:1001;
+    height:10px;
+}
+#mobileNavbarBrand{
+    font-family:Bombardier;
+}
+
 #navRect{
     border-radius: 0px 0px 10px 10px;
     border: 1px solid black;
@@ -90,7 +121,7 @@
     margin-bottom: 0;
 }
 #BandBarButtons{
-    margin-right:330px;
+
 }
 #BandBarButton > a:hover{
     color: black;
