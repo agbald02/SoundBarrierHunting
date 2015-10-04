@@ -94,8 +94,10 @@
     z-index:1001;
     height:10px;
 }
-#mobileNavbarBrand{
+#mobileNavbarBrand > a{
     font-family:Bombardier;
+    font-size:25px;
+    color:white;
 }
 
 #navRect{
