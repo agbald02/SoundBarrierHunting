@@ -353,8 +353,6 @@
     <Content Include="Views\Shared\_Carousel.cshtml" />
     <Content Include="Views\Shared\_ButtonBand.cshtml" />
     <Content Include="Views\Shared\_Modal.cshtml" />
-    <Content Include="Views\Home\Index.Phone.cshtml" />
-    <Content Include="Views\Home\Index.Tablet.cshtml" />
     <Content Include="Views\Shared\Layouts\_Layout.Phone.cshtml" />
     <Content Include="Views\Shared\Layouts\_Layout.cshtml" />
     <None Include="Web.Debug.config">
