@@ -1,42 +1,4 @@
 ﻿    <div class="navbar navbar-inverse navbar-static-top" id="navbarTop">
-        <div class="navbar navbar-inverse navbar-static-top" id="navbarTopMobile">
-            <button class="navbar-toggle" id="navbarDropdown" data-toggle="collapse" data-target=".navHeaderCollapse">
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-
-            <div class="collapse navbar-collapse navHeaderCollapse">
-
-                <ul class="nav navbar-nav navbar-right">
-
-                    <li><a href="@Url.Action("About", "Home")">About Us</a></li>
-                    <li><a href="@Url.Action("Science", "Home")">The Science</a></li>
-                    <li><a href="@Url.Action("ContactUs")">Contact Us</a></li>
-                    <li class="dropdown">
-
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Social Media <b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="https://twitter.com/SBNeverBeHeard">Twitter</a></li>
-                            <li><a href="https://www.facebook.com/SoundBarrierHunting">Facebook</a></li>
-                            <li><a href="https://www.linkedin.com/company/sound-barrier-hunting">LinkedIn</a></li>
-                            <li><a href="https://instagram.com/soundbarrierhunting/">Instagram</a></li>
-                            <li><a href="https://www.youtube.com/channel/UC7GApssU0dRgMRH7ODKOe5Q">Youtube</a></li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
-        </div>
-        
-        <div class="navbar-brand navbar-left">
-            <p class="text-left" id="navRect">
-                <a href="@Url.Action("Index")">
-                    <img class="SoundBarrierNav"
-                         src="~/Content/BannerNoNBHA.png" />
-                </a>
-            </p>
-        </div>
-
         <div class="navbar-header">
             <img id="navbarNBHA" class="SoundBarrierNav"
                  src="~/Content/NBHA.png" />
@@ -66,7 +28,7 @@
     <div class="navbar navbar-inverse navbar-static-top" id="navbarTopMobile">
 
         <div class="navbar-brand" id="mobileNavbarBrand">Sound Barrier</div>
-        <button class="navbar-toggle" id="navbarDropdown" data-toggle="collapse" data-target=".navHeaderCollapse">
+        <button class="navbar-toggle navbar-inverse" id="navbarDropdown" data-toggle="collapse" data-target=".navHeaderCollapse">
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
@@ -74,7 +36,7 @@
 
         <div class="collapse navbar-collapse navHeaderCollapse">
 
-            <ul class="nav navbar-nav navbar-right">
+            <ul class="nav navbar-nav navbar-right navbar-inverse">
 
                 <li><a href="@Url.Action("About", "Home")">About Us</a></li>
                 <li><a href="@Url.Action("Science", "Home")">The Science</a></li>
@@ -88,11 +50,11 @@
                         <li><a href="https://www.linkedin.com/company/sound-barrier-hunting">LinkedIn</a></li>
                         <li><a href="https://instagram.com/soundbarrierhunting/">Instagram</a></li>
                         <li><a href="https://www.youtube.com/channel/UC7GApssU0dRgMRH7ODKOe5Q">Youtube</a></li>
-                        
+
                     </ul>
 
                 </li>
-                
+
 
             </ul>
 
