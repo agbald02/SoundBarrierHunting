@@ -1,35 +1,21 @@
 ﻿@{
-    Layout = null;
+    Layout = "~/Views/Shared/Layouts/_Layout.cshtml";
 }
 
 <!DOCTYPE html>
 
 <html>
 <head>
-    <meta name="viewport" content="width=device-width" />
     <title>About Us</title>
-    <link rel="shortcut icon" href="@Url.Content("~/Content/favicon.ico")" />
-    <link rel="stylesheet" href="~/Content/bootstrap.css" />
-    <link rel="stylesheet" href="~/Content/bootstrap-theme.css" />
-    <link rel="stylesheet" type="text/css" href="~/Content/HomePageCSS.css" />
-    <link rel="stylesheet" type="text/css" href="~/Content/NavCSS.css" />
 </head>
 <body>
-@Html.Partial("_NavTop")
-@Html.Partial("_ButtonBand")
-@Html.Partial("_NavBarBottom")
-
-    <div class="col-md-10">
-        <img id="AboutNBHA" src="~/Content/NBHA.png" />
-    </div>
+    <img id="AboutNBHA" src="~/Content/NBHA.png" />
 
     <div class="col-lg-12">
         <div class="text-left" id="AboutSignature">
             <img id="AdamHeadshot" src="~/Content/AdamHeadshot.jpg" />
             <br />
-            Adam Lewis
-            <br />
-            Sound Barrier CEO/Founder
+            Adam Lewis - Sound Barrier Founder
         </div>
         <div class="text-left" id="AboutHead">
             Solving the biggest need of hunters: the story behind Sound Barrier

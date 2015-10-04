@@ -298,19 +298,19 @@
     <Content Include="Content\images\icons-svg\video-black.svg" />
     <Content Include="Content\images\icons-svg\video-white.svg" />
     <Content Include="Content\jquery.mobile-1.4.5.css" />
-    <Content Include="Content\jquery.mobile-1.4.5.min.css" />
     <Content Include="Content\jquery.mobile.external-png-1.4.5.css" />
-    <Content Include="Content\jquery.mobile.external-png-1.4.5.min.css" />
     <Content Include="Content\jquery.mobile.icons-1.4.5.css" />
-    <Content Include="Content\jquery.mobile.icons-1.4.5.min.css" />
     <Content Include="Content\jquery.mobile.inline-png-1.4.5.css" />
-    <Content Include="Content\jquery.mobile.inline-png-1.4.5.min.css" />
     <Content Include="Content\jquery.mobile.inline-svg-1.4.5.css" />
-    <Content Include="Content\jquery.mobile.inline-svg-1.4.5.min.css" />
     <Content Include="Content\jquery.mobile.structure-1.4.5.css" />
-    <Content Include="Content\jquery.mobile.structure-1.4.5.min.css" />
     <Content Include="Content\jquery.mobile.theme-1.4.5.css" />
-    <Content Include="Content\jquery.mobile.theme-1.4.5.min.css" />
+    <Content Include="Content\Mobile\jquery.mobile-1.4.5.min.css" />
+    <Content Include="Content\Mobile\jquery.mobile.external-png-1.4.5.min.css" />
+    <Content Include="Content\Mobile\jquery.mobile.icons-1.4.5.min.css" />
+    <Content Include="Content\Mobile\jquery.mobile.inline-png-1.4.5.min.css" />
+    <Content Include="Content\Mobile\jquery.mobile.inline-svg-1.4.5.min.css" />
+    <Content Include="Content\Mobile\jquery.mobile.structure-1.4.5.min.css" />
+    <Content Include="Content\Mobile\jquery.mobile.theme-1.4.5.min.css" />
     <Content Include="Content\NavCSS.css" />
     <Content Include="Content\BootPhoto.jpg" />
     <Content Include="Content\NBHA.png" />
@@ -371,6 +371,10 @@
     <Content Include="Scripts\jquery.mobile-1.4.5.min.map" />
     <Content Include="Views\Shared\_ButtonBand.cshtml" />
     <Content Include="Views\Shared\_Modal.cshtml" />
+    <Content Include="Views\Home\Index.Phone.cshtml" />
+    <Content Include="Views\Home\Index.Tablet.cshtml" />
+    <Content Include="Views\Shared\Layouts\_Layout.Phone.cshtml" />
+    <Content Include="Views\Shared\Layouts\_Layout.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

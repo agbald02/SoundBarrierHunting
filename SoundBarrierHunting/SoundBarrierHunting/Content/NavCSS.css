@@ -27,23 +27,24 @@
 #navButtonsSoundAdvice{
     padding-left:30px;
     padding-right:30px;
-    color:lime;
+    color:#00ff15;
     display:inline;
     list-style:none;
-    font-size:25px;
+    font-size:40px;
     font-family:Bombardier;
+    font-style:italic;
 }
 
 #navMenu{
-    padding-top:60px;
+    padding-top:50px;
     padding-right:100px;
 }
 
 #navButtonsSoundAdvice:hover { 
     color:black;
-    background-color: lime;
+    background-color: #00ff15;
     padding-top:40px;
-    padding-bottom:40px;
+    padding-bottom:32px;
     text-decoration: none;
 }
 
@@ -51,7 +52,7 @@
     color:black;
     background-color: white;
     padding-top:40px;
-    padding-bottom:40px;
+    padding-bottom:35px;
     text-decoration: none;
 }
 
@@ -88,10 +89,12 @@
     height:30px;
     margin-bottom: 0;
 }
-
+#BandBarButtons{
+    margin-right:330px;
+}
 #BandBarButton > a:hover{
     color: black;
-    background-color:lime;
+    background-color:#00ff15;
     padding-top:50%;
     padding-bottom:5px;
     padding-left:35px;
@@ -141,7 +144,7 @@
     height:150px;
 }
 
-/*#sidebarGlyphs{
+#sidebarGlyphs{
     font-size:35px;
 }
 
@@ -159,7 +162,7 @@
     background-color:#00ff21;
     width:60px;
     position:fixed;
-    z-index:999;
+    z-index:5000;
 }
 
 .sidebar-nav{
@@ -167,4 +170,4 @@
     list-style-type:none;
     padding-left:10px;
     padding-top:175px;
-}*/
+}

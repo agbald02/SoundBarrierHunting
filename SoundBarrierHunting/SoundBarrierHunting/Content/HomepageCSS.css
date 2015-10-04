@@ -51,17 +51,36 @@ modal-body{
 }
 
 body{
-    background-color:lightgray;
+    background-color:whitesmoke;
 }
 
+#pagePanel{
+    margin:0;
+    padding:0;
+    background-color:white;
+    box-shadow: 0px 10px 15px #888888;
+}
+
+#panelContent{
+    margin:0;
+    padding:0;
+}
+
+#pageTitle{
+    font-size:100px;
+    font-family:Bombardier;
+    font-style:italic;
+    letter-spacing:2px;
+    color:black;
+}
 
 /*Index Page*/
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
+      padding-top:200px;
       width: 100%;
-      height:700px;
-      margin:auto;
-      padding-top:225px;
+      height:600px;
+      margin:0px;
       border-radius:10px;
   }
 
@@ -95,21 +114,20 @@ body{
 }
 
 #HomepageTagline{
-        margin-left:200px;
-    margin-right:200px;
-    padding-top:20px;
+    margin-left:5%;
+    margin-right:5%;
+    margin-top:20px;
     font-size:30px;
     font-family:Bombardier;
     color:black;
 }
 
 #HomepageText{
-    margin-left:200px;
-    margin-right:200px;
+    margin-left:5%;
+    margin-right:5%;
     text-indent:50px;
     font-size:20px;
-    justify-content:center;
-    padding-bottom:75px;
+    margin-bottom:75px;
     font-size:18px;
     font-family:DroidSans;
 }
@@ -120,60 +138,59 @@ body{
     color:black;
     padding-bottom:200px;
 }
+
+#subscribePanel{
+    font-family:Bombardier;
+    font-size:25px;
+}
 /*About Page*/
 
 #AdamHeadshot{
     width:200px;
-    padding-left:0%;
+    margin-left:10%;
 }
 
 #AboutNBHA{
-    padding-left:12%;
     padding-top:200px;
-    width:1675px;
+    width:100%;
     height:auto;
 }
 
 #AboutSignature{
-    width:1500px;
-    padding-left:20%;
-    padding-top:25px;
-    padding-bottom:25px;
+    margin-top:25px;
+    margin-bottom:25px;
+    margin-left:5%;
     font-size:30px;
     font-family:Bombardier;
 }
 
 #AboutHead{
-    justify-content:center;
-    padding-top:25px;
-    width:1500px;
-    padding-left:20%;
+    margin-top:25px;
+    margin-left:5%;
     font-size:30px;
     font-family:Bombardier;
 }
 #About{
     text-indent:50px;
-    justify-content:center;
-    width:1500px;
-    padding-left:20%;
+    margin-left:5%;
+    margin-right:5%;
     font-size:18px;
     font-family:DroidSans;
 }
 
 #Signature{
-    padding-left:20%;
+    margin-left:5%;
     padding-bottom:75px;
-    width:1500px;
     font-size:18px;
     font-family:DroidSans;
 }
 
 /*Science Page*/
 #SciencePhoto{
-    height:700px;
-    width:1400px;
-    padding-top:200px;
+    height:400px;
+    width:100%;
     border-radius:10px;
+    padding:0;
 }
 
 #ScienceHeadTop{
@@ -187,29 +204,27 @@ body{
 
 #ScienceHead{
     justify-content:center;
-    padding-top:25px;
-    width:1500px;
-    padding-left:20%;
+    margin-top:25px;
+    margin-left:5%;
+    margin-right:5%;
     font-size:30px;
     font-family:Bombardier;
 }
 
 #Science{
     text-indent:50px;
-    justify-content:center;
-    width:1500px;
-    padding-left:20%;
     font-size:18px;
+    margin-left:5%;
+    margin-right:5%;
     font-family:DroidSans;
 }
 
 #ScienceBottom{
     text-indent:50px;
-    justify-content:center;
-    width:1500px;
-    padding-left:20%;
-    padding-bottom:50px;
     font-size:18px;
+    margin-left:5%;
+    margin-right:5%;
+    margin-bottom:5%;
     font-family:DroidSans;
 }
 #SoundGraph{
@@ -266,34 +281,33 @@ body{
 
 /*Sound Advice*/
 #SoundAdvicePhoto{
-    height:700px;
-    width:1400px;
-    padding-top:200px;
+    height:400px;
+    width:100%;
     border-radius:10px;
-}
-#SoundAdviceContainer{
-    padding-left:15%;
-    padding-bottom:500px;
+    padding:0;
 }
 
 #SoundAdviceHeaderVideo{
     font-size:30px;
-    font-family:Bombardier
+    font-family:Bombardier;
+    margin-left:5%;
 }
 #SoundAdviceHeaderArticle{
     font-family:Bombardier;
     font-size:30px;
+    margin-left:5%;
 }
 #SoundAdviceArticleParagraph{
     text-indent:50px;
     font-size:18px;
     font-family:DroidSans;
+    margin-left:5%;
 }
 #SoundAdviceVideoSentence{
     font-size:30px;
     font-family:Bombardier;
-    padding-top:10px;
-    padding-bottom:150px;
+
+    margin-bottom:15%;
 }
 
 #video{
