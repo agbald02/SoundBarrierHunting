@@ -266,6 +266,13 @@ modal-body{
     color:lightgray;
 }
 
+#SoundGraph{
+    margin-top:5%;
+    margin-bottom:5%;
+    margin-left:12%;
+    margin-right:5%;
+}
+
 /*Contact Page*/
 .contactInfo{
     text-align:center;
