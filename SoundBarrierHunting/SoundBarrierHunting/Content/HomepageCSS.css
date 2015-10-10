@@ -22,6 +22,11 @@
     font-family:Bombardier;
     src:url(Fonts/BOMBARD_.ttf);
 }
+
+body{
+    background-image:url('EquipmentSmall.JPG');
+}
+
 .modal-content{
     background-color:white;
     color:black;
@@ -65,7 +70,7 @@ modal-body{
     margin:0;
     padding:0;
     background-color:black;
-    box-shadow: 0px 10px 15px #888888;
+    box-shadow: 0px 0px 175px 50px black;
     opacity:1.0;
 }
 
@@ -88,7 +93,7 @@ modal-body{
     margin-left:1%;
     font-size:40px;
     font-family:Bombardier;
-    color:black;
+    color:yellow;
 }
 
 #socialMediaText{
@@ -97,6 +102,7 @@ modal-body{
     margin-left:85%;
     font-size:40px;
     font-family:Bombardier;
+        color:yellow;
 }
 
 /*Index Page*/

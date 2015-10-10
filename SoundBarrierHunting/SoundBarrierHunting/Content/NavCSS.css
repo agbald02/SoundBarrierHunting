@@ -27,7 +27,8 @@
 #Band {
     position:fixed;
     border-radius:0px;
-    background-color: #e6ffe4;
+    /*background-color: #e6ffe4;*/
+    background-color:palegoldenrod;
     height:30px;
     margin:0;
     width:100%;
