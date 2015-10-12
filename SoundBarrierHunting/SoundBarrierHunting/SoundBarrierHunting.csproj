@@ -300,17 +300,11 @@
     <Content Include="Content\NavCSS.css" />
     <Content Include="Content\BootPhoto.jpg" />
     <Content Include="Content\NBHA.png" />
-    <Content Include="Content\Social Media\facebook.png" />
     <Content Include="Content\Social Media\FacebookBrandLogo.png" />
     <Content Include="Content\Social Media\LinkedInBrandLogo.png" />
-    <Content Include="Content\Social Media\instagram.png" />
     <Content Include="Content\Social Media\InstagramBrandLogoColor.png" />
-    <Content Include="Content\Social Media\linkedin.png" />
-    <Content Include="Content\Social Media\twitter.png" />
     <Content Include="Content\Social Media\TwitterBrandLogo.png" />
-    <Content Include="Content\Social Media\YoutubeBrandLogo24.png" />
     <Content Include="Content\Social Media\YoutubeBrandLogo48.png" />
-    <Content Include="Content\Social Media\youtube.png" />
     <Content Include="Content\SoundBarrierHorizontal.jpg" />
     <Content Include="Content\SoundGraph.jpg" />
     <Content Include="Content\Carousel\StepInWoods.jpg" />
