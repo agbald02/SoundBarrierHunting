@@ -19,8 +19,8 @@
 }
 
 #listItems ul li{
-    padding-left:15px;
-    padding-right:15px;
+    margin-left:15px;
+    margin-right:15px;
     display: inline;
 }
 
@@ -28,7 +28,7 @@
     position:fixed;
     border-radius:0px;
     /*background-color: #e6ffe4;*/
-    background-color:palegoldenrod;
+    background-color:#414040;
     height:30px;
     margin:0;
     width:100%;
@@ -118,14 +118,11 @@
 }
 
 .navbar{
-    background:rgba(128, 128, 128, 0.3);
-    z-index:1000;
+    background:rgba(128, 128, 128, 0.0);
     height:30px;
     margin-bottom: 0;
 }
-#BandBarButtons{
 
-}
 #BandBarButton > a:hover{
     color: black;
     background-color:#00ff15;
@@ -140,22 +137,14 @@
 #BandBarButton > a{
     padding-top:20px;
     padding-right:35px;
-    color: black;
+    color: white;
     font-size:20px;
     padding-left:35px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-#NavBarBottomList{
-    padding-top:40px;
-    color:white;
-    font-size:25px;
-    font-family:Bombardier;
-}
-
 #NavBarBottomListLink{
-    padding-top:40px;
-    color:white;
+    color: #00ff15;
     font-size:25px;
     font-family:Bombardier;
 }
@@ -167,9 +156,6 @@
     padding-top:10px;
     padding-bottom:30px;
     text-decoration: none;
-}
-#navBottomThing{
-    padding-top:5px;
 }
 
 .SoundBarrierNav{
@@ -204,4 +190,28 @@
     list-style-type:none;
     padding-left:10px;
     padding-top:175px;
+}
+
+#Instagram{
+    width:32px;
+    height:32px;
+}
+
+#Twitter {
+    width:37px;
+    height:37px;
+}
+
+#Youtube{
+    width:40px;
+    height:30px;
+}
+
+#Facebook{
+    width:28px;
+    height:28px;
+}
+#LinkedIn{
+    width:36px;
+    height:28px;
 }
