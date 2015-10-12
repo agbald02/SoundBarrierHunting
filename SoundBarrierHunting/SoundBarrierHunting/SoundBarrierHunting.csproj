@@ -296,7 +296,6 @@
     <Content Include="Content\images\icons-svg\user-white.svg" />
     <Content Include="Content\images\icons-svg\video-black.svg" />
     <Content Include="Content\images\icons-svg\video-white.svg" />
-    <Content Include="Content\leaves.JPG" />
     <Content Include="Content\NavCSS.css" />
     <Content Include="Content\BootPhoto.jpg" />
     <Content Include="Content\NBHA.png" />
@@ -308,6 +307,7 @@
     <Content Include="Content\SoundBarrierHorizontal.jpg" />
     <Content Include="Content\SoundGraph.jpg" />
     <Content Include="Content\Carousel\StepInWoods.jpg" />
+    <Content Include="Content\WoodsNWaterCover.jpg" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />

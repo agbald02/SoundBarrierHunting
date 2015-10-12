@@ -54,6 +54,12 @@ modal-body{
     padding:10px;
 }
 
+#ModalSubscribeContact{
+    color: black;
+    font-size:25px;
+    font-family:Bombardier;
+}
+
 #completePage{
     position:absolute;
     background-size:cover;
@@ -165,10 +171,19 @@ modal-body{
 }
 
 #RecentContent{
-    font-family:Bombardier;
-    font-size:25px;
-    color:black;
+    font-family:DroidSans;
+    font-size:18px;
+    color:white;
     padding-bottom:200px;
+}
+
+#WoodsNWaterShoutout{
+    color:white;
+}
+
+#WoodsWaterCover{
+    width:300px;
+    height:350px
 }
 
 #subscribePanel{

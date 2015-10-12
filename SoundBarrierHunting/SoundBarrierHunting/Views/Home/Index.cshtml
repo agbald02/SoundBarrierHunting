@@ -20,7 +20,7 @@
                         <br />
                         <br />
                     </div>
-                    <div class="text-left" id="HomepageText">
+                    @*<div class="text-left" id="HomepageText">
                         Let’s face it, there are a lot
                         of gimmicks and repackaged tips and products out there in the hunting world. Very little new
                         information is available that can actually give big gains in stealth, and success. That's why
@@ -31,17 +31,24 @@
                         Join us on our website, Youtube, and Twitter, and invite your friends to be part of something new and
                         exciting, as we share how to never be heard again!
                         <br />
-                    </div>
+                    </div>*@
                 </div>
             </div>
             <div class="col-md-6" id="RecentContent">
                 <div class="text-center">
-                    Recent videos
+                    <div>Recent Videos</div>
+                    <iframe id="video" width="392" height="220"
+                            src="https://www.youtube.com/embed/e5XijvELkMM"
+                            frameborder="0" allowfullscreen></iframe>
+                    <iframe id="video" width="392" height="220"
+                            src="https://www.youtube.com/embed/_5awTsOGr3M"
+                            frameborder="0" allowfullscreen></iframe>
                 </div>
             </div>
             <div class="col-md-6" id="RecentContent">
-                <div class="text-center">
-                    Woods-N-Water Shoutout
+                <div class="text-center" id="WoodsNWaterShoutout">
+                    Check out our article "Is 100% Stealth Possible" in the October edition of Woods-N-Water News!
+                    <img id="WoodsWaterCover" src="~/Content/WoodsNWaterCover.jpg" />
                 </div>
             </div>
 
@@ -50,7 +57,5 @@
                     $('#openModal').modal('show');
                 });
             </script>
-        </div>
-    </div>
 </body>
 </html>
