@@ -24,7 +24,8 @@
 }
 
 body{
-    background-image:url('EquipmentSmall.JPG');
+    /*background-image:url('EquipmentSmall.JPG');*/
+    background-color:lightgray;
 }
 
 .modal-content{
