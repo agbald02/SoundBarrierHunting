@@ -133,6 +133,7 @@ modal-body{
     color:white;
     font-size:20px;
     text-shadow: 1px 2px 15px black, 0 0 25px black, 0 0 15px black;
+    bottom:20%;
 }
 
 .carousel-control {
@@ -150,6 +151,25 @@ modal-body{
 }
 .carousel-control .glyphicon-chevron-left:before {
   margin-left:0;
+}
+
+.carousel-indicators li{
+    visibility:hidden;
+}
+.btn:focus, .btn:active:focus, .btn.active:focus{
+    outline:0 none;
+}
+
+.btn-primary{
+    background:none;
+    color:white;
+    border: 2px solid white;
+}
+
+.btn-primary:hover{
+    background:lime;
+    color:black;
+    border: 2px solid white;
 }
 
 #HomepageTagline{
@@ -172,26 +192,82 @@ modal-body{
     color:lightgray;
 }
 
+#HomepageVideos{
+    margin-bottom:75px;
+}
 #RecentContent{
     font-family:DroidSans;
     font-size:18px;
     color:white;
-    padding-bottom:200px;
 }
 
-#WoodsNWaterShoutout{
+#ArticleDescriptions{
+    font-family:DroidSans;
+        font-size:15px;
+    margin-bottom:100px;
+}
+
+#ArticleDescriptions ul li{
+    font-family:DroidSans;
     color:white;
+    list-style:none;
+    display:inline;
+    margin-right:100px;
+    margin-left:75px;
 }
 
 #WoodsWaterCover{
     width:300px;
-    height:350px
+    height:350px;
+    margin:30px;
 }
 
 #subscribePanel{
     font-family:Bombardier;
     font-size:25px;
 }
+
+/*New Advantage*/
+
+#NewAdvantageSection{
+    margin:55px;
+    font-family:DroidSans;
+}
+
+#AdvantageButton{
+    font-size:50px;
+    padding-top:20px;
+    padding-bottom:20px;
+    width:500px;
+    margin:25px;
+}
+
+#AdvantageLabel{
+    font-size:50px;
+    color:white;
+}
+
+#AdvantageText{
+    font-size:18px;
+    color:white;
+}
+#AdvantageTextBottom{
+    font-size:18px;
+    color:white;
+    margin-bottom:125px;
+}
+
+#AdvSocial{
+    margin-right:40px;
+}
+
+#AdvantageSocialMedia ul li{
+    margin-left:15px;
+    margin-right:15px;
+    display: inline;
+    list-style:none;
+}
+
 /*About Page*/
 
 #AdamHeadshot{
@@ -254,6 +330,19 @@ modal-body{
     color:white;
 }
 
+#ScienceButton{
+    width:75%;
+}
+#ScienceIntro{
+    text-indent:50px;
+    font-size:18px;
+    margin-left:5%;
+    margin-right:5%;
+    font-family:DroidSans;
+    color:lightgray;
+    margin-bottom:25px;
+}
+
 #ScienceHead{
     justify-content:center;
     margin-top:25px;
@@ -278,9 +367,13 @@ modal-body{
     font-size:18px;
     margin-left:5%;
     margin-right:5%;
-    margin-bottom:5%;
+    margin-bottom:75px;
     font-family:DroidSans;
     color:lightgray;
+}
+
+#ScienceButtonBottom{
+    margin-bottom:146px;
 }
 
 #SoundGraph{
@@ -297,6 +390,7 @@ modal-body{
     font-size:18px;
     font-family:DroidSans;
     color:lightgray;
+    margin-bottom:625px;
 }
 
 .contactHeader{
@@ -339,6 +433,32 @@ modal-body{
 }
 
 /*Sound Advice*/
+#SoundAdviceButton{
+    font-size:30px;
+    padding-top:20px;
+    padding-bottom:20px;
+    width:350px;
+    margin:25px;
+}
+
+
+#SoundAdviceText{
+    text-indent:50px;
+    font-size:18px;
+    color:white;
+    width:600px;
+    margin:0;
+    border:0;
+    padding:0;
+}
+#SoundAdviceTextBottom{
+    text-indent:50px;
+    font-size:18px;
+    color:white;
+    width:600px;
+    margin-bottom:125px;
+}
+
 #SoundAdvicePhoto{
     height:400px;
     width:100%;

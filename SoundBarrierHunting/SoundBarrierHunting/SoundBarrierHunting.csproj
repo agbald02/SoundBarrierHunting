@@ -81,7 +81,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\AdamHeadshot.jpg" />
-    <Content Include="Content\BannerNoNBHA.png" />
+    <Content Include="Content\BannerNBHA.jpg" />
     <Content Include="Content\Carousel\BannerIMG.jpg" />
     <Content Include="Content\Carousel\BoneCollector.jpg" />
     <Content Include="Content\bootstrap-theme.css" />
@@ -307,7 +307,8 @@
     <Content Include="Content\SoundBarrierHorizontal.jpg" />
     <Content Include="Content\SoundGraph.jpg" />
     <Content Include="Content\Carousel\StepInWoods.jpg" />
-    <Content Include="Content\WoodsNWaterCover.jpg" />
+    <Content Include="Content\WoodsNWaterCoverOct.jpg" />
+    <Content Include="Content\WoodsNWaterCoverNov.jpg" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
@@ -316,6 +317,7 @@
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="Content\bootstrap-theme.css.map" />
     <Content Include="Content\bootstrap.css.map" />
+    <Content Include="Scripts\bootstrap-hover-dropdown.min.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Content\Fonts\CGF-Locust-Resistance.ttf" />
@@ -346,7 +348,7 @@
     <Content Include="Views\Shared\_NavBarBottom.cshtml" />
     <Content Include="Views\Shared\_NavTop.cshtml" />
     <Content Include="Views\Home\About.cshtml" />
-    <Content Include="Views\Home\SoundAdvice.cshtml" />
+    <Content Include="Views\Home\Videos.cshtml" />
     <Content Include="Views\Home\Products.cshtml" />
     <Content Include="Views\Home\Science.cshtml" />
     <Content Include="Views\Shared\ContactUs.cshtml" />
@@ -355,6 +357,14 @@
     <Content Include="Views\Shared\_Modal.cshtml" />
     <Content Include="Views\Shared\Layouts\_Layout.cshtml" />
     <Content Include="Views\Shared\Layouts\_LayoutHome.cshtml" />
+    <Content Include="Views\Home\Articles.cshtml" />
+    <Content Include="Views\Home\Founder.cshtml" />
+    <Content Include="Views\Home\SoundAdvice.cshtml" />
+    <Content Include="Views\Home\NewAdvantage.cshtml" />
+    <Content Include="Views\Shared\Layouts\_LayoutNewAdvantage.cshtml" />
+    <Content Include="Views\Shared\_CarouselNewAdvantage.cshtml" />
+    <Content Include="Views\Shared\Layouts\_LayoutSoundAdvice.cshtml" />
+    <Content Include="Views\Shared\_CarouselSoundAdvice.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

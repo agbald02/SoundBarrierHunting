@@ -16,12 +16,12 @@
     </div>*@
     <div id="page">
         @Html.Partial("_NavTop")
-        @Html.Partial("_ButtonBand")
-        @Html.Partial("_NavBarBottom")
-        @Html.Partial("_Modal")
+        @*@Html.Partial("_ButtonBand")*@
+
         <script src="~/Scripts/jquery-2.1.4.min.js"></script>
         <script src="~/Scripts/jquery-ui.min.js"></script>
         <script src="~/Scripts/bootstrap.min.js"></script>
+        <script src="~/Scripts/bootstrap-hover-dropdown.min.js"></script>
         @*<div class="hidden-sm hidden-xs">
             <div class="text-left" id="subscribeText">
                 <a href="http://goo.gl/forms/jLZkcuX7c3" target="_blank">
@@ -47,7 +47,7 @@
                     </div>
                 </div>
             </div>
-
         </div>
+    @Html.Partial("_NavBarBottom")
 </body>
 </html>

@@ -1,84 +1,50 @@
 ﻿@{
-    Layout = "~/Views/Shared/Layouts/_Layout.cshtml";
+    Layout = "~/Views/Shared/Layouts/_LayoutSoundAdvice.cshtml";
 }
-
-<!DOCTYPE html>
 
 <html>
 <head>
     <title>Sound Advice</title>
 </head>
 <body>
-        <div class="text-center">
-            <img src="~/Content/DeerSkullsAndAntlers.jpg" id="SoundAdvicePhoto" />
+    <div class="text-left">
+        <div id="NewAdvantageSection">
+            <a href="@Url.Action("Videos","Home")" class="btn btn-success btn-lg" id="SoundAdviceButton" target="_blank">
+                Videos and Tips
+            </a>
+            <p id="SoundAdviceText">
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                when an unknown printer took a galley of type and scrambled it to make a type
+                specimen book. It has survived not only five centuries, but also the leap into
+                electronic typesetting, remaining essentially unchanged.
+            </p>
         </div>
-        <div class="text-center" id="pageTitle">
-            Sound Advice
+        <div id="NewAdvantageSection">
+            <a href="@Url.Action("Science","Home")" class="btn btn-success btn-lg" id="SoundAdviceButton">
+                Deer Hearing Science
+            </a>
+            <p id="SoundAdviceText">
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                when an unknown printer took a galley of type and scrambled it to make a type
+                specimen book. It has survived not only five centuries, but also the leap into
+                electronic typesetting, remaining essentially unchanged.
+            </p>
         </div>
-        <div class="col-md-12" id="SoundAdviceContainer">
-            <div class="row">
-                <div class="text-left">
-                    <h2 id="SoundAdviceHeaderArticle">Articles</h2>
-                    <br />
-                    <div id="SoundAdviceArticleParagraph">
-                        Several of our preliminary articles are currently being reviewed for
-                        publishing. Once they are publicly available, we will make them available
-                        to you as well. Stay tuned!
-                    </div>
-                </div>
-            </div>
-
-
-            <div class="row">
-                <div class="text-left">
-                    <h2 id="SoundAdviceHeaderVideo">Video Library</h2>
-                </div>
-            </div>
-
-            <div class="text-center" id="videoPadding">
-                <iframe id="video" width="392" height="220"
-                        src="https://www.youtube.com/embed/66ImvhrhuHc"
-                        frameborder="0" allowfullscreen></iframe>
-                <iframe id="video" width="392" height="220"
-                        src="https://www.youtube.com/embed/krj1O3tHbDg"
-                        frameborder="0" allowfullscreen></iframe>
-                <iframe id="video" width="392" height="220"
-                        src="https://www.youtube.com/embed/PIzrBx-aIpg"
-                        frameborder="0" allowfullscreen></iframe>
-                <iframe id="video" width="392" height="220"
-                        src="https://www.youtube.com/embed/Vr6ckujZcFA"
-                        frameborder="0" allowfullscreen></iframe>
-                <br />
-
-                <iframe id="video" width="392" height="220"
-                        src="https://www.youtube.com/embed/4gK8jmXqtdk"
-                        frameborder="0" allowfullscreen></iframe>
-                <iframe id="video" width="392" height="220"
-                        src="https://www.youtube.com/embed/_d4lI_-eFwQ"
-                        frameborder="0" allowfullscreen></iframe>
-                <iframe id="video" width="392" height="220"
-                        src="https://www.youtube.com/embed/yQXZKv65p1Q"
-                        frameborder="0" allowfullscreen></iframe>
-                <iframe id="video" width="392" height="220"
-                        src="https://www.youtube.com/embed/MaahludNDwM"
-                        frameborder="0" allowfullscreen></iframe>
-                <br />
-
-                <iframe id="video" width="392" height="220"
-                        src="https://www.youtube.com/embed/eaZWUBCDMjE"
-                        frameborder="0" allowfullscreen></iframe>
-                <iframe id="video" width="392" height="220"
-                        src="https://www.youtube.com/embed/e5XijvELkMM"
-                        frameborder="0" allowfullscreen></iframe>
-                <iframe id="video" width="392" height="220"
-                        src="https://www.youtube.com/embed/_5awTsOGr3M"
-                        frameborder="0" allowfullscreen></iframe>
-            
-            </div>
-
-            <div class="text-center" id="SoundAdviceVideoSentence">
-                Stay tuned for more videos!
-            </div>
+        <div id="NewAdvantageSection">
+            <a href="@Url.Action("Articles","Home")" class="btn btn-success btn-lg" id="SoundAdviceButton">
+                Articles
+            </a>
+            <p id="SoundAdviceTextBottom">
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                when an unknown printer took a galley of type and scrambled it to make a type
+                specimen book. It has survived not only five centuries, but also the leap into
+                electronic typesetting, remaining essentially unchanged.
+            </p>
         </div>
+    </div>
 </body>
 </html>
+
