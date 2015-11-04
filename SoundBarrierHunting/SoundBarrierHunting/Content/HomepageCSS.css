@@ -199,12 +199,14 @@ modal-body{
     font-family:DroidSans;
     font-size:18px;
     color:white;
+    margin-bottom:10px;
 }
 
 #ArticleDescriptions{
     font-family:DroidSans;
-        font-size:15px;
-    margin-bottom:100px;
+    font-size:15px;
+    color:white;
+    margin-bottom:125px;
 }
 
 #ArticleDescriptions ul li{
@@ -219,7 +221,7 @@ modal-body{
 #WoodsWaterCover{
     width:300px;
     height:350px;
-    margin:30px;
+    margin:0px;
 }
 
 #subscribePanel{
