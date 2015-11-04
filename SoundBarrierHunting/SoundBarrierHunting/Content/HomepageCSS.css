@@ -439,6 +439,7 @@ modal-body{
     padding-bottom:20px;
     width:350px;
     margin:25px;
+    margin-bottom:100px;
 }
 
 
@@ -450,6 +451,7 @@ modal-body{
     margin:0;
     border:0;
     padding:0;
+    margin-bottom:50px;
 }
 #SoundAdviceTextBottom{
     text-indent:50px;
@@ -497,4 +499,5 @@ modal-body{
 }
 #videoPadding{
     margin-left:2%;
+    margin-bottom:125px;
 }
