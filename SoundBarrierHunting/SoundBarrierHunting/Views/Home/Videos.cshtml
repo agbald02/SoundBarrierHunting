@@ -9,53 +9,81 @@
     <title>Videos</title>
 </head>
 <body>
-        <div class="text-center">
-            <img src="~/Content/DeerSkullsAndAntlers.jpg" id="SoundAdvicePhoto" />
-        </div>
-        <div class="text-center" id="pageTitle">
-            Video Library
-        </div>
-        <div class="col-md-12" id="SoundAdviceContainer">
-            <div class="text-center" id="videoPadding">
-                <iframe id="video" width="392" height="220"
+    <div class="text-center">
+        <img src="~/Content/DeerSkullsAndAntlers.jpg" id="SoundAdvicePhoto" />
+    </div>
+    <div class="text-center" id="pageTitle">
+        Video Library
+    </div>
+
+    <div class="row">
+        <div class="col-lg-8">
+            <div class="text-center" id="RecentContent">Featured Video</div>
+            <div id="videoWrapper">
+                <iframe id="video" width="684" height="440"
                         src="https://www.youtube.com/embed/66ImvhrhuHc"
                         frameborder="0" allowfullscreen></iframe>
-                <iframe id="video" width="392" height="220"
-                        src="https://www.youtube.com/embed/krj1O3tHbDg"
-                        frameborder="0" allowfullscreen></iframe>
-                <iframe id="video" width="392" height="220"
-                        src="https://www.youtube.com/embed/PIzrBx-aIpg"
-                        frameborder="0" allowfullscreen></iframe>
-                <iframe id="video" width="392" height="220"
-                        src="https://www.youtube.com/embed/Vr6ckujZcFA"
-                        frameborder="0" allowfullscreen></iframe>
-                <br />
-
-                <iframe id="video" width="392" height="220"
-                        src="https://www.youtube.com/embed/4gK8jmXqtdk"
-                        frameborder="0" allowfullscreen></iframe>
-                <iframe id="video" width="392" height="220"
-                        src="https://www.youtube.com/embed/_d4lI_-eFwQ"
-                        frameborder="0" allowfullscreen></iframe>
-                <iframe id="video" width="392" height="220"
-                        src="https://www.youtube.com/embed/yQXZKv65p1Q"
-                        frameborder="0" allowfullscreen></iframe>
-                <iframe id="video" width="392" height="220"
-                        src="https://www.youtube.com/embed/MaahludNDwM"
-                        frameborder="0" allowfullscreen></iframe>
-                <br />
-
-                <iframe id="video" width="392" height="220"
-                        src="https://www.youtube.com/embed/eaZWUBCDMjE"
-                        frameborder="0" allowfullscreen></iframe>
-                <iframe id="video" width="392" height="220"
-                        src="https://www.youtube.com/embed/e5XijvELkMM"
-                        frameborder="0" allowfullscreen></iframe>
-                <iframe id="video" width="392" height="220"
-                        src="https://www.youtube.com/embed/_5awTsOGr3M"
-                        frameborder="0" allowfullscreen></iframe>
-            
             </div>
         </div>
+        <div class="col-lg-4">
+            <div class="text-center" id="RecentContent">Recent Videos</div>
+            <ul class="list-group">
+                <li class="list-group-item" id="VideoListGroupLink">Welcome to Sound Barrier</li>
+                <li class="list-group-item" id="VideoListGroupLink">Is 100% Stealth Possible?</li>
+                <li class="list-group-item" id="VideoListGroupLink">Do deer hear better than humans?</li>
+                <li class="list-group-item" id="VideoListGroupLink">Do deer hear better than humans? Part 2</li>
+                <li class="list-group-item" id="VideoListGroupLink">Do deer hear better than humans? Part 3</li>
+            </ul>
+        </div>
+    </div>
+
+
+    <div class="text-center">
+        <button class="btn-success btn-lg" data-toggle="collapse" data-target="#allVideos" id="allVideosButton">All Videos</button>
+        <div id="allVideos" class="collapse">
+            <div class="col-md-12" id="SoundAdviceContainer">
+                <div class="text-center" id="videoPadding">
+                    <iframe id="video" width="392" height="220"
+                            src="https://www.youtube.com/embed/66ImvhrhuHc"
+                            frameborder="0" allowfullscreen></iframe>
+                    <iframe id="video" width="392" height="220"
+                            src="https://www.youtube.com/embed/krj1O3tHbDg"
+                            frameborder="0" allowfullscreen></iframe>
+                    <iframe id="video" width="392" height="220"
+                            src="https://www.youtube.com/embed/PIzrBx-aIpg"
+                            frameborder="0" allowfullscreen></iframe>
+                    <iframe id="video" width="392" height="220"
+                            src="https://www.youtube.com/embed/Vr6ckujZcFA"
+                            frameborder="0" allowfullscreen></iframe>
+                    <br />
+
+                    <iframe id="video" width="392" height="220"
+                            src="https://www.youtube.com/embed/4gK8jmXqtdk"
+                            frameborder="0" allowfullscreen></iframe>
+                    <iframe id="video" width="392" height="220"
+                            src="https://www.youtube.com/embed/_d4lI_-eFwQ"
+                            frameborder="0" allowfullscreen></iframe>
+                    <iframe id="video" width="392" height="220"
+                            src="https://www.youtube.com/embed/yQXZKv65p1Q"
+                            frameborder="0" allowfullscreen></iframe>
+                    <iframe id="video" width="392" height="220"
+                            src="https://www.youtube.com/embed/MaahludNDwM"
+                            frameborder="0" allowfullscreen></iframe>
+                    <br />
+
+                    <iframe id="video" width="392" height="220"
+                            src="https://www.youtube.com/embed/eaZWUBCDMjE"
+                            frameborder="0" allowfullscreen></iframe>
+                    <iframe id="video" width="392" height="220"
+                            src="https://www.youtube.com/embed/e5XijvELkMM"
+                            frameborder="0" allowfullscreen></iframe>
+                    <iframe id="video" width="392" height="220"
+                            src="https://www.youtube.com/embed/_5awTsOGr3M"
+                            frameborder="0" allowfullscreen></iframe>
+            
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>

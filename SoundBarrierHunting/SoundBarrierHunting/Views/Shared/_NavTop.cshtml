@@ -2,8 +2,8 @@
         <div class="navbar-brand" id="navTopList">
             <ul>
                 <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown"
-                        data-delay="500" data-close-others="true" id="navButtons">
+                    <a href="#" @*class="dropdown-toggle" data-toggle="dropdown"*@ data-hover="dropdown"
+                        data-delay="0" data-close-others="true" id="navButtons">
                         About Us
                     </a>
                     <ul class="dropdown-menu">
@@ -14,8 +14,8 @@
                     </ul>
                 </li>
                 <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown"
-                       data-delay="500" data-close-others="true" id="navButtons">
+                    <a href="#" @*class="dropdown-toggle" data-toggle="dropdown"*@ data-hover="dropdown"
+                       data-delay="0" data-close-others="true" id="navButtons">
                         Sound Advice
                     </a>
                     <ul class="dropdown-menu">
@@ -68,9 +68,9 @@
                 <li><a href="@Url.Action("SoundAdvice", "Home")">Sound Advice</a></li>
                 <li><a href="http://goo.gl/forms/jLZkcuX7c3">Subscribe</a></li>
                 <li><a href="@Url.Action("ContactUs")">Contact Us</a></li>
-                <li class="dropdown">
+                @*<li class="dropdown">
 
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Social Media <b class="caret"></b></a>
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" dropdown-hover="" >Social Media <b class="caret"></b></a>
                     <ul class="dropdown-menu">
                         <li><a href="https://twitter.com/SBNeverBeHeard">Twitter</a></li>
                         <li><a href="https://www.facebook.com/SoundBarrierHunting">Facebook</a></li>
@@ -80,7 +80,7 @@
                         
                     </ul>
 
-                </li>
+                </li>*@
                 
 
             </ul>
