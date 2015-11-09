@@ -116,7 +116,6 @@ modal-body{
 /*Index Page*/
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
-      padding-top:125px;
       width: 100%;
       height:600px;
       margin:0px;
@@ -201,6 +200,9 @@ modal-body{
 	position: relative;
 	padding-bottom: 56.25%; /* 16:9 */
 	height: 0;
+    margin:0;
+    margin-left:10px;
+    margin-bottom:25px;
 }
 #videoWrapper iframe {
 	position: absolute;
@@ -312,11 +314,47 @@ modal-body{
     font-size:30px;
     font-family:Bombardier;
     color:white;
+    margin-top:200px;
 }
 #About{
     text-indent:50px;
     margin-left:5%;
     margin-right:5%;
+    font-size:18px;
+    font-family:DroidSans;
+    color:lightgray;
+}
+
+#AboutUsButton{
+    width:75%;
+}
+
+#AboutPage{
+    margin-bottom:375px;
+}
+
+#SoundBarrierStoryParagraph{
+    margin-top:20px;
+    margin-bottom:20px;
+    margin-left:5%;
+    margin-right:5%;
+    margin-bottom:20px;
+    font-size:18px;
+    font-family:DroidSans;
+    color:lightgray;
+}
+
+#FounderPage{
+    margin-top:205px;
+    margin-bottom:100px;
+}
+
+#FounderStoryParagraph{
+    margin-top:20px;
+    margin-bottom:20px;
+    margin-left:5%;
+    margin-right:5%;
+    margin-bottom:20px;
     font-size:18px;
     font-family:DroidSans;
     color:lightgray;
@@ -529,4 +567,13 @@ modal-body{
     color:white;
     font-size:13px;
     font-family:DroidSans;
+}
+
+#RecentVideoList{
+    padding-left:10px;
+    padding-right:10px;
+}
+
+#FeaturedVideo{
+    margin-left:10px;
 }
