@@ -81,7 +81,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\AdamHeadshot.jpg" />
-    <Content Include="Content\BannerNBHA.jpg" />
+    <Content Include="Content\BannerNBHA.png" />
+    <Content Include="Content\bone.jpg" />
+    <Content Include="Content\BootStep.jpg" />
+    <Content Include="Content\BuckDad.jpg" />
     <Content Include="Content\Carousel\BannerIMG.jpg" />
     <Content Include="Content\Carousel\BoneCollector.jpg" />
     <Content Include="Content\bootstrap-theme.css" />
@@ -90,6 +93,8 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\CommonHuntBustingNoises.png" />
     <Content Include="Content\Carousel\DoeAndFawn.jpg" />
+    <Content Include="Content\DeerEarbw.jpg" />
+    <Content Include="Content\DoeAndFawnBrush.jpg" />
     <Content Include="Content\EquipmentSmall.JPG" />
     <Content Include="Content\favicon.ico" />
     <Content Include="Content\Carousel\HeadingToWoods.jpg" />
