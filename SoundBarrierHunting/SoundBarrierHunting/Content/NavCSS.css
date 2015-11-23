@@ -179,12 +179,11 @@ footer {
 }
 
 #NavBarBottomListLink:hover { 
-    color:black;
+    color:white;
     align-content:center;
-    background-color: white;
     padding-top:10px;
     padding-bottom:30px;
-    text-decoration: none;
+    text-decoration: underline;
 }
 #Instagram{
     width:32px;
