@@ -27,7 +27,7 @@ body{
     background-color:lightgray;
 }
 
-/*.modal-content{
+.modal-content{
     background-color:white;
     color:black;
     border-color:limegreen;
@@ -58,7 +58,7 @@ modal-body{
     color: black;
     font-size:25px;
     font-family:Bombardier;
-}*/
+}
 
 #completePage{
     position:absolute;
@@ -84,14 +84,6 @@ modal-body{
 #panelContent{
     margin:0;
     padding:0;
-}
-
-#pageTitle{
-    font-size:75px;
-    font-family:Bombardier;
-    font-style:italic;
-    letter-spacing:2px;
-    color:white;
 }
 
 #subscribeText > a{
@@ -121,18 +113,13 @@ modal-body{
       border-radius:0px;
   }
 
-#carousel-caption > a{
-    color:white;
-    font-size:55px;
-    text-shadow: 1px 2px 15px black, 0 0 25px black, 0 0 15px black;
-    font-style:oblique;
-}
-
 .carousel-caption{
     color:white;
     font-size:20px;
-    text-shadow: 1px 2px 15px black, 0 0 25px black, 0 0 15px black;
+    /*background-color:black;*/
+    text-shadow: 2px 2px 25px black;
     bottom:20%;
+    font-weight:bolder;
 }
 
 .carousel-control {
@@ -173,26 +160,6 @@ modal-body{
     padding:5px;
     border: 3px solid white;
     font-size:25px;
-}
-
-#HomepageTagline{
-    margin-left:5%;
-    margin-right:5%;
-    margin-top:20px;
-    font-size:30px;
-    font-family:Bombardier;
-    color:white;
-}
-
-#HomepageText{
-    margin-left:5%;
-    margin-right:5%;
-    text-indent:50px;
-    font-size:20px;
-    margin-bottom:75px;
-    font-size:18px;
-    font-family:DroidSans;
-    color:lightgray;
 }
 
 #HomepageVideos{
@@ -245,11 +212,6 @@ modal-body{
     margin:0px;
 }
 
-#subscribePanel{
-    font-family:Bombardier;
-    font-size:25px;
-}
-
 /*New Advantage*/
 
 #NewAdvantageSection{
@@ -258,10 +220,10 @@ modal-body{
 }
 
 #AdvantageButton{
-    font-size:35px;
-    padding-top:15px;
-    padding-bottom:15px;
-    width:450px;
+    font-size:15px;
+    padding-top:5px;
+    padding-bottom:5px;
+    width:175px;
     margin:25px;
 }
 
@@ -271,6 +233,7 @@ modal-body{
 }
 
 #AdvantageText{
+    text-indent:35px;
     font-size:18px;
     color:white;
 }
@@ -294,7 +257,6 @@ modal-body{
 
 #AdamHeadshot{
     width:200px;
-    margin-left:10%;
 }
 
 #AboutNBHA{
@@ -304,15 +266,12 @@ modal-body{
 }
 
 #AboutSignature{
-    margin-top:25px;
-    margin-bottom:25px;
-    margin-left:5%;
-    font-size:30px;
-    font-family:Bombardier;
-    color:white;
+    margin-left:55px;
+    padding:0;
 }
 
 #AboutTop{
+    text-indent:50px;
     margin-left:5%;
     margin-right:5%;
     font-size:18px;
@@ -320,24 +279,17 @@ modal-body{
     color:lightgray;
     margin-top:200px;
 }
-#About{
-    text-indent:50px;
-    margin-left:5%;
-    margin-right:5%;
-    font-size:18px;
-    font-family:DroidSans;
-    color:lightgray;
-}
 
 #AboutUsButton{
     width:75%;
 }
 
 #AboutPage{
-    margin-bottom:375px;
+    margin-bottom:100px;
 }
 
-#SoundBarrierStoryParagraph{
+#AboutStoryParagraph{
+    text-indent:50px;
     margin-top:20px;
     margin-bottom:20px;
     margin-left:5%;
@@ -350,23 +302,12 @@ modal-body{
 
 #FounderPage{
     margin-top:205px;
-    margin-bottom:100px;
+    margin-bottom:190px;
 }
 
-#FounderStoryParagraph{
-    margin-top:20px;
-    margin-bottom:20px;
-    margin-left:5%;
-    margin-right:5%;
-    margin-bottom:20px;
-    font-size:18px;
-    font-family:DroidSans;
-    color:lightgray;
-}
-
-#Signature{
-    margin-left:5%;
-    padding-bottom:75px;
+#FounderHeader{
+    margin-top:140px;
+    text-indent:50px;
     font-size:18px;
     font-family:DroidSans;
     color:lightgray;
@@ -446,6 +387,7 @@ modal-body{
 .contactInfo{
     text-align:center;
     padding-top:225px;
+    margin-bottom:625px;
     font-size:18px;
     font-family:DroidSans;
     color:lightgray;
@@ -521,10 +463,10 @@ modal-body{
 }
 
 #SoundAdvicePhoto{
-    height:400px;
+    height:500px;
     width:100%;
     border-radius:10px;
-    padding:0;
+    padding-top:150px;
 }
 
 #SoundAdviceHeaderVideo{

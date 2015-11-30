@@ -82,8 +82,10 @@
   <ItemGroup>
     <Content Include="Content\AdamHeadshot.jpg" />
     <Content Include="Content\BannerNBHA.png" />
+    <Content Include="Content\BannerNBHALarge.jpg" />
     <Content Include="Content\bone.jpg" />
     <Content Include="Content\BootStep.jpg" />
+    <Content Include="Content\BuckBackgroundBlur.png" />
     <Content Include="Content\BuckDad.jpg" />
     <Content Include="Content\Carousel\BannerIMG.jpg" />
     <Content Include="Content\Carousel\BoneCollector.jpg" />
