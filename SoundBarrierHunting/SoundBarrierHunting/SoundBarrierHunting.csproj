@@ -85,6 +85,8 @@
     <Content Include="Content\BannerNBHALarge.jpg" />
     <Content Include="Content\bone.jpg" />
     <Content Include="Content\BootStep.jpg" />
+    <Content Include="Content\BuckBackgroundBlack.jpg" />
+    <Content Include="Content\BuckBackgroundBlackLess.jpg" />
     <Content Include="Content\BuckBackgroundBlur.png" />
     <Content Include="Content\BuckDad.jpg" />
     <Content Include="Content\Carousel\BannerIMG.jpg" />

@@ -116,32 +116,16 @@ modal-body{
 .carousel-caption{
     color:white;
     font-size:20px;
-    /*background-color:black;*/
-    text-shadow: 2px 2px 25px black;
+    /*background-color:rgba(0,0,0,0.7);
+    border-radius:100%;
+    margin:0;*/
+    /*text-shadow: 2px 2px 0px black;*/
     bottom:20%;
     font-weight:bolder;
 }
 
-.carousel-control {
-  top:50%;
-  width:auto;
-  height:1em;
-  background:transparent;
-}
-.carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right  {
-  position:static;
-  display:block;
-  width:auto;
-  padding:20px;
-  padding-top:100px;
-}
-.carousel-control .glyphicon-chevron-left:before {
-  margin-left:0;
-}
+.carousel-indicators li { visibility: hidden; }
 
-.carousel-indicators li{
-    visibility:hidden;
-}
 .btn:focus, .btn:active:focus, .btn.active:focus{
     outline:0 none;
 }
@@ -155,8 +139,8 @@ modal-body{
 }
 
 .btn-primary:hover{
-    background:lime;
-    color:black;
+    background-color:lime;
+    color:white;
     padding:5px;
     border: 3px solid white;
     font-size:25px;
