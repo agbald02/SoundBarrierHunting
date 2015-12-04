@@ -20,8 +20,27 @@
   }
 }
 
+.dropdown-menu .sub-menu {
+    left: 100%;
+    position: absolute;
+    top: 0;
+    visibility: hidden;
+    margin-top: -1px;
+}
+
+.dropdown-menu li:hover {
+    visibility: visible;
+}
+
 .dropdown:hover .dropdown-menu {
     display: block;
+}
+
+.dropdown-menu, .dropdown-menu, .navbar .dropdown-menu {
+    margin-top: 0;
+}
+
+#DropdownMenu{
     border-radius:0;
     background-color:black;
     border:2px solid gray;
@@ -32,16 +51,6 @@
     color:white;
     font-size:15px;
 }
-
-/*#Band {
-    position:fixed;
-    border-radius:0px;
-    background-color:#414040;
-    height:30px;
-    margin:0;
-    width:100%;
-    z-index:2000;
-}*/
 
 #navTopList ul li{
     list-style:none;
@@ -61,14 +70,6 @@
     padding-right:100px;
 }
 
-/*#navButtons:hover { 
-    color:black;
-    background-color: white;
-    padding-top:40px;
-    padding-bottom:35px;
-    text-decoration: none;
-}*/
-
 #navbarNBHA{
     margin-top:55px;
     width:525px;
@@ -79,7 +80,6 @@
     position:fixed;
     width:100%;
     background:black;
-    z-index:1001;
     height:10px;
 }
 #mobileNavbarBrand > a{
@@ -94,7 +94,6 @@
     position:fixed;
     width:100%;
     background:black;
-    z-index:1000;
     height:175px;
     margin:0;
     padding:0;
@@ -106,26 +105,6 @@
     text-align: center;
     margin: auto;
 }
-
-/*#BandBarButton > a:hover{
-    color: black;
-    background-color:#00ff15;
-    padding-top:50%;
-    padding-bottom:5px;
-    padding-left:35px;
-    padding-right:35px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin:0;
-}
-
-#BandBarButton > a{
-    padding-top:20px;
-    padding-right:35px;
-    color: white;
-    font-size:20px;
-    padding-left:35px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}*/
 
 #SoundBarrierNav{
     width:375px;

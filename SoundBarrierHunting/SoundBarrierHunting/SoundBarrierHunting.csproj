@@ -81,29 +81,25 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\AdamHeadshot.jpg" />
-    <Content Include="Content\BannerNBHA.png" />
     <Content Include="Content\BannerNBHALarge.jpg" />
-    <Content Include="Content\bone.jpg" />
+    <Content Include="Content\BoneToSize.jpg" />
     <Content Include="Content\BootStep.jpg" />
-    <Content Include="Content\BuckBackgroundBlack.jpg" />
     <Content Include="Content\BuckBackgroundBlackLess.jpg" />
     <Content Include="Content\BuckBackgroundBlur.png" />
+    <Content Include="Content\BuckBackgroundBlurAndBlack.jpg" />
+    <Content Include="Content\BuckBackgroundBlurBlackFix.jpg" />
     <Content Include="Content\BuckDad.jpg" />
-    <Content Include="Content\Carousel\BannerIMG.jpg" />
-    <Content Include="Content\Carousel\BoneCollector.jpg" />
+    <Content Include="Content\BuckpoleBlurToSize.jpg" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
-    <Content Include="Content\CommonHuntBustingNoises.png" />
-    <Content Include="Content\Carousel\DoeAndFawn.jpg" />
     <Content Include="Content\DeerEarbw.jpg" />
-    <Content Include="Content\DoeAndFawnBrush.jpg" />
-    <Content Include="Content\EquipmentSmall.JPG" />
     <Content Include="Content\favicon.ico" />
-    <Content Include="Content\Carousel\HeadingToWoods.jpg" />
     <Content Include="Content\HomepageCSS.css" />
-    <Content Include="Content\DeerSkullsAndAntlers.jpg" />
+    <Content Include="Content\HoofToSize.jpg" />
+    <Content Include="Content\HooksAndBulletsLogo.jpg" />
+    <Content Include="Content\HooksAndBulletsCover.jpg" />
     <Content Include="Content\images\ajax-loader.gif" />
     <Content Include="Content\images\icons-png\action-black.png" />
     <Content Include="Content\images\icons-png\action-white.png" />
@@ -305,17 +301,16 @@
     <Content Include="Content\images\icons-svg\user-white.svg" />
     <Content Include="Content\images\icons-svg\video-black.svg" />
     <Content Include="Content\images\icons-svg\video-white.svg" />
+    <Content Include="Content\MidwestOutdoorsLogoRed.png" />
     <Content Include="Content\NavCSS.css" />
-    <Content Include="Content\BootPhoto.jpg" />
-    <Content Include="Content\NBHA.png" />
     <Content Include="Content\Social Media\FacebookBrandLogo.png" />
     <Content Include="Content\Social Media\LinkedInBrandLogo.png" />
     <Content Include="Content\Social Media\InstagramBrandLogoColor.png" />
     <Content Include="Content\Social Media\TwitterBrandLogo.png" />
     <Content Include="Content\Social Media\YoutubeBrandLogo48.png" />
-    <Content Include="Content\SoundBarrierHorizontal.jpg" />
     <Content Include="Content\SoundGraph.jpg" />
-    <Content Include="Content\Carousel\StepInWoods.jpg" />
+    <Content Include="Content\WoodsAndWaterLogo.jpg" />
+    <Content Include="Content\WoodsNWaterCoverDec.jpg" />
     <Content Include="Content\WoodsNWaterCoverOct.jpg" />
     <Content Include="Content\WoodsNWaterCoverNov.jpg" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
@@ -362,7 +357,6 @@
     <Content Include="Views\Home\Science.cshtml" />
     <Content Include="Views\Shared\ContactUs.cshtml" />
     <Content Include="Views\Shared\_Carousel.cshtml" />
-    <Content Include="Views\Shared\_ButtonBand.cshtml" />
     <Content Include="Views\Shared\_Modal.cshtml" />
     <Content Include="Views\Shared\Layouts\_Layout.cshtml" />
     <Content Include="Views\Shared\Layouts\_LayoutHome.cshtml" />
@@ -374,6 +368,7 @@
     <Content Include="Views\Shared\_CarouselNewAdvantage.cshtml" />
     <Content Include="Views\Shared\Layouts\_LayoutSoundAdvice.cshtml" />
     <Content Include="Views\Shared\_CarouselSoundAdvice.cshtml" />
+    <Content Include="Views\Home\AllVideos .cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

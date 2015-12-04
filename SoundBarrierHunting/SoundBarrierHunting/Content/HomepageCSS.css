@@ -66,11 +66,6 @@ modal-body{
     opacity:0.3;
 }
 
-#completePage img{
-    width:100%;
-    height:100%;
-}
-
 #pagePanel{
     position:relative;
     margin:0;
@@ -116,11 +111,7 @@ modal-body{
 .carousel-caption{
     color:white;
     font-size:20px;
-    /*background-color:rgba(0,0,0,0.7);
-    border-radius:100%;
-    margin:0;*/
-    /*text-shadow: 2px 2px 0px black;*/
-    bottom:20%;
+    bottom:30%;
     font-weight:bolder;
 }
 
@@ -148,7 +139,7 @@ modal-body{
 
 #HomepageVideos{
     margin:0;
-    margin-bottom:75px;
+    margin-bottom:25px;
 }
 
 #videoWrapper {
@@ -167,6 +158,14 @@ modal-body{
 	height: 100%;
     margin:0;
 }
+
+#RecentContentTop{
+    font-family:DroidSans;
+    font-size:18px;
+    color:white;
+    margin-top:40px;
+}
+
 #RecentContent{
     font-family:DroidSans;
     font-size:18px;
@@ -178,7 +177,7 @@ modal-body{
     font-family:DroidSans;
     font-size:15px;
     color:white;
-    margin-bottom:125px;
+    margin-bottom:20px;
 }
 
 #ArticleDescriptions ul li{
@@ -190,16 +189,17 @@ modal-body{
     margin-left:75px;
 }
 
-#WoodsWaterCover{
+#ArticleLogos{
     width:300px;
-    height:350px;
-    margin:0px;
+    height:75px;
+    margin-bottom:100px;
 }
 
 /*New Advantage*/
 
 #NewAdvantageSection{
     margin:55px;
+    margin-top:3%;
     font-family:DroidSans;
 }
 
@@ -211,9 +211,24 @@ modal-body{
     margin:25px;
 }
 
+#NewAdvantageNumbers{
+    color:white;
+    font-size:30px;
+    margin:0;
+}
+
 #AdvantageLabel{
     font-size:35px;
     color:white;
+}
+
+#AdvantageTextAdamNote{
+    text-indent:35px;
+    font-size:18px;
+    color:white;
+    font-style:italic;
+    margin-right:10px;
+    margin-left:10px;
 }
 
 #AdvantageText{
@@ -221,20 +236,10 @@ modal-body{
     font-size:18px;
     color:white;
 }
+
 #AdvantageTextBottom{
     font-size:18px;
     color:white;
-}
-
-#AdvSocial{
-    margin-right:40px;
-}
-
-#AdvantageSocialMedia ul li{
-    margin-left:15px;
-    margin-right:15px;
-    display: inline;
-    list-style:none;
 }
 
 /*About Page*/
@@ -282,15 +287,16 @@ modal-body{
     font-size:18px;
     font-family:DroidSans;
     color:lightgray;
+    font-style:italic;
 }
 
 #FounderPage{
-    margin-top:205px;
-    margin-bottom:190px;
+    margin-top:250px;
+    margin-bottom:468px;
 }
 
 #FounderHeader{
-    margin-top:140px;
+    margin-top:0px;
     text-indent:50px;
     font-size:18px;
     font-family:DroidSans;
@@ -316,6 +322,7 @@ modal-body{
 
 #ScienceButton{
     width:75%;
+    margin-bottom:3px;
 }
 #ScienceIntro{
     text-indent:50px;
@@ -324,7 +331,8 @@ modal-body{
     margin-right:5%;
     font-family:DroidSans;
     color:lightgray;
-    margin-bottom:25px;
+    margin-top:40px;
+    margin-bottom:40px;
 }
 
 #ScienceHead{
@@ -421,28 +429,25 @@ modal-body{
     font-size:25px;
     padding-top:15px;
     padding-bottom:15px;
-    width:300px;
+    width:275px;
     margin:25px;
-    margin-bottom:75px;
-}
 
+}
 
 #SoundAdviceText{
     text-indent:50px;
     font-size:18px;
     color:white;
-    width:600px;
     margin:0;
     border:0;
-    padding-top:25px;
+    margin-top:20px;
     margin-bottom:0px;
 }
 #SoundAdviceTextBottom{
     text-indent:50px;
     font-size:18px;
     color:white;
-    width:600px;
-    padding-top:25px;
+    margin-top:20px;
     margin-bottom:125px;
 }
 
@@ -479,6 +484,12 @@ modal-body{
     margin-bottom:15%;
 }
 
+#SoundAdviceBackButton{
+    padding-top:20px;
+    font-size:18px;
+    font-family:DroidSans;
+}
+
 #video{
     margin:10px;
 }
@@ -487,8 +498,8 @@ modal-body{
     margin-bottom:125px;
 }
 
-#allVideosButton{
-    width:75%;
+#AllVideosButton{
+    width:50%;
     margin-bottom:146px;
 }
 #VideoListGroupLink{
@@ -507,4 +518,30 @@ modal-body{
 
 #FeaturedVideo{
     margin-left:10px;
+}
+
+#VideoFrame{
+    margin-bottom:100px;
+}
+
+#videoWrapperVideos iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+    margin:0;
+}
+
+#ArticleDescriptionsLast{
+    font-family:DroidSans;
+    font-size:15px;
+    color:white;
+    margin-bottom:100px;
+}
+
+#WoodsWaterCover{
+    width:300px;
+    height:350px;
+    margin:0px;
 }

@@ -7,78 +7,62 @@
     <title>New Advantage</title>
 </head>
 <body>
+    <div id="AdvantageText">A note from our founder Adam Lewis:</div>
+    <br />
+    <div id="AdvantageTextAdamNote">
+        If you’re like me , noises you make coming and going from your hunting spots and while hanging stands is a
+        problem.  In fact research is showing these noises, big or small, are hunt-busters and significantly
+        decrease our chances of success.  That’s why I founded Sound Barrier, the only source to help us hunters get
+        past the whitetail’s last great defense, hearing, and take your hunting to the next level.  I recommend you connect
+        in the four areas below to get the most out of your visit and NEVER BE HEARD AGAIN!
+    </div>
     <div class="text-center">
         <div id="NewAdvantageSection">
             <div class="row">
                 <div class="col-lg-3">
-                    <p class="text-left" id="AdvantageText">
-                        The biggest way you can gain a new advantage is with our ground-breaking new sound concealment products.
-                        Sign up here to have pre-launch information and access to our industry-first products slated to come out next fall.
-                        Our first runs will be limited, so get on the list to get first access, and member discounts!
-                    </p>
+                    <div class="text-left" id="NewAdvantageNumbers">1 - Become a team member</div>
                     <a href="http://goo.gl/forms/jLZkcuX7c3" class="btn btn-success btn-lg" id="AdvantageButton" target="_blank">
                         Team Membership
                     </a>
+                    <p class="text-left" id="AdvantageText">
+                        The biggest way you can gain a new advantage is with our ground-breaking new sound concealment products.
+                        Sign up here to have pre-launch information and access to our industry-first products slated to come out next fall.
+                        Our first runs will be limited, so get on the list to get first access, and team member discounts!
+                    </p>
                 </div>
                 <div class="col-lg-3">
+                    <div class="text-left" id="NewAdvantageNumbers">2 - Access Sound Advice</div>
+                    <a href="@Url.Action("SoundAdvice","Home")" class="btn btn-success btn-lg" id="AdvantageButton">
+                        Sound Advice
+                    </a>
                     <p class="text-left" id="AdvantageText">
                         Knowledge is power.  In this case power to take your hunting to the next level.  Sound Advice is comprised of
                         videos, articles, and science facts that reveal secrets about deer hearing and how you can leverage this to increase
                         your success.  If you really want to up your game, you really need to check these out!
                     </p>
-                    <a href="@Url.Action("SoundAdvice","Home")" class="btn btn-success btn-lg" id="AdvantageButton">
-                        Sound Advice
-                    </a>
                 </div>
                 <div class="col-lg-3">
+                    <div class="text-left" id="NewAdvantageNumbers">3 - Connect on Social Media</div>
+                    <a href="#AdvantageButtonModal" data-toggle="modal" class=" btn btn-success btn-lg" id="AdvantageButton">
+                        Social Media
+                    </a>
                     <p class="text-left" id="AdvantageText">
                         To truly get the most out of what we have to offer, connect via our social media.  This is the easiest, fastest, and
                         most fun way to interact with us and our great new content on a daily, hourly, and minute by minute basis.  Follow,
                         like, retweet, and share! Get connected, have fun, and please say hi!
                     </p>
-                    @*<div id="AdvantageSocialMedia">
-                        <ul class="text-center" id="AdvSocial">
-                            <li>
-                                <a href="https://twitter.com/SBNeverBeHeard" id="NavBarBottomList" target="_blank">
-                                    <img id="Twitter" src="~/Content/Social Media/TwitterBrandLogo.png">
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://www.facebook.com/SoundBarrierHunting" id="NavBarBottomList" target="_blank">
-                                    <img id="Facebook" src="~/Content/Social Media/FacebookBrandLogo.png">
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://www.youtube.com/channel/UC7GApssU0dRgMRH7ODKOe5Q" id="NavBarBottomList" target="_blank">
-                                    <img id="Youtube" src="~/Content/Social Media/YoutubeBrandLogo48.png">
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://www.linkedin.com/company/sound-barrier-hunting" id="NavBarBottomList" target="_blank">
-                                    <img id="LinkedIn" src="~/Content/Social Media/LinkedInBrandLogo.png">
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://instagram.com/soundbarrierhunting/" id="NavBarBottomList" target="_blank">
-                                    <img id="Instagram" src="~/Content/Social Media/InstagramBrandLogoColor.png">
-                                </a>
-                            </li>
-                        </ul>
-                    </div>*@
-                    <a href="#AdvantageButtonModal" data-toggle="modal" class=" btn btn-success btn-lg" id="AdvantageButton">
-                        Social Media
-                    </a>
                 </div>
 
                 <div class="col-lg-3">
+                    <div class="text-left" id="NewAdvantageNumbers">4 - Read our featured articles</div>
+                    <a href="@Url.Action("Articles", "Home")" class="btn btn-success btn-lg" id="AdvantageButton">
+                        Articles
+                    </a>
                     <p class="text-left" id="AdvantageText">
                         For articles and information on sound concealment, check out articles by Founder and
                         outdoor writer Adam Lewis in Woods-N-Water News, Midwest Outdoors Magazine, Hooks n Bullets,
                          and several others to be announced.  Stay tuned for more information on the latest publications!
                     </p>
-                    <a href="@Url.Action("Articles", "Home")" class="btn btn-success btn-lg" id="AdvantageButton" target="_blank">
-                        Articles
-                    </a>
                 </div>
             </div>
         </div>

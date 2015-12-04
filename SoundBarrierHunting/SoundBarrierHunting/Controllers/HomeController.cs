@@ -33,6 +33,12 @@ namespace SoundBarrierHunting.Controllers
         {
             return View();
         }
+
+        public ActionResult AllVideos()
+        {
+            return View();
+        }
+
         public ActionResult Science()
         {
             return View();

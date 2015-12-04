@@ -11,7 +11,11 @@
 <body>
 
     <div class="text-center">
-        <img id="SciencePhoto" src="~/Content/BootPhoto.jpg" />
+        <img id="SoundAdvicePhoto" src="~/Content/BuckpoleBlurToSize.jpg" />
+    </div>
+
+    <div class="text-left" id="SoundAdviceBackButton">
+        <a href="@Url.Action("SoundAdvice", "Home")">Back to Sound Advice</a>
     </div>
 
     <div class="text-left" id="ScienceIntro">
@@ -46,7 +50,7 @@
             <div class="text-left" id="ScienceHead">
                 How Loud:
             </div>
-            <div class="text-left" id="Science">
+            <div class="text-left" id="ScienceBottom">
                 Sound Pressure Level, or SPL,  is how the intensity of sound is measured.  It’s measured
                  in decibels (dB), and is relative to a random reference, the lower threshold of human 
                 hearing.  So basically 0 on this scale is something so soft humans cannot hear it any more.
@@ -58,7 +62,8 @@
             </div>
         </div>
     </div>
-
+     
+    @*Scrunched*@
     <div class="text-center">
         <button class="btn-success btn-lg" data-toggle="collapse" data-target="#deerHearing" id="ScienceButton">How Deer Hear</button>
         <div id="deerHearing" class="collapse">
@@ -78,15 +83,15 @@
             <div class="text-left" id="ScienceHead">
                 Ultrasonic hearing:
             </div>
-            <div class="text-left" id="Science">
+            <div class="text-left" id="ScienceBottom">
                 This basically means deer can hear higher frequencies than humans.  This has huge implications
-                 for us hunters, that we’ve only just uncovered.  Perfect humans can hear a frequency range 
+                for us hunters, that we’ve only just uncovered.  Perfect humans can hear a frequency range
                 from 20- 20,000 Hz.  Most of us around 16,000 Hz is the highest pitch, or frequency,  we
-                 can detect.  Above that, we do not hear any sound made, even if it’s there.  So things 
+                can detect.  Above that, we do not hear any sound made, even if it’s there.  So things
                 like a dog whistle, we can’t hear, but a dog can since it can hear in an ultrasonic range.
-                  This is the same for whitetails.  Deer can hear well all the way up to 54,000 Hz, well 
+                This is the same for whitetails.  Deer can hear well all the way up to 54,000 Hz, well
                 above human hearing.  So the HUGE implication is this.. if noises we make as hunters fall
-                 in this range, we won’t even know we are making them, but deer will!
+                in this range, we won’t even know we are making them, but deer will!
             </div>
         </div>
     </div>
