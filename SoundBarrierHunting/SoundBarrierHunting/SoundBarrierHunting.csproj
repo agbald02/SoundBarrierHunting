@@ -368,7 +368,7 @@
     <Content Include="Views\Shared\_CarouselNewAdvantage.cshtml" />
     <Content Include="Views\Shared\Layouts\_LayoutSoundAdvice.cshtml" />
     <Content Include="Views\Shared\_CarouselSoundAdvice.cshtml" />
-    <Content Include="Views\Home\AllVideos .cshtml" />
+    <Content Include="Views\Home\AllVideos.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
