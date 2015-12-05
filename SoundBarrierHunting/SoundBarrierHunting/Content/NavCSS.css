@@ -3,6 +3,10 @@
 }
 
 @media (max-width:767px) {
+    #SoundAdviceButton {margin:0;}
+}
+
+@media (max-width:767px) {
     #listItems {display:none;}
 }
 
