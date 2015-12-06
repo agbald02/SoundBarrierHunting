@@ -29,15 +29,6 @@ namespace SoundBarrierHunting.Controllers
         {
             return View();
         }
-        public ActionResult Videos()
-        {
-            return View();
-        }
-
-        public ActionResult AllVideos()
-        {
-            return View();
-        }
 
         public ActionResult Science()
         {

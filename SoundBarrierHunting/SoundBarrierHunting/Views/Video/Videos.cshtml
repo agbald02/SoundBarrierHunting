@@ -1,4 +1,6 @@
-﻿@{
+﻿@using SoundBarrierHunting.Models;
+
+@{
     Layout = "~/Views/Shared/Layouts/_Layout.cshtml";
 }
 
@@ -27,7 +29,7 @@
         </div>
         <div class="col-lg-3">
             <div class ="text-center" id="SoundAdviceBackButton">
-                <a href="@Url.Action("AllVideos","Home")" class="btn btn-success btn-lg" id="VideosMenuButton">All Videos</a>
+                <a href="@Url.Action("AllVideos","Video")" class="btn btn-success btn-lg" id="VideosMenuButton">All Videos</a>
             </div>
         </div>
     </div>

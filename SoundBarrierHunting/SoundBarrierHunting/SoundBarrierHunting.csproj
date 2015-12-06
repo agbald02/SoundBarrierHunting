@@ -336,9 +336,11 @@
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\VideoController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\Video.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -349,7 +351,7 @@
     <Content Include="Views\Shared\_NavBarBottom.cshtml" />
     <Content Include="Views\Shared\_NavTop.cshtml" />
     <Content Include="Views\Home\About.cshtml" />
-    <Content Include="Views\Home\Videos.cshtml" />
+    <Content Include="Views\Video\Videos.cshtml" />
     <Content Include="Views\Home\Products.cshtml" />
     <Content Include="Views\Home\Science.cshtml" />
     <Content Include="Views\Home\ContactUs.cshtml" />
@@ -365,7 +367,7 @@
     <Content Include="Views\Shared\_CarouselNewAdvantage.cshtml" />
     <Content Include="Views\Shared\Layouts\_LayoutSoundAdvice.cshtml" />
     <Content Include="Views\Shared\_CarouselSoundAdvice.cshtml" />
-    <Content Include="Views\Home\AllVideos.cshtml" />
+    <Content Include="Views\Video\AllVideos.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -375,7 +377,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Models\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
