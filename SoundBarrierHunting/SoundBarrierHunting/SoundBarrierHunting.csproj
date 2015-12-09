@@ -300,6 +300,8 @@
     <Content Include="Content\images\icons-svg\user-white.svg" />
     <Content Include="Content\images\icons-svg\video-black.svg" />
     <Content Include="Content\images\icons-svg\video-white.svg" />
+    <Content Include="Content\MidwestOutdoorsOct1.jpg" />
+    <Content Include="Content\MidwestOutdoorsOct2.jpg" />
     <Content Include="Content\MidwestOutdoorsLogoRed.png" />
     <Content Include="Content\NavCSS.css" />
     <Content Include="Content\Social Media\FacebookBrandLogo.png" />
