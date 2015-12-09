@@ -493,7 +493,8 @@ modal-body{
     height:500px;
     width:100%;
     border-radius:10px;
-    padding-top:150px;
+    margin-top:70px;
+    padding-top:100px;
 }
 
 #SoundAdviceHeaderVideo{
