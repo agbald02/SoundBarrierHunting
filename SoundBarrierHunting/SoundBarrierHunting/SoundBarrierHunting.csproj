@@ -97,8 +97,6 @@
     <Content Include="Content\HangingBuck.jpg" />
     <Content Include="Content\HomepageCSS.css" />
     <Content Include="Content\HoofCropped.jpg" />
-    <Content Include="Content\HoofBetter.jpg" />
-    <Content Include="Content\Hoof.jpg" />
     <Content Include="Content\HooksAndBulletsLogo.jpg" />
     <Content Include="Content\HooksAndBulletsCover.jpg" />
     <Content Include="Content\images\ajax-loader.gif" />
