@@ -16,25 +16,6 @@
     </div>
 
     <div class="row" id="VideosMenu">
-        <div class="col-lg-3">
-            <div class="text-center" id="SoundAdviceBackButton">
-                <a href="@Url.Action("SoundAdvice", "Home")">Back to Sound Advice</a>
-            </div>
-        </div>
-        <div class="col-lg-3">
-
-        </div>
-        <div class="col-lg-3">
-
-        </div>
-        <div class="col-lg-3">
-            <div class ="text-center" id="SoundAdviceBackButton">
-                <a href="@Url.Action("AllVideos","Video")" class="btn btn-success btn-lg" id="VideosMenuButton">All Videos</a>
-            </div>
-        </div>
-    </div>
-
-    <div class="row">
         <div class="col-lg-8">
             <div class="text-center" id="RecentContent">Featured Video</div>
             <div id="VideoFrame">
@@ -44,8 +25,17 @@
                             frameborder="0" allowfullscreen></iframe>
                 </div>
             </div>
+
+            <div class="text-left" id="SoundAdviceBackButton">
+                <a href="@Url.Action("SoundAdvice", "Home")">Back to Sound Advice</a>
+            </div>
         </div>
-        <div class="col-lg-4">
+
+        <div class=" col-lg-4">
+            <div class="text-center" id="AllVideosButton">
+                <a href="@Url.Action("AllVideos","Video")" class="btn btn-success btn-lg" id="VideosMenuButton">All Videos</a>
+            </div>
+
             <div class="text-center" id="RecentContent">More Videos</div>
             <ul class="list-group" id="RecentVideoList">
                 <li class="list-group-item" id="VideoListGroupLink"><a href="@Url.Action("SoundAdvice", "Home")">Welcome to Sound Barrier</a></li>
