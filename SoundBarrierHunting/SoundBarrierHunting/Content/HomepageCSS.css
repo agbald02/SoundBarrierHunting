@@ -460,7 +460,7 @@ modal-body{
 
 }
 
-#SoundAdviceText{
+#SoundAdviceTextTop{
     text-indent:50px;
     font-size:18px;
     color:white;
@@ -469,6 +469,17 @@ modal-body{
     margin-top:33px;
     margin-bottom:0px;
 }
+
+#SoundAdviceTextMiddle{
+    text-indent:50px;
+    font-size:18px;
+    color:white;
+    margin:0;
+    border:0;
+    margin-top:20px;
+    margin-bottom:0px;
+}
+
 #SoundAdviceTextBottom{
     text-indent:50px;
     font-size:18px;
