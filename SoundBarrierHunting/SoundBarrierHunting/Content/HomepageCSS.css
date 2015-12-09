@@ -98,7 +98,7 @@ modal-body{
     color:white;
     font-size:35px;
     bottom:30%;
-    font-weight:bold;
+    /*font-weight:bold;*/
     font-family:'Arial';
 }
 
@@ -106,7 +106,7 @@ modal-body{
     color:white;
     font-size:20px;
     bottom:30%;
-    font-weight:bolder;
+    /*font-weight:bolder;*/
 }
 
 .carousel-indicators li { visibility: hidden; }
