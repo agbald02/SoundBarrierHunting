@@ -84,9 +84,8 @@
     <Content Include="Content\BannerNBHALarge.jpg" />
     <Content Include="Content\BoneToSize.jpg" />
     <Content Include="Content\BootStep.jpg" />
-    <Content Include="Content\BuckBackgroundBlurBlackFix.jpg" />
+    <Content Include="Content\BuckBackgroundBlurAndBlack.jpg" />
     <Content Include="Content\BuckBackgroundDarkBlur.jpg" />
-    <Content Include="Content\BuckpoleBlurToSize.jpg" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
