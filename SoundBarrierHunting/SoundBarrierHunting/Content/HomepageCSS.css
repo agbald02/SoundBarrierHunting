@@ -532,6 +532,14 @@ modal-body{
     margin-left:5%
 }
 
+#BackToVideosButton{
+    padding-top:20px;
+    font-size:18px;
+    font-family:DroidSans;
+    margin-bottom:2%;
+    margin-left:5%
+}
+
 #AllVideosButton{
     padding-top:20px;
     font-size:18px;
