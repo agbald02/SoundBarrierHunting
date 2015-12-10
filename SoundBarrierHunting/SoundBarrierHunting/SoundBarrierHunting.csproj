@@ -371,6 +371,7 @@
     <Content Include="Views\Shared\Layouts\_LayoutSoundAdvice.cshtml" />
     <Content Include="Views\Shared\_CarouselSoundAdvice.cshtml" />
     <Content Include="Views\Video\AllVideos.cshtml" />
+    <Content Include="Views\Shared\_GoogleAnalytics.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
