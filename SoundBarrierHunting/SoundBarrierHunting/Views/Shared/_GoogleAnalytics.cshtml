@@ -1,9 +1,9 @@
-﻿@using System.Configuration
-@*@{
+﻿@*@using System.Configuration
+@{
     bool enable = bool.Parse(ConfigurationManager.AppSettings["EnableGoogleAnalytics"]);
 }
 
-@if (enable)*@
+@if (enable)
 {
     <script type="text/javascript">
         (function (i, s, o, g, r, a, m) {
@@ -16,4 +16,4 @@
         ga('create', 'UA-71214285-1', 'auto');
         ga('send', 'pageview');
     </script>
-}
+}*@
