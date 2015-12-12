@@ -1,78 +1,194 @@
-﻿.visible-lg ul{
-    padding-left:650px;
-    display: inline;
-    justify-content:center;
+﻿@media (max-width:767px) {
+    #navbarTop {display:none;}
 }
-#navButtons{
+
+@media (max-width:767px) {
+    #SoundAdviceButton {margin:0;}
+}
+
+@media (max-width:767px) {
+    #listItems {display:none;}
+}
+
+@media (max-width:767px) {
+    #Band {display:none;}
+}
+
+@media (max-width:1817px){
+    #navbarNBHA {display:none;}
+}
+
+@media (min-width: 979px) {
+  ul.nav li.dropdown:hover > ul.dropdown-menu {
+    display: block;
+  }
+}
+
+.dropdown-menu .sub-menu {
+    left: 100%;
+    position: absolute;
+    top: 0;
+    visibility: hidden;
+    margin-top: -1px;
+}
+
+.dropdown-menu li:hover {
+    visibility: visible;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown-menu, .dropdown-menu, .navbar .dropdown-menu {
+    margin-top: 0;
+}
+
+#DropdownMenu{
+    border-radius:0;
+    background-color:black;
+    border:2px solid gray;
+}
+
+#navMenuButton{
+    font-family:Bombardier;
     color:white;
-    font-size:25px;
-        font-family:Bombardier;
+    font-size:15px;
 }
 
-#navButtons:hover { 
-    color:black;
-    background-color: white;
+#navTopList ul li{
+    list-style:none;
+    display:inline;
 }
 
-.navbar{
-    position:fixed;
-    width:100%;
-    background:black;
-    z-index:1000;
-    height:65px;
-}
-.navbar-right{
-    padding-right:25px;
-    padding-top:20px;
-}
-
-#NavBarBottomList{
-    padding-top:20px;
+#navButtons{
+    padding-left:30px;
+    padding-right:30px;
     color:white;
     font-size:25px;
     font-family:Bombardier;
 }
 
-#NavBarBottomList:hover { 
-    color:black;
-    background-color: white;
+#navMenu{
+    padding-top:50px;
+    padding-right:100px;
 }
 
-.SoundBarrierHorizontal{
-    padding-bottom:50px;
-    height:85px;
-    width:250px;
+#navbarNBHA{
+    margin-top:55px;
+    width:525px;
+    height:50px;
 }
 
-#sidebarGlyphs{
-    font-size:35px;
-}
-
-#sidebarListItem > a{
-    color:black;
-}
-
-#sidebarListItem{
-    padding-bottom:75px;
-    color:white;
-}
-
-.sidebar{ 
-    height:100%;
-    background-color:#00ff21;
-    width:60px;
+#navbarTopMobile{
     position:fixed;
-    z-index:999;
+    width:100%;
+    background:black;
+    height:10px;
+}
+#mobileNavbarBrand > a{
+    font-family:Bombardier;
+    font-size:25px;
+    color:white;
+    text-align:left;
 }
 
-.sidebar-nav{
-    font-size:10px;
-    list-style-type:none;
-    padding-left:10px;
-    padding-top:175px;
+#navbarTop{
+    border-bottom:1px solid gray;
+    position:fixed;
+    width:100%;
+    background:black;
+    height:175px;
+    margin:0;
+    padding:0;
 }
 
+.navbar-brand{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    margin: auto;
+}
 
+#SoundBarrierNav{
+    width:375px;
+    height:150px;
+}
 
+/*NavBarBottom*/
 
+html {
+    position: relative;
+}
+
+body {
+    padding: 0px;
+}
+
+footer {
+    border-top:1px solid gray;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 200px;
+    width: 100%;
+    overflow:hidden;
+}
+
+#navBottom{
+    bottom:0;
+    border-radius:0px;
+    background-color:black;
+    height:60px;
+    margin:0;
+    width:100%;
+    z-index:2000;
+}
+
+#navBottomList{
+    margin-top:10px;
+        margin-right:40px;
+}
+#navBottom ul li{
+    margin-bottom:0;
+    margin-left:15px;
+    margin-right:15px;
+    display: inline;
+}
+#NavBarBottomListLink{
+    color: #00ff15;
+    font-size:25px;
+    font-family:Bombardier;
+}
+
+#NavBarBottomListLink:hover { 
+    color:white;
+    align-content:center;
+    padding-top:10px;
+    padding-bottom:30px;
+    text-decoration: underline;
+}
+#Instagram{
+    width:32px;
+    height:32px;
+}
+
+#Twitter {
+    width:37px;
+    height:37px;
+}
+
+#Youtube{
+    width:40px;
+    height:30px;
+}
+
+#Facebook{
+    width:28px;
+    height:28px;
+}
+#LinkedIn{
+    width:38px;
+    height:28px;
+}
 

@@ -1,0 +1,73 @@
+﻿@{
+    Layout = "~/Views/Shared/Layouts/_LayoutNewAdvantage.cshtml";
+}
+
+<html>
+<head>
+    <title>New Advantage</title>
+</head>
+<body>
+    <div id="AdvantageTextAdamNote">
+        If you’re like me , noises you make coming and going from your hunting spots and while hanging stands is a
+        problem.  In fact research is showing these noises, big or small, are hunt-busters and significantly
+        decrease our chances of success.  That’s why I founded Sound Barrier, the only source to help us hunters get
+        past the whitetail’s last great defense, hearing, and take your hunting to the next level.  I recommend you connect
+        in the four areas below to get the most out of your visit and <span id="NewAdvantageNBHA">never be heard again!</span>
+    </div>
+    <br />
+    <div id="AdvantageText">Adam Lewis - Founder</div>
+
+    <div class="text-center">
+        <div id="NewAdvantageSection">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="text-center" id="NewAdvantageNumbers">1 - Team Membership</div>
+                    <a href="http://goo.gl/forms/jLZkcuX7c3" class="btn btn-success btn-lg" id="AdvantageButton" target="_blank">
+                        Team Membership
+                    </a>
+                    <p class="text-left" id="AdvantageText">
+                        The biggest way you can gain a new advantage is with our ground-breaking new sound concealment products.
+                        Sign up here to have pre-launch information and access to our industry-first products slated for the near future.
+                        Our first runs will be limited, so get on the list to get first access, and team member discounts!
+                    </p>
+                </div>
+                <div class="col-lg-3">
+                    <div class="text-center" id="NewAdvantageNumbers">2 - Sound Advice</div>
+                    <a href="@Url.Action("SoundAdvice","Home")" class="btn btn-success btn-lg" id="AdvantageButton">
+                        Sound Advice
+                    </a>
+                    <p class="text-left" id="AdvantageText">
+                        Knowledge is power.  In this case power to take your hunting to the next level.  Sound Advice is comprised of
+                        videos, articles, and science facts that reveal secrets about deer hearing and how you can leverage this to increase
+                        your success.  If you really want to up your game, you really need to check these out!
+                    </p>
+                </div>
+                <div class="col-lg-3">
+                    <div class="text-center" id="NewAdvantageNumbers">3 - Social Media</div>
+                    <a href="#AdvantageButtonModal" data-toggle="modal" class=" btn btn-success btn-lg" id="AdvantageButton">
+                        Social Media
+                    </a>
+                    <p class="text-left" id="AdvantageText">
+                        To truly get the most out of what we have to offer, connect via our social media.  This is the easiest, fastest, and
+                        most fun way to interact with us and our great new content on a daily, hourly, and minute by minute basis.  Follow,
+                        like, retweet, and share! Get connected, have fun, and please say hi!
+                    </p>
+                </div>
+
+                <div class="col-lg-3">
+                    <div class="text-center" id="NewAdvantageNumbers">4 - Featured Articles</div>
+                    <a href="@Url.Action("Articles", "Home")" class="btn btn-success btn-lg" id="AdvantageButton">
+                        Articles
+                    </a>
+                    <p class="text-left" id="AdvantageText">
+                        Sound Barrier Founder Adam Lewis has numerous articles featured in regional 
+                        and national hunting magazines.  If you would like information on where to find 
+                        these in-depth articles on the principles of sound concealment, click above.  Check 
+                        back often for news of upcoming articles in news stands near you!  
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

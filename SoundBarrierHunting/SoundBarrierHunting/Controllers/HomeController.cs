@@ -13,11 +13,11 @@ namespace SoundBarrierHunting.Controllers
             return View();
 
         }
-        public ActionResult About()
+        public ActionResult NewAdvantage()
         {
             return View();
         }
-        public ActionResult Products()
+        public ActionResult About()
         {
             return View();
         }
@@ -25,11 +25,24 @@ namespace SoundBarrierHunting.Controllers
         {
             return View();
         }
-            public ActionResult Science()
+        public ActionResult Products()
+        {
+            return View();
+        }
+
+        public ActionResult Science()
+        {
+            return View();
+        }
+        public ActionResult Articles()
         {
             return View();
         }
         public ActionResult ContactUs()
+        {
+            return View();
+        }
+        public ActionResult Founder()
         {
             return View();
         }

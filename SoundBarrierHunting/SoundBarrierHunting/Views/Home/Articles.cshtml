@@ -1,0 +1,60 @@
+﻿@{
+    Layout = "~/Views/Shared/Layouts/_Layout.cshtml";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Articles</title>
+</head>
+<body>
+    <div class="text-center">
+        <img src="~/Content/HoofCropped.jpg" id="SoundAdvicePhoto" />
+    </div>
+        <div class="text-center" id="RecentContentTop">Articles</div>
+        
+    <div class="text-left" id="ArticleText">
+        Look in these publications near you for in-depth articles on sound concealment by author Adam Lewis.
+        Check back often for news of upcoming articles you won't want to miss!
+    </div>
+
+        <div class="col-lg-6" id="ArticleDescriptions">
+            <div class="text-center">
+                <img id="WoodsWaterCover" src="~/Content/WoodsNWaterCoverDec.jpg" />
+            </div>
+        </div>
+        <div class="col-lg-6" id="ArticleDescriptions">
+            <div class="text-center">
+                <img id="WoodsWaterCover" src="~/Content/HooksAndBulletsCover.jpg" />
+            </div>
+        </div>
+        <div class="col-lg-6" id="ArticleDescriptions">
+            <div class="text-center">
+                <img id="WoodsWaterCover" src="~/Content/WoodsNWaterCoverNov.jpg" />
+            </div>
+        </div>
+
+        <div class="col-lg-6" id="ArticleDescriptions">
+            <div class="text-center">
+                <img id="WoodsWaterCover" src="~/Content/MidwestOutdoorsOct1.jpg" />
+            </div>
+        </div>
+
+        <div class="col-lg-6" id="ArticleDescriptionsLast">
+            <div class="text-center">
+                <img id="WoodsWaterCover" src="~/Content/MidwestOutdoorsOct2.jpg" />
+            </div>
+        </div>
+
+        <div class="col-lg-6" id="ArticleDescriptionsLast">
+            <div class="text-center">
+                <img id="WoodsWaterCover" src="~/Content/WoodsNWaterCoverOct.jpg" />
+            </div>
+        </div>
+
+        <div class="text-left" id="SoundAdviceBackButton">
+            <a href="@Url.Action("SoundAdvice", "Home")">Back to Sound Advice</a>
+        </div>
+</body>
+</html>

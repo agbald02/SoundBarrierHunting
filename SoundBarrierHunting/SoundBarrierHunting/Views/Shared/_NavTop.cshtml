@@ -1,72 +1,85 @@
-﻿<div class="navbar navbar-inverse navbar-static-top">
-
-    <a href="@Url.Action("Index")" class="navbar-brand navbar-left">
-        <img class="SoundBarrierHorizontal"
-             src="~/Content/SoundBarrierHorizontal.jpg" />
-    </a>
-
-    <div class="collapse navbar-collapse">
-        <a href="@Url.Action("Index", "Home")" class="navbar-brand navbar-right" id="navButtons">
-            @*<span id="sidebarGlyphs" class="glyphicon glyphicon-home" style="color:limegreen"></span>*@
-            <div>Home</div>
-        </a>
-
-        <a href="@Url.Action("About", "Home")" class="navbar-brand navbar-right" id="navButtons">
-            @*<span id="sidebarGlyphs" class="glyphicon glyphicon-question-sign" style="color:black"></span>*@
-            <div>About Us</div>
-        </a>
-
-
-        <a href="@Url.Action("Science", "Home")" class="navbar-brand navbar-right" id="navButtons">
-            @*<span id="sidebarGlyphs" class="glyphicon glyphicon-align-center" style="color:black"></span>*@
-            <div>The Science</div>
-        </a>
-
-        <a href="@Url.Action("Products","Home")" class="navbar-brand navbar-right" id="navButtons">
-            @*<span id="sidebarGlyphs" class="glyphicon glyphicon-edit" style="color:black"></span>*@
-            <div>Products</div>
-        </a>
-
-        <a href="@Url.Action("SoundAdvice","Home")" class="navbar-brand navbar-right" id="navButtons">
-            @*<span id="sidebarGlyphs" class="glyphicon glyphicon-comment" sstyle="color:limegreen"></span>*@
-            <div>Sound Advice</div>
-        </a>
-        
-
-            @*<div class="visible-lg">
-        <ul class="nav navbar-nav">
-
-            <li>
-                <a href="https://twitter.com/SBNeverBeHeard" target="_blank">
-                    <img src="~/Content/Social Media/twitter.png">
-                </a>
-            </li>
-
-            <li>
-                <a href="https://www.facebook.com/SoundBarrierHunting" target="_blank">
-                    <img src="~/Content/Social Media/facebook.png">
-                </a>
-            </li>
-
-            <li>
-                <a href="https://www.linkedin.com/company/sound-barrier-hunting" target="_blank">
-                    <img src="~/Content/Social Media/linkedin.png">
-                </a>
-            </li>
-
-            <li>
-                <a href="https://instagram.com/glen_baldfield/" target="_blank">
-                    <img src="~/Content/Social Media/instagram.png">
-                </a>
-            </li>
-
-            <li>
-                <a href="https://www.youtube.com/channel/UCLVRJtokdLVvvOGLUVVJcjA" target="_blank">
-                    <img src="~/Content/Social Media/youtube.png">
-                </a>
-            </li>
-        </ul>
-    </div>*@
-        </div>
+﻿    <div class="navbar navbar-inverse navbar-static-top" id="navbarTop">
+        <div class="navbar-brand" id="navTopList">
+            <ul>
+                <li class="dropdown">
+                    <a href="@Url.Action("About", "Home")" class="dropdown-toggle" id="navButtons">About</a>
+                    <ul class="dropdown-menu" id="DropdownMenu">
+                        <li><a href="@Url.Action("About","Home")" id="navMenuButton">Sound Barrier</a></li>
+                        <li><a href="@Url.Action("Founder","Home")" id="navMenuButton">Outdoor Writer/Founder - Adam Lewis</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="@Url.Action("SoundAdvice","Home")" class="dropdown-toggle" id="navButtons">Sound Advice</a>
+                    <ul class="dropdown-menu" id="DropdownMenu">
+                        <li><a href="@Url.Action("Videos","Video")" id="navMenuButton">Videos</a></li>
+                        <li><a href="@Url.Action("Science","Home")" id="navMenuButton">Science</a></li>
+                        <li><a href="@Url.Action("Articles","Home")" id="navMenuButton">Articles</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="@Url.Action("Index", "Home")">
+                        <img id="SoundBarrierNav"
+                             src="~/Content/BannerNBHALarge.jpg" />
+                    </a>
+                </li>
+                <li>
+                    <a href="http://goo.gl/forms/jLZkcuX7c3" id="navButtons" target="_blank">
+                        Team Membership
+                    </a>
+                </li>
+                <li>
+                    <a href="@Url.Action("ContactUs", "Home")" id="navButtons">
+                        Contact Us
+                    </a>
+                </li>
+            </ul>
+        </div>      
     </div>
 
+@*Mobile Nav*@
+<div class="visible-xs">
+    <div class="navbar navbar-inverse navbar-static-top" id="navbarTopMobile">
+
+        <div class="navbar-brand" id="mobileNavbarBrand">
+            <a href="@Url.Action("Index")"> Sound Barrier Hunting</a></div>
+        <button class="navbar-toggle navbar-inverse" id="navbarDropdown" data-toggle="collapse" data-target=".navHeaderCollapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+
+        <div class="collapse navHeaderCollapse">
+            <ul class="nav navbar-nav navbar-right navbar-inverse">
+                <li><a href="@Url.Action("Index", "Home")">Home</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">About Us</a>
+                    <ul class="dropdown-menu" id="DropdownMenu">
+                        <li><a href="@Url.Action("About","Home")" id="navMenuButton">Sound Barrier</a></li>
+                        <li><a href="@Url.Action("Founder","Home")" id="navMenuButton">Outdoor Writer/Founder - Adam Lewis</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Sound Advice</a>
+                    <ul class="dropdown-menu" id="DropdownMenu">
+                        <li><a href="@Url.Action("SoundAdvice", "Home")" id="navMenuButton">Sound Advice</a></li>
+                        <li><a href="@Url.Action("Videos","Home")" id="navMenuButton">Videos</a></li>
+                        <li><a href="@Url.Action("Science","Home")" id="navMenuButton">Science</a></li>
+                        <li><a href="@Url.Action("Articles","Home")" id="navMenuButton">Articles</a></li>
+                    </ul>
+                </li>
+                <li><a href="http://goo.gl/forms/jLZkcuX7c3">Subscribe</a></li>
+                <li><a href="@Url.Action("ContactUs", "Home")">Contact Us</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Social Media <b class="caret"></b></a>
+                    <ul class="dropdown-menu" id="DropdownMenu">
+                        <li><a href="https://twitter.com/SBNeverBeHeard" id="navMenuButton">Twitter</a></li>
+                        <li><a href="https://www.facebook.com/SoundBarrierHunting" id="navMenuButton">Facebook</a></li>
+                        <li><a href="https://www.linkedin.com/company/sound-barrier-hunting" id="navMenuButton">LinkedIn</a></li>
+                        <li><a href="https://instagram.com/soundbarrierhunting/" id="navMenuButton">Instagram</a></li>
+                        <li><a href="https://www.youtube.com/channel/UC7GApssU0dRgMRH7ODKOe5Q" id="navMenuButton">Youtube</a></li>
+                    </ul>
+                </li>              
+            </ul>
+        </div>
+    </div>
+</div>
