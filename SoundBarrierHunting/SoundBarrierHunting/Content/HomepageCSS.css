@@ -469,7 +469,7 @@ modal-body{
     margin:0;
     border:0;
     margin-top:33px;
-    margin-bottom:0px;
+    margin-bottom:5px;
 }
 
 #SoundAdviceTextMiddle{
@@ -530,6 +530,23 @@ modal-body{
     font-family:DroidSans;
     margin-bottom:10%;
     margin-left:5%
+}
+
+
+#AllVideosRow{
+    border-bottom:2px solid gray;
+    padding:0;
+    margin:0;
+}
+
+#AllVideosCategory{
+    text-indent:50px;
+    font-size:18px;
+    color:white;
+    margin:0;
+    border:0;
+    margin-top:0px;
+    margin-bottom:20px;
 }
 
 #BackToVideosButton{
