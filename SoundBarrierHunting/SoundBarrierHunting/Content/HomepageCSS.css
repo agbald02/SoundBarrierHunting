@@ -532,6 +532,13 @@ modal-body{
     margin-left:5%
 }
 
+#SearchBox{
+    padding-top:20px;
+    font-size:18px;
+    font-family:DroidSans;
+    margin-bottom:10%;
+    margin-right:5%
+}
 
 #AllVideosRow{
     border-bottom:2px solid gray;
