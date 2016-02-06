@@ -619,6 +619,11 @@ modal-body{
     margin:0;
 }
 
+#VideoTitle, #VideoDescription{
+    margin-left:40px;
+    color:white;
+}
+
 #ArticleText{
     text-indent:35px;
     font-size:18px;

@@ -1,36 +1,25 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Web.Mvc;
-using SoundBarrierHunting.Models;
+﻿using System.Web.Mvc;
+using SoundBarrierHunting.Domain.Interfaces;
 
 namespace SoundBarrierHunting.Controllers
 {
     public class VideoController : Controller
     {
-            //new Video{ 
-            //        VideoId = 1,
-            //        VideoLink = "https://www.youtube.com/embed/66ImvhrhuHc"},
-            //new Video{
-            //        VideoId = 2,
-            //        VideoLink = "https://www.youtube.com/embed/4gK8jmXqtdk"}
+        private IVideoRepository repository;
 
-
-        //public ActionResult Videos(int id = 1)
-        //{
-            //Video link = videoLinks.Where(v => v.VideoId == id).First();
-            //return View(link);
-        //}
+        public VideoController(IVideoRepository videoRepository)
+        {
+            this.repository = videoRepository;
+        }
 
         public ActionResult Videos()
         {
             return View();
         }
 
-        public ActionResult AllVideos()
+        public ViewResult AllVideos()
         {
-            return View();
+            return View(repository.Videos);
         }
     }
 }

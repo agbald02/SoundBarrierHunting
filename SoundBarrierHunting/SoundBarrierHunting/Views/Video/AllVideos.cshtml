@@ -1,4 +1,8 @@
-﻿@{
+﻿@using SoundBarrierHunting.Domain.Entities
+@model IEnumerable<Video>
+
+@{
+    ViewBag.Title = "All Videos";
     Layout = "~/Views/Shared/Layouts/_Layout.cshtml";
 }
 
@@ -35,7 +39,26 @@
                 <div id="SoundAdviceContainer">
                     <div class="text-center" id="videoPadding">
 
-                        <div class="row" id="AllVideosRow">
+                        @foreach (var v in Model)
+                        {
+                            <div  class="row" id="AllVideosRow">
+                                <div class="col-lg-4">
+                                    <iframe id="video" width="392" height="220"
+                                            src="@v.Link"
+                                            frameborder="0" allowfullscreen></iframe>
+                                </div>
+                                <div class="col-lg-8">
+                                    <h1 class="text-left" id="VideoTitle">
+                                        @v.Title
+                                    </h1>
+                                    <p class="text-left" id="VideoDescription">
+                                        @v.Description
+                                    </p>
+                                </div>
+                            </div>
+                        }
+
+                        @*<div class="row" id="AllVideosRow">
                             <div class="col-lg-4">
                                 <iframe id="video" width="392" height="220"
                                         src="https://www.youtube.com/embed/66ImvhrhuHc"
@@ -446,12 +469,11 @@
                                 <p class="text-left" id="AllVideosCategory">
                                     Category: Category Name
                                 </p>
-                            </div>
+                            </div>*@
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
 </body>
 </html>
