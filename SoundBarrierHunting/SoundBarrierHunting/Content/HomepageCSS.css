@@ -469,7 +469,7 @@ modal-body{
     margin:0;
     border:0;
     margin-top:33px;
-    margin-bottom:0px;
+    margin-bottom:5px;
 }
 
 #SoundAdviceTextMiddle{
@@ -530,6 +530,30 @@ modal-body{
     font-family:DroidSans;
     margin-bottom:10%;
     margin-left:5%
+}
+
+#SearchBox{
+    padding-top:20px;
+    font-size:18px;
+    font-family:DroidSans;
+    margin-bottom:10%;
+    margin-right:5%
+}
+
+#AllVideosRow{
+    border-bottom:2px solid gray;
+    padding:0;
+    margin:0;
+}
+
+#AllVideosCategory{
+    text-indent:50px;
+    font-size:18px;
+    color:white;
+    margin:0;
+    border:0;
+    margin-top:0px;
+    margin-bottom:20px;
 }
 
 #BackToVideosButton{
@@ -593,6 +617,15 @@ modal-body{
 	width: 100%;
 	height: 100%;
     margin:0;
+}
+
+#VideoTitle{
+    font-size:25px;
+}
+
+#VideoTitle, #VideoDescription{
+    margin-left:40px;
+    color:white;
 }
 
 #ArticleText{

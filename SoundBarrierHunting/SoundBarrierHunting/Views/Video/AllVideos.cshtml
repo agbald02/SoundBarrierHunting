@@ -1,4 +1,8 @@
-﻿@{
+﻿@using SoundBarrierHunting.HtmlHelpers;
+@model SoundBarrierHunting.Models.ViewModels.VideosListViewModel
+
+@{
+    ViewBag.Title = "All Videos";
     Layout = "~/Views/Shared/Layouts/_Layout.cshtml";
 }
 
@@ -13,8 +17,20 @@
         <img src="~/Content/BoneToSize.jpg" id="SoundAdvicePhoto" />
     </div>
 
-    <div class="text-left" id="BackToVideosButton">
-        <a href="@Url.Action("Videos", "Video")">Back to Videos</a>
+    <div class="row">
+        <div class="col-lg-6">
+            <div class="text-left" id="BackToVideosButton">
+                <a href="@Url.Action("Videos", "Video")">Back to Videos</a>
+            </div>
+        </div>
+
+        @*@using (Html.BeginForm())
+        {
+            <p>
+                <input type="submit" value="Search" />
+                @Html.DropDownList("videoCategories", "Select a category")                
+            </p>
+        }*@ 
     </div>
 
     <div class="row">
@@ -22,84 +38,27 @@
             <div id="allVideos">
                 <div id="SoundAdviceContainer">
                     <div class="text-center" id="videoPadding">
-                        <iframe id="video" width="392" height="220"
-                                src="https://www.youtube.com/embed/66ImvhrhuHc"
-                                frameborder="0" allowfullscreen></iframe>
-                        <iframe id="video" width="392" height="220"
-                                src="https://www.youtube.com/embed/krj1O3tHbDg"
-                                frameborder="0" allowfullscreen></iframe>
-                        <iframe id="video" width="392" height="220"
-                                src="https://www.youtube.com/embed/PIzrBx-aIpg"
-                                frameborder="0" allowfullscreen></iframe>
-                        <iframe id="video" width="392" height="220"
-                                src="https://www.youtube.com/embed/Vr6ckujZcFA"
-                                frameborder="0" allowfullscreen></iframe>
-                        <br />
-
-                        <iframe id="video" width="392" height="220"
-                                src="https://www.youtube.com/embed/4gK8jmXqtdk"
-                                frameborder="0" allowfullscreen></iframe>
-                        <iframe id="video" width="392" height="220"
-                                src="https://www.youtube.com/embed/_d4lI_-eFwQ"
-                                frameborder="0" allowfullscreen></iframe>
-                        <iframe id="video" width="392" height="220"
-                                src="https://www.youtube.com/embed/yQXZKv65p1Q"
-                                frameborder="0" allowfullscreen></iframe>
-                        <iframe id="video" width="392" height="220"
-                                src="https://www.youtube.com/embed/MaahludNDwM"
-                                frameborder="0" allowfullscreen></iframe>
-                        <br />
-
-                        <iframe id="video" width="392" height="220"
-                                src="https://www.youtube.com/embed/eaZWUBCDMjE"
-                                frameborder="0" allowfullscreen></iframe>
-                        <iframe id="video" width="392" height="220"
-                                src="https://www.youtube.com/embed/e5XijvELkMM"
-                                frameborder="0" allowfullscreen></iframe>
-                        <iframe id="video" width="392" height="220"
-                                src="https://www.youtube.com/embed/_5awTsOGr3M"
-                                frameborder="0" allowfullscreen></iframe>
-                        <iframe id="video" width="392" height="220"
-                                src="https://www.youtube.com/embed/WjVEkX5O0s8"
-                                frameborder="0" allowfullscreen></iframe>
-
-                        <br />
-
-                        <iframe id="video" width="392" height="220"
-                                src="https://www.youtube.com/embed/VmciqecqH20"
-                                frameborder="0" allowfullscreen></iframe>
-                        <iframe id="video" width="392" height="220"
-                                src="https://www.youtube.com/embed/nr565g-PTgA"
-                                frameborder="0" allowfullscreen></iframe>
-                        <iframe id="video" width="392" height="220"
-                                src="https://www.youtube.com/embed/Y8eH9x9ktXI"
-                                frameborder="0" allowfullscreen></iframe>
-                        <iframe id="video" width="392" height="220"
-                                src="https://www.youtube.com/embed/zhhYTefzXZc"
-                                frameborder="0" allowfullscreen></iframe>
-                        <br />
-                        <iframe id="video" width="392" height="220"
-                                src="https://www.youtube.com/embed/rekisuYBRRQ"
-                                frameborder="0" allowfullscreen></iframe>
-                        <iframe id="video" width="392" height="220"
-                                src="https://www.youtube.com/embed/Jl4dDE7XJM8"
-                                frameborder="0" allowfullscreen></iframe>
-                        <iframe id="video" width="392" height="220"
-                                src="https://www.youtube.com/embed/UjC8Lmx33KI"
-                                frameborder="0" allowfullscreen></iframe>
-                        <iframe id="video" width="392" height="220"
-                                src="https://www.youtube.com/embed/YiokUQ5TRP4"
-                                frameborder="0" allowfullscreen></iframe>
-                        <br />
-                        <iframe id="video" width="392" height="220"
-                                src="https://www.youtube.com/embed/xFVa7ecq1PI"
-                                frameborder="0" allowfullscreen></iframe>
-                        <iframe id="video" width="392" height="220"
-                                src="https://www.youtube.com/embed/qpCVD_0GJdo"
-                                frameborder="0" allowfullscreen></iframe>
-                        <iframe id="video" width="392" height="220"
-                                src="https://www.youtube.com/embed/Q2mXdVo6Ggg"
-                                frameborder="0" allowfullscreen></iframe>
+                        <div>
+                            @Html.PageLinks(Model.PagingInfo, x => Url.Action("AllVideos", new { page = x}))
+                        </div>
+                        @foreach (var v in Model.Videos)
+                        {
+                            <div  class="row" id="AllVideosRow">
+                                <div class="col-lg-4">
+                                    <iframe id="video" width="392" height="220"
+                                            src="@v.Link"
+                                            frameborder="0" allowfullscreen></iframe>
+                                </div>
+                                <div class="col-lg-8">
+                                    <h1 class="text-left" id="VideoTitle">
+                                        @v.Title
+                                    </h1>
+                                    <p class="text-left" id="VideoDescription">
+                                        @v.Description
+                                    </p>
+                                </div>
+                            </div>
+                        }
                     </div>
                 </div>
             </div>
