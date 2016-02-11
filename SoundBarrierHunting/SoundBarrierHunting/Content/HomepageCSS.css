@@ -619,6 +619,10 @@ modal-body{
     margin:0;
 }
 
+#VideoTitle{
+    font-size:25px;
+}
+
 #VideoTitle, #VideoDescription{
     margin-left:40px;
     color:white;
