@@ -21,14 +21,14 @@ namespace SoundBarrierHunting.Controllers
             this.repository = videoRepository;
         }
 
-        public ActionResult Videos()
-        {
-            return View();
-        }
-
-        public ViewResult AllVideos(int page = 1)
+        public ActionResult Videos(int page = 1)
         {
             return View(repository.Videos);
         }
+
+        //public ViewResult AllVideos(int page = 1)
+        //{
+        //    return View(repository.Videos);
+        //}
     }
 }
