@@ -573,13 +573,16 @@ modal-body{
     margin-top:5%;
 }
 
+#AllVideosTab{
+    margin-bottom:5%;
+}
 
 #video{
     margin:10px;
 }
 #videoPadding{
     margin-left:2%;
-    margin-bottom:125px;
+    margin-bottom:5%;
 }
 
 #VideosMenu{

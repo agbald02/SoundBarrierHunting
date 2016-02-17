@@ -1,5 +1,5 @@
-﻿@using SoundBarrierHunting.HtmlHelpers;
-@model SoundBarrierHunting.Models.ViewModels.VideosListViewModel
+﻿@using SoundBarrierHunting.Domain.Entities;
+@model IEnumerable<Video>
 
 @{
     ViewBag.Title = "All Videos";
@@ -37,28 +37,142 @@
         <div class="col-lg-12">
             <div id="allVideos">
                 <div id="SoundAdviceContainer">
-                    <div class="text-center" id="videoPadding">
-                        <div>
-                            @Html.PageLinks(Model.PagingInfo, x => Url.Action("AllVideos", new { page = x}))
-                        </div>
-                        @foreach (var v in Model.Videos)
-                        {
-                            <div  class="row" id="AllVideosRow">
-                                <div class="col-lg-4">
-                                    <iframe id="video" width="392" height="220"
-                                            src="@v.Link"
-                                            frameborder="0" allowfullscreen></iframe>
-                                </div>
-                                <div class="col-lg-8">
-                                    <h1 class="text-left" id="VideoTitle">
-                                        @v.Title
-                                    </h1>
-                                    <p class="text-left" id="VideoDescription">
-                                        @v.Description
-                                    </p>
-                                </div>
+                    <div>
+                        <ul class="nav nav-tabs">
+                            <li class="active">
+                                <a href="#1" data-toggle="tab">Sound Barrier Info</a>
+                            </li>
+                            <li>
+                                <a href="#2" data-toggle="tab">Essential Hunting Tips</a>
+                            </li>
+                            <li>
+                                <a href="#3" data-toggle="tab">Sound Concealment Rules</a>
+                            </li>
+                            <li>
+                                <a href="#4" data-toggle="tab">Whitetail Hearing Science</a>
+                            </li>
+                            <li>
+                                <a href="#5" data-toggle="tab">Hunts and Webisodes</a>
+                            </li>
+                        </ul>
+
+                        <div class="tab-content"  id="AllVideosTab">
+                            <div class="tab-pane active" id="1">
+                            @foreach (var v in Model)
+                            {
+                                if (v.Category == "Sound Barrier Info")
+                                {
+                                        <div class="row" id="AllVideosRow">
+                                            <div class="col-lg-4">
+                                                <iframe id="video" width="392" height="220"
+                                                        src="@v.Link"
+                                                        frameborder="0" allowfullscreen></iframe>
+                                            </div>
+                                            <div class="col-lg-8">
+                                                <h1 class="text-left" id="VideoTitle">
+                                                    @v.Title
+                                                </h1>
+                                                <p class="text-left" id="VideoDescription">
+                                                    @v.Description
+                                                </p>
+                                            </div>
+                                        </div>
+                                }
+                            }
                             </div>
-                        }
+                            <div class="tab-pane" id="2">
+                            @foreach (var v in Model)
+                            {
+                                if (v.Category == "Essential Hunting Tips")
+                                {
+                                        <div class="row" id="AllVideosRow">
+                                            <div class="col-lg-4">
+                                                <iframe id="video" width="392" height="220"
+                                                        src="@v.Link"
+                                                        frameborder="0" allowfullscreen></iframe>
+                                            </div>
+                                            <div class="col-lg-8">
+                                                <h1 class="text-left" id="VideoTitle">
+                                                    @v.Title
+                                                </h1>
+                                                <p class="text-left" id="VideoDescription">
+                                                    @v.Description
+                                                </p>
+                                            </div>
+                                        </div>
+                                }
+                            }
+                            </div>
+                            <div class="tab-pane" id="3">
+                                @foreach (var v in Model)
+                                {
+                                    if (v.Category == "Rules of Sound Concealment")
+                                    {
+                                            <div class="row" id="AllVideosRow">
+                                                <div class="col-lg-4">
+                                                    <iframe id="video" width="392" height="220"
+                                                            src="@v.Link"
+                                                            frameborder="0" allowfullscreen></iframe>
+                                                </div>
+                                                <div class="col-lg-8">
+                                                    <h1 class="text-left" id="VideoTitle">
+                                                        @v.Title
+                                                    </h1>
+                                                    <p class="text-left" id="VideoDescription">
+                                                        @v.Description
+                                                    </p>
+                                                </div>
+                                            </div>
+                                    }
+                                }
+                            </div>
+                            <div class="tab-pane" id="4">
+                            @foreach (var v in Model)
+                            {
+                                if (v.Category == "Whitetail Hearing Science")
+                                {
+                                        <div class="row" id="AllVideosRow">
+                                            <div class="col-lg-4">
+                                                <iframe id="video" width="392" height="220"
+                                                        src="@v.Link"
+                                                        frameborder="0" allowfullscreen></iframe>
+                                            </div>
+                                            <div class="col-lg-8">
+                                                <h1 class="text-left" id="VideoTitle">
+                                                    @v.Title
+                                                </h1>
+                                                <p class="text-left" id="VideoDescription">
+                                                    @v.Description
+                                                </p>
+                                            </div>
+                                        </div>
+                                }
+                            }
+                            </div>
+                            <div class="tab-pane" id="5">
+                            @foreach (var v in Model)
+                            {
+                                if (v.Category == "Hunts and Webisodes")
+                                {
+                                        <div class="row" id="AllVideosRow">
+                                            <div class="col-lg-4">
+                                                <iframe id="video" width="392" height="220"
+                                                        src="@v.Link"
+                                                        frameborder="0" allowfullscreen></iframe>
+                                            </div>
+                                            <div class="col-lg-8">
+                                                <h1 class="text-left" id="VideoTitle">
+                                                    @v.Title
+                                                </h1>
+                                                <p class="text-left" id="VideoDescription">
+                                                    @v.Description
+                                                </p>
+                                            </div>
+                                        </div>
+                                }
+                            }
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
