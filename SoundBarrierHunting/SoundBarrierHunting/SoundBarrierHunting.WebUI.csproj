@@ -131,10 +131,6 @@
     <Content Include="Content\BoneToSize.jpg" />
     <Content Include="Content\BootStep.jpg" />
     <Content Include="Content\BuckBackground.jpg" />
-    <Content Include="Content\BuckBackgroundBlack30.jpg" />
-    <Content Include="Content\BuckBackgroundBlackLess.jpg" />
-    <Content Include="Content\BuckBackgroundBlurAndBlack.jpg" />
-    <Content Include="Content\BuckBackgroundDarkBlur.jpg" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
@@ -358,6 +354,13 @@
     <Content Include="Content\Social Media\TwitterBrandLogo.png" />
     <Content Include="Content\Social Media\YoutubeBrandLogo48.png" />
     <Content Include="Content\SoundGraph.jpg" />
+    <Content Include="Content\VideoThumbnails\Thumbnail1.JPG" />
+    <Content Include="Content\VideoThumbnails\Thumbnail2.JPG" />
+    <Content Include="Content\VideoThumbnails\Thumbnail3.JPG" />
+    <Content Include="Content\VideoThumbnails\Thumbnail4.JPG" />
+    <Content Include="Content\VideoThumbnails\Thumbnail5.JPG" />
+    <Content Include="Content\VideoThumbnails\Thumbnail6.JPG" />
+    <Content Include="Content\VideoThumbnails\Thumbnail7.JPG" />
     <Content Include="Content\WoodsAndWaterLogo.jpg" />
     <Content Include="Content\WoodsNWaterCoverDec.jpg" />
     <Content Include="Content\WoodsNWaterCoverOct.jpg" />
