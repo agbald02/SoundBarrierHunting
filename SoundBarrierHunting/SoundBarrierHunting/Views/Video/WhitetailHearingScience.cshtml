@@ -30,6 +30,8 @@
                     <div class="container" id="SoundAdviceContainer">
                         @foreach (var v in Model)
                         {
+                            if (v.Category == "Whitetail Hearing Science")
+                            {
                                 <div class="row" id="AllVideosRow">
                                     <div class="col-lg-4">
                                         <iframe id="video" width="392" height="220"
@@ -45,6 +47,7 @@
                                         </p>
                                     </div>
                                 </div>
+                            }
                         }
                     </div>
                 </div>

@@ -425,6 +425,12 @@
     <Content Include="Views\Shared\_CarouselSoundAdvice.cshtml" />
     <Content Include="Views\Video\AllVideos.cshtml" />
     <Content Include="Views\Shared\_GoogleAnalytics.cshtml" />
+    <Content Include="Views\Video\SoundBarrierInfo.cshtml" />
+    <Content Include="Views\Video\EssentialHuntingTips.cshtml" />
+    <Content Include="Views\Video\RulesOfSoundConcealment.cshtml" />
+    <Content Include="Views\Video\HuntsAndWebisodes.cshtml" />
+    <Content Include="Views\Video\TheRut.cshtml" />
+    <Content Include="Views\Video\WhitetailHearingScience.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

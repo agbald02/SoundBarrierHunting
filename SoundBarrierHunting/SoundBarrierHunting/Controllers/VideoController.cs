@@ -21,14 +21,40 @@ namespace SoundBarrierHunting.Controllers
             this.repository = videoRepository;
         }
 
-        public ActionResult Videos(int page = 1)
+        public ActionResult Videos()
+        {
+            return View();
+        }
+
+        public ViewResult AllVideos()
+        {
+            return View(repository.Videos);
+        }
+        public ViewResult SoundBarrierInfo()
+        {
+            return View(repository.Videos);
+        }
+        public ViewResult EssentialHuntingTips()
+        {
+            return View(repository.Videos);
+        }
+        public ViewResult RulesOfSoundConcealment()
+        {
+            return View(repository.Videos);
+        }
+        public ViewResult HuntsAndWebisodes()
         {
             return View(repository.Videos);
         }
 
-        //public ViewResult AllVideos(int page = 1)
-        //{
-        //    return View(repository.Videos);
-        //}
+        public ViewResult TheRut()
+        {
+            return View(repository.Videos);
+        }
+
+        public ViewResult WhitetailHearingScience()
+        {
+            return View(repository.Videos);
+        }
     }
 }

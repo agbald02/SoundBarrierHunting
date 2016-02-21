@@ -532,12 +532,8 @@ modal-body{
     margin-left:5%
 }
 
-#SearchBox{
-    padding-top:20px;
-    font-size:18px;
-    font-family:DroidSans;
-    margin-bottom:10%;
-    margin-right:5%
+#allVideos{
+margin-bottom:5%;
 }
 
 #AllVideosRow{
@@ -565,16 +561,12 @@ modal-body{
 }
 
 #AllVideosButton{
-    padding-top:20px;
+
     font-size:18px;
     font-family:DroidSans;
     margin-bottom:2%;
     margin-left:5%;
     margin-top:5%;
-}
-
-#AllVideosTab{
-    margin-bottom:5%;
 }
 
 #video{
@@ -588,9 +580,11 @@ modal-body{
 #VideosMenu{
     margin-bottom:20px;
 }
+
 #VideosMenuButton{
     width:90%;
 }
+
 #VideoListGroupLink{
     border-radius:0;
     border-color:darkgray;
