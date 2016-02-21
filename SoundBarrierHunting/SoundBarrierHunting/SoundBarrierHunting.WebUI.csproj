@@ -354,6 +354,12 @@
     <Content Include="Content\Social Media\TwitterBrandLogo.png" />
     <Content Include="Content\Social Media\YoutubeBrandLogo48.png" />
     <Content Include="Content\SoundGraph.jpg" />
+    <Content Include="Content\VideoThumbnails\BuckHead.jpg" />
+    <Content Include="Content\VideoThumbnails\RuleOfHalves.jpg" />
+    <Content Include="Content\VideoThumbnails\RutTechnique.jpg" />
+    <Content Include="Content\VideoThumbnails\Story.JPG" />
+    <Content Include="Content\VideoThumbnails\TrophyRoom.jpg" />
+    <Content Include="Content\VideoThumbnails\WhitetailHearing.png" />
     <Content Include="Content\VideoThumbnails\Thumbnail1.JPG" />
     <Content Include="Content\VideoThumbnails\Thumbnail2.JPG" />
     <Content Include="Content\VideoThumbnails\Thumbnail3.JPG" />
