@@ -31,10 +31,18 @@ namespace SoundBarrierHunting.App_Start
             .Include("~/Scripts/jquery-ui.min.js")
             );
 
-            bundles.Add(new ScriptBundle("~/bundles/bootstrapjs",
+            bundles.Add(new ScriptBundle("~/bundles/jqueryval")
+                .Include("~/Scripts/jquery.validate.js"));
+
+            // Use the development version of Modernizr to develop with and learn from. Then, when you're
+            // ready for production, use the build tool at http://modernizr.com to pick only the tests you need.
+            bundles.Add(new ScriptBundle("~/bundles/modernizr").Include(
+                        "~/Scripts/modernizr-*"));
+
+            bundles.Add(new ScriptBundle("~/bundles/bootstrap",
                 "//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js")
-                .Include("~/Scripts/bootstrap.js")
-                );
+                .Include("~/Scripts/bootstrap.js"));
+
 
             BundleTable.EnableOptimizations = true;
         }
