@@ -48,6 +48,7 @@ namespace SoundBarrierHunting.App_Start
                 RegisterServices(kernel);
                 return kernel;
             }
+
             catch
             {
                 kernel.Dispose();
