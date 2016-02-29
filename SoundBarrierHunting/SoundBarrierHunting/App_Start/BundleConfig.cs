@@ -27,7 +27,7 @@ namespace SoundBarrierHunting.App_Start
             );
 
             bundles.Add(new ScriptBundle("~/bundles/commonjavascript")
-            .Include("~/Scripts/jquery-2.1.4.js")
+            .Include("~/Scripts/jquery-2.2.0.js")
             .Include("~/Scripts/jquery-ui.min.js")
             );
 
