@@ -668,3 +668,26 @@ margin-bottom:5%;
 #Thumbnail{
     width:100px;
 }
+
+#ProductContainer{
+    margin-top:250px;
+    margin-bottom:525px;
+}
+
+#CartTitle{
+    font-family:DroidSans;
+    font-size:35px;
+    color:white;
+    margin-right:5%;
+    margin-left:5%;
+    margin-bottom:25px;
+    border-bottom:1px solid gray
+    
+}
+
+#CheckOutButton{
+    font-family:DroidSans;
+    font-size:15px;
+    color:white;
+    margin-right:75px;
+}

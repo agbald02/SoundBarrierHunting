@@ -1,0 +1,54 @@
+﻿
+@{
+    ViewBag.Title = "Cart";
+    Layout = "~/Views/Shared/Layouts/_Layout.cshtml";
+}
+
+<div id="ProductContainer">
+    <div class="text-center" id="CartTitle">My Cart</div>
+    <div class="container" id="SoundAdviceContainer">
+        <div class="col-lg-3">
+            <p id="VideoDescription">Sound Barrier Unit</p>
+        </div>
+        <div class="col-lg-3">
+            <p class="text-center" id="VideoDescription">
+                Shipping Info
+            </p>
+        </div>
+        <div class="col-lg-3">
+            <p class="text-center" id="VideoDescription">
+                # of Item: 1
+            </p>
+        </div>
+        <div class="col-lg-3">
+            <p class="text-center" id="VideoDescription">
+                $199.99
+            </p>
+        </div>
+    </div>
+
+    <div class="container" id="SoundAdviceContainer">
+        <div class="col-lg-3">
+            <p id="VideoDescription">Sound Barrier T-Shirt</p>
+        </div>
+        <div class="col-lg-3">
+            <p class="text-center" id="VideoDescription">
+                Shipping Info
+            </p>
+        </div>
+        <div class="col-lg-3">
+            <p class="text-center" id="VideoDescription">
+                # of Item: 1
+            </p>
+        </div>
+        <div class="col-lg-3">
+            <p class="text-center" id="VideoDescription">
+                $17.99
+            </p>
+        </div>
+     </div>
+    <div class="text-right" id="CheckOutButton">Total: $219.06</div>
+    <div class="text-right" id="CheckOutButton">
+        <a href="@Url.Action()">Check Out</a>
+    </div>
+</div>
