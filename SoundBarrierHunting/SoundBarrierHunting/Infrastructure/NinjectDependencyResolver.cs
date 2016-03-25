@@ -31,6 +31,7 @@ namespace SoundBarrierHunting.WebUI.Infrastructure
         private void AddBindings()
         {
             kernel.Bind<IVideoRepository>().To<VideoRepository>();
+            kernel.Bind<IProductRepository>().To<ProductRepository>();
         }
     }
 }

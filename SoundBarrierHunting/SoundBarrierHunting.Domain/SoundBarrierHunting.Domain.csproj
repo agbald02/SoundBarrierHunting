@@ -82,7 +82,10 @@
   <ItemGroup />
   <ItemGroup>
     <Compile Include="Concrete\EFDbContext.cs" />
+    <Compile Include="Concrete\ProductRepository.cs" />
+    <Compile Include="Entities\Product.cs" />
     <Compile Include="Entities\Video.cs" />
+    <Compile Include="Interfaces\IProductRepository.cs" />
     <Compile Include="Interfaces\IVideoRepository.cs" />
     <Compile Include="Concrete\VideoRepository.cs" />
   </ItemGroup>

@@ -466,6 +466,7 @@
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
+    <Compile Include="Controllers\ProductController.cs" />
     <Compile Include="Controllers\VideoController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -476,6 +477,7 @@
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\PagingInfo.cs" />
+    <Compile Include="Models\ProductsListViewModel.cs" />
     <Compile Include="Models\VideosListViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
@@ -488,7 +490,7 @@
     <Content Include="Views\Shared\_NavTop.cshtml" />
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Video\Videos.cshtml" />
-    <Content Include="Views\Home\Products.cshtml" />
+    <Content Include="Views\Product\Products.cshtml" />
     <Content Include="Views\Home\Science.cshtml" />
     <Content Include="Views\Home\ContactUs.cshtml" />
     <Content Include="Views\Shared\_Carousel.cshtml" />

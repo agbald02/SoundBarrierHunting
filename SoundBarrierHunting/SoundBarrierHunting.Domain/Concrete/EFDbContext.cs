@@ -6,5 +6,7 @@ namespace SoundBarrierHunting.Domain.Concrete
     public class EFDbContext : DbContext
     {
         public DbSet<Video> Videos { get; set; }
+
+        public DbSet<Product> Products { get; set; }
     }
 }
