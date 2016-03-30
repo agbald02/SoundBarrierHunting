@@ -1,0 +1,15 @@
+﻿@model SoundBarrierHunting.Domain.Entities.Product
+
+<div id="AllVideosRow">
+    <h1 class="text-left" id="VideoTitle">
+        @Model.Name
+        <span>@Model.Price.ToString("c2")</span>
+    </h1>
+
+    @using (Html.BeginForm("AddToCart", "Cart"))
+    {
+            @Html.HiddenFor(x => x.ID)
+            @Html.Hidden("returnUrl", Request.Url.PathAndQuery)
+            <input type="submit" class="btn btn-success" value="Add To Cart" />
+    }
+</div>

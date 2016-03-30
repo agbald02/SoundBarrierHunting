@@ -1,8 +1,7 @@
-﻿@using SoundBarrierHunting.Domain.Entities;
-@model IEnumerable<Product>
+﻿@model SoundBarrierHunting.Models.ProductListViewModel
 
 @{
-    ViewBag.Title = "All Videos";
+    ViewBag.Title = "Products";
     Layout = "~/Views/Shared/Layouts/_Layout.cshtml";
 }
 
@@ -19,81 +18,12 @@
             <div class="col-lg-12">
                 <div id="allVideos">
                     <div class="container" id="SoundAdviceContainer">
-                        <div id="AllVideosRow">
-                            <div class="col-lg-4" id="ArticleDescriptions">
-                                <div class="text-center">
-                                    <img class="img-responsive" id="ArticleLogos" src="~/Content/MidwestOutdoorsLogoRed.png" />
-                                </div>
-                            </div>
-                            @*@foreach (var p in Model)
-            {
-                <div class="row" id="AllVideosRow">
-                    <div class="col-lg-8">
-                        <h1 class="text-left" id="VideoTitle">
-                            @p.Title
-                        </h1>
-                        <p class="text-left" id="VideoDescription">
-                            @p.Description
-                        </p>
-                        <p class="text-left" id="VideoDescription">
-                            @p.Price
-                        </p>
-                    </div>
-                </div>
-            }*@
-
-                            <h1 id="VideoTitle">Sound Barrier Unit</h1>
-                            <p class="text-left" id="VideoDescription">
-                                This is the description for the Sound Barrier Unit
-                            </p>
-                            <p class="text-left" id="VideoDescription">
-                                $199.99
-                            </p>
-                            <div class="text-left" id="BackToVideosButton">
-                                <a href="@Url.Action("Cart", "Product")">Add to Cart</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="container" id="SoundAdviceContainer">
-                        <div id="AllVideosRow">
-                            <div class="col-lg-4" id="ArticleDescriptions">
-                                <div class="text-center">
-                                    <img class="img-responsive" id="ArticleLogos" src="~/Content/MidwestOutdoorsLogoRed.png" />
-                                </div>
-                            </div>
-                            <h1 id="VideoTitle">Sound Barrier TShirt - Medium</h1>
-                            <p class="text-left" id="VideoDescription">
-                                This is the description for the Sound Barrier T-Shirt. Size Medium (BLACK)
-                            </p>
-                            <p class="text-left" id="VideoDescription">
-                                $17.99
-                            </p>
-                            <div class="text-left" id="BackToVideosButton">
-                                <a href="@Url.Action("Cart", "Product")">Add to Cart</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="container" id="SoundAdviceContainer">
-                        <div id="AllVideosRow">
-                            <div class="col-lg-4" id="ArticleDescriptions">
-                                <div class="text-center">
-                                    <img class="img-responsive" id="ArticleLogos" src="~/Content/MidwestOutdoorsLogoRed.png" />
-                                </div>
-                            </div>
-                            <h1 id="VideoTitle">Sound Barrier Decal</h1>
-                            <p class="text-left" id="VideoDescription">
-                                Sound Barrier Decal- Main Font (1FT)
-                            </p>
-                            <p class="text-left" id="VideoDescription">
-                                $199.99
-                            </p>
-                            <div class="text-left" id="BackToVideosButton">
-                                <a href="@Url.Action("Cart", "Product")">Add to Cart</a>
-                            </div>
-                        </div>
-                    </div>
+                        @foreach( var p in Model.Products)
+                        {
+                            @Html.Partial("_productSummary", p);
+                        }
+                        
+                     </div>
                 </div>
             </div>
         </div>

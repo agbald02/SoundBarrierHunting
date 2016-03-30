@@ -2,11 +2,11 @@
 using SoundBarrierHunting.Domain.Entities;
 using System.Web.Mvc;
 
-namespace SoundBarrierHunting.Models.ViewModels
+namespace SoundBarrierHunting.Models
 {
-    public class ProductsListViewModel
+    public class ProductListViewModel
     {
-        public IEnumerable<Video> Videos { get; set; }
+        public IEnumerable<Product> Products { get; set; }
 
         public PagingInfo PagingInfo { get; set; }
     }

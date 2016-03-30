@@ -13,7 +13,7 @@ namespace SoundBarrierHunting.Controllers
 {
     public class VideoController : Controller
     {
-        private EFDbContext db = new EFDbContext();
+        private EFDbContextVideo db = new EFDbContextVideo();
         private IVideoRepository repository;
 
         public VideoController(IVideoRepository videoRepository)

@@ -6,7 +6,7 @@ namespace SoundBarrierHunting.Domain.Concrete
 {
     public class VideoRepository : IVideoRepository
     {
-        private EFDbContext context = new EFDbContext();
+        private EFDbContextVideo context = new EFDbContextVideo();
 
         public IEnumerable<Video> Videos
         {
