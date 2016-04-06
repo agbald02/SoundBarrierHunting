@@ -1,0 +1,5 @@
+﻿@model SoundBarrierHunting.Domain.Entities.Cart
+
+<div class="navbar-text navbar-right">
+    <a href="@Url.Action("Cart", "Cart")">Your Cart: @Model.Lines.Sum(x => x.Quantity) item(s)</a>
+</div>

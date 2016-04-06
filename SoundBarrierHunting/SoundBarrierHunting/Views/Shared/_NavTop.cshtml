@@ -1,5 +1,6 @@
 ﻿    <div class="navbar navbar-inverse navbar-static-top" id="navbarTop">
         <div class="navbar-brand" id="navTopList">
+            @Html.Action("_summary", "Cart")
             <ul>
                 <li class="dropdown">
                     <a href="@Url.Action("About", "Home")" class="dropdown-toggle" id="navButtons">About</a>
@@ -20,11 +21,6 @@
                     <a href="@Url.Action("Index", "Home")">
                         <img id="SoundBarrierNav"
                              src="~/Content/BannerNBHALarge.jpg" />
-                    </a>
-                </li>
-                <li>
-                    <a href="http://goo.gl/forms/jLZkcuX7c3" id="navButtons" target="_blank">
-                        Team Membership
                     </a>
                 </li>
                 <li>
@@ -75,7 +71,6 @@
                         <li><a href="@Url.Action("Articles","Home")" id="navMenuButton">Articles</a></li>
                     </ul>
                 </li>
-                <li><a href="http://goo.gl/forms/jLZkcuX7c3">Subscribe</a></li>
                 <li><a href="@Url.Action("Products", "Home")">Products</a></li>
                 <li><a href="@Url.Action("ContactUs", "Home")">Contact Us</a></li>
                 <li class="dropdown">
