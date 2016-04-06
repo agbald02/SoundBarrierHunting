@@ -15,7 +15,7 @@ namespace SoundBarrierHunting.Controllers
             repository = repo;
         }
 
-        public ViewResult Index(string returnUrl)
+        public ViewResult Cart(string returnUrl)
         {
             return View(new CartIndexViewModel
             {
@@ -34,7 +34,7 @@ namespace SoundBarrierHunting.Controllers
                 GetCart().AddItem(product, 1);
             }
 
-            return RedirectToAction("Index", new {returnUrl});
+            return RedirectToAction("Cart", new {returnUrl});
 
         }
 

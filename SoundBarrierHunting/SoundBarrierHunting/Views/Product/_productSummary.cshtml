@@ -6,10 +6,10 @@
         <span>@Model.Price.ToString("c2")</span>
     </h1>
 
-    @using (Html.BeginForm("AddToCart", "Cart"))
+    @using (Html.BeginForm("AddToCart", "Cart", new {@productId = Model.ID }))
     {
             @Html.HiddenFor(x => x.ID)
             @Html.Hidden("returnUrl", Request.Url.PathAndQuery)
             <input type="submit" class="btn btn-success" value="Add To Cart" />
     }
-</div>
+</div>.
