@@ -9,33 +9,33 @@
     <link rel="stylesheet" type="text/css" href="~/Content/HomePageCSS.css" />
     <link rel="stylesheet" type="text/css" href="~/Content/NavCSS.css" />
     <link rel="stylesheet" type="text/css" href="~/Content/AccountCSS.css" />
+    <script src="~/Scripts/jquery-2.2.0.min.js"></script>
+    <script src="~/Scripts/jquery-ui.min.js"></script>
+    <script src="~/Scripts/bootstrap.min.js"></script>
     <title>@ViewBag.Title</title>
 </head>
 <body>
-    @*<div id="completePage">
-        <img src="~/Content/EquipmentSmall.JPG" />
-    </div>*@
     <div id="page">
         @Html.Partial("_GoogleAnalytics")
         @Html.Partial("_NavTop")
-
         <script src="~/Scripts/jquery-2.1.4.min.js"></script>
         <script src="~/Scripts/jquery-ui.min.js"></script>
         <script src="~/Scripts/bootstrap.min.js"></script>
 
-            <div class="container" id="pageContainer">
-                <div class="panel" id="pagePanel">
-                    <div class="panel-body" id="panelContent">
-                        @RenderBody()
-                    </div>
+        <div class="container" id="pageContainer">
+            <div class="panel" id="pagePanel">
+                <div class="panel-body" id="panelContent">
+                    @RenderBody()
                 </div>
             </div>
         </div>
+    </div>
     @Html.Partial("_NavBarBottom")
 </body>
 </html>
 
 @section Scripts {
+    @Scripts.Render("~/bundles/commonjavascript")
     @Scripts.Render("~/bundles/jqueryval")
-
+    @Scripts.Render("~/bundles/bootstrap")
 }
