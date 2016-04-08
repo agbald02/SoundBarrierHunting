@@ -9,6 +9,9 @@
     <link rel="stylesheet" type="text/css" href="~/Content/HomePageCSS.css" />
     <link rel="stylesheet" type="text/css" href="~/Content/NavCSS.css" />
     <link rel="stylesheet" type="text/css" href="~/Content/AccountCSS.css" />
+    <script src="~/Scripts/jquery-2.2.0.min.js"></script>
+    <script src="~/Scripts/jquery-ui.min.js"></script>
+    <script src="~/Scripts/bootstrap.min.js"></script>
     <title>@ViewBag.Title</title>
 </head>
 <body>
@@ -32,6 +35,7 @@
 </html>
 
 @section Scripts {
+    @Scripts.Render("~/bundles/commonjavascript")
     @Scripts.Render("~/bundles/jqueryval")
-
+    @Scripts.Render("~/bundles/bootstrap")
 }
