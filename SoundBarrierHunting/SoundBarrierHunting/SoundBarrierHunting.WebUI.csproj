@@ -548,6 +548,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Models\Database\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\SoundBarrierHunting.Domain\SoundBarrierHunting.Domain.csproj">
