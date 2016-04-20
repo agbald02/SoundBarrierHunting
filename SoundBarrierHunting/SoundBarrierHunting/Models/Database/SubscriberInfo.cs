@@ -11,13 +11,21 @@ namespace SoundBarrierHunting.Models.Database
 {
     using System;
     using System.Collections.Generic;
+    using System.ComponentModel.DataAnnotations;
     
     public partial class SubscriberInfo
     {
         public int Id { get; set; }
+
+        [Required(ErrorMessage = "Please enter a first name")]
         public string FirstName { get; set; }
+
+        [Required(ErrorMessage = "Please enter a last name")]
         public string LastName { get; set; }
+
+        [Required(ErrorMessage = "Please enter a valid email address")]
         public string Email { get; set; }
+
         public bool IsSubscribed { get; set; }
     }
 }
