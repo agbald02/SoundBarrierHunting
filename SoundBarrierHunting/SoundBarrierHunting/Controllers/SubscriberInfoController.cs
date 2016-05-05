@@ -53,7 +53,7 @@ namespace SoundBarrierHunting.Controllers
             {
                 db.SubscriberInfoes.Add(subscriberInfo);
                 db.SaveChanges();
-                return RedirectToAction("Index");
+                return RedirectToAction("Index", "Home");
             }
 
             return View(subscriberInfo);

@@ -3,11 +3,11 @@
 <div class="modal fade" id="SubscriberModal" tabindex="-1" role="dialog" aria-labelledby="memberModalLabel" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
-            <div class="modal-header">
-                <h4 class="modal-title" id="memberModalLabel">Join us at Sound Barrier!</h4>
-            </div>
             <div class="modal-body">
-                @using (Html.BeginForm())
+                <div>
+                    <h4 class="modal-title">Take your hunting to a new level! Subscribe now for insider tips and access to our industry-first products!</h4>
+                </div>
+                @using (Html.BeginForm("Create","SubscriberInfo", FormMethod.Post))
                 {
                     @Html.AntiForgeryToken()
 
@@ -42,7 +42,7 @@
                         <div class="form-group">
                             @Html.Label("Subscribe for updates")
                             <div class="col-md-12">
-                                @Html.CheckBoxFor(model => model.IsSubscribed, new { htmlAttributes = new { @class = "form-control" } })
+                                @Html.CheckBoxFor(model => model.IsSubscribed, new { htmlAttributes = new { @class = "form-control"} })
                                 @Html.ValidationMessageFor(model => model.IsSubscribed, "", new { @class = "text-danger" })
                             </div>
                         </div>
@@ -62,4 +62,3 @@
         </div>
     </div>
 </div>
-
