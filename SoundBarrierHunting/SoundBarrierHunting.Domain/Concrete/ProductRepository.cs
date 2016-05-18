@@ -6,7 +6,7 @@ namespace SoundBarrierHunting.Domain.Concrete
 {
     public class ProductRepository : IProductRepository
     {
-        private EFDbContext context = new EFDbContext();
+        private EFDbContextWebsite context = new EFDbContextWebsite();
 
         public IEnumerable<Product> Products
         {

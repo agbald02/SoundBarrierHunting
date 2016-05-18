@@ -81,8 +81,9 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <Compile Include="Concrete\EFDbContext.cs" />
+    <Compile Include="Concrete\EFDbContextWebsite.cs" />
     <Compile Include="Concrete\ProductRepository.cs" />
+    <Compile Include="Entities\Cart.cs" />
     <Compile Include="Entities\Product.cs" />
     <Compile Include="Entities\Video.cs" />
     <Compile Include="Interfaces\IProductRepository.cs" />

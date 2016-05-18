@@ -16,6 +16,7 @@
         @Html.Partial("_NavTop")
         @Html.Partial("_NavBarBottom")
         @Html.Partial("_Carousel")
+        @Html.Partial("_subscriberModal")
         <script src="~/Scripts/jquery-2.2.0.min.js"></script>
         <script src="~/Scripts/jquery-ui.min.js"></script>
         <script src="~/Scripts/bootstrap.min.js"></script>
@@ -27,5 +28,14 @@
             </div>
         </div>
     </div>
+
+    <script>
+        $(document).ready(function () {
+            setTimeout(function(){
+                $('#SubscriberModal').modal('show');
+            },
+            7 * 1000);
+        });
+    </script>
 </body>
 </html>

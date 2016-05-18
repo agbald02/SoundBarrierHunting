@@ -1,147 +1,147 @@
 ﻿@font-face{
-    font-family:DroidSans;
-    src:url(Fonts/DroidSans.ttf);
+	font-family:DroidSans;
+	src:url(Fonts/DroidSans.ttf);
 }
 
 @font-face{
-    font-family:DroidSansBold;
-    src:url(Fonts/DroidSans-Bold.ttf);
+	font-family:DroidSansBold;
+	src:url(Fonts/DroidSans-Bold.ttf);
 }
 
 @font-face{
-    font-family:MonsterUnleashed;
-    src:url(Fonts/MonsterUnleashed.ttf);
+	font-family:MonsterUnleashed;
+	src:url(Fonts/MonsterUnleashed.ttf);
 }
 
 @font-face{
-    font-family:CGFLocustResistance;
-    src:url(Fonts/CGF-Locust-Resistance.ttf);
+	font-family:CGFLocustResistance;
+	src:url(Fonts/CGF-Locust-Resistance.ttf);
 }
 
 @font-face{
-    font-family:Bombardier;
-    src:url(Fonts/BOMBARD_.ttf);
+	font-family:Bombardier;
+	src:url(Fonts/BOMBARD_.ttf);
 }
 
 body{
-    background-color:lightgray;
+	background-color:lightgray;
 }
 
 .modal-content{
-    background-color:white;
-    color:black;
-    border-color:limegreen;
-    border-width:15px;
+	background-color:white;
+	color:black;
+	border-color:limegreen;
+	border-width:15px;
 }
 
 .modal-title{
-    font-family:Bombardier;
-    font-size:35px;
+	font-family:Bombardier;
+	font-size:20px;
 }
 
 modal-body{
-    font-family:DroidSans;
-    font-size:18px;
+	font-family:DroidSans;
+	font-size:18px;
 }
 
 #modalList ul li{
-    display:inline;
-    padding-left:5px;
+	display:inline;
+	padding-left:5px;
 }
 
 #modalSocialMedia{
-    list-style:none;
-    padding:10px;
+	list-style:none;
+	padding:10px;
 }
 
 #ModalSubscribeContact{
-    color: black;
-    font-size:25px;
-    font-family:Bombardier;
+	color: black;
+	font-size:25px;
+	font-family:Bombardier;
 }
 
 #completePage{
-    position:absolute;
-    background-size:cover;
-    opacity:0.3;
+	position:absolute;
+	background-size:cover;
+	opacity:0.3;
 }
 
 #pagePanel{
-    position:relative;
-    margin:0;
-    padding:0;
-    background-color:black;
-    box-shadow: 0px 0px 175px 50px black;
-    opacity:1.0;
-    border-radius:0;
+	position:relative;
+	margin:0;
+	padding:0;
+	background-color:black;
+	box-shadow: 0px 0px 175px 50px black;
+	opacity:1.0;
+	border-radius:0;
 }
 
 #panelContent{
-    margin:0;
-    padding:0;
+	margin:0;
+	padding:0;
 }
 
 /*Index Page*/
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
-      width: 100%;
-      height:600px;
-      margin:0px;
-      border-radius:0px;
+	  width: 100%;
+	  height:600px;
+	  margin:0px;
+	  border-radius:0px;
   }
 
 #HomepagePhoto{
-    height:800px;
+	height:800px;
 }
 
 .carousel-caption h1{
-    color:white;
-    font-size:35px;
-    bottom:30%;
-    /*font-weight:bold;*/
-    font-family:'Arial';
+	color:white;
+	font-size:35px;
+	bottom:30%;
+	/*font-weight:bold;*/
+	font-family:'Arial';
 }
 
 .carousel-caption{
-    color:white;
-    font-size:20px;
-    bottom:30%;
-    /*font-weight:bolder;*/
+	color:white;
+	font-size:20px;
+	bottom:30%;
+	/*font-weight:bolder;*/
 }
 
 .carousel-indicators li { visibility: hidden; }
 
 .btn:focus, .btn:active:focus, .btn.active:focus{
-    outline:0 none;
+	outline:0 none;
 }
 
 .btn-primary{
-    background:limegreen;
-    color:white;
-    padding:5px;
-    border: 3px solid white;
-    font-size:25px;
+	background:limegreen;
+	color:white;
+	padding:5px;
+	border: 3px solid white;
+	font-size:25px;
 }
 
 .btn-primary:hover{
-    background-color:lime;
-    color:white;
-    padding:5px;
-    border: 3px solid white;
-    font-size:25px;
+	background-color:lime;
+	color:white;
+	padding:5px;
+	border: 3px solid white;
+	font-size:25px;
 }
 
 #HomepageVideos{
-    margin:0;
-    margin-bottom:25px;
+	margin:0;
+	margin-bottom:25px;
 }
 
 #videoWrapper {
 	position: relative;
 	padding-bottom: 56.25%; /* 16:9 */
 	height: 0;
-    margin:0;
-    margin-left:10px;
+	margin:0;
+	margin-left:10px;
 }
 #videoWrapper iframe {
 	position: absolute;
@@ -149,387 +149,387 @@ modal-body{
 	left: 0;
 	width: 100%;
 	height: 100%;
-    margin:0;
+	margin:0;
 }
 
 #RecentContentTop{
-    font-family:DroidSans;
-    font-size:18px;
-    color:white;
-    margin-top:40px;
-    margin-bottom:2%;
+	font-family:DroidSans;
+	font-size:18px;
+	color:white;
+	margin-top:40px;
+	margin-bottom:2%;
 }
 
 #RecentContent{
-    font-family:DroidSans;
-    font-size:18px;
-    color:white;
-    margin-bottom:10px;
-    margin-top:5%;
+	font-family:DroidSans;
+	font-size:18px;
+	color:white;
+	margin-bottom:10px;
+	margin-top:5%;
 }
 
 #ArticleDescriptions{
-    font-family:DroidSans;
-    font-size:15px;
-    color:white;
-    margin-bottom:20px;
+	font-family:DroidSans;
+	font-size:15px;
+	color:white;
+	margin-bottom:20px;
 }
 
 #ArticleDescriptions ul li{
-    font-family:DroidSans;
-    color:white;
-    list-style:none;
-    display:inline;
-    margin-right:100px;
-    margin-left:75px;
+	font-family:DroidSans;
+	color:white;
+	list-style:none;
+	display:inline;
+	margin-right:100px;
+	margin-left:75px;
 }
 
 #ArticleLogos{
-    width:300px;
-    height:75px;
-    margin-bottom:100px;
+	width:300px;
+	height:75px;
+	margin-bottom:100px;
 }
 
 /*New Advantage*/
 
 #NewAdvantageSection{
-    margin:55px;
-    margin-top:3%;
-    font-family:DroidSans;
+	margin:55px;
+	margin-top:3%;
+	font-family:DroidSans;
 }
 
 #AdvantageButton{
-    font-size:15px;
-    padding-top:5px;
-    padding-bottom:5px;
-    width:175px;
-    margin:25px;
+	font-size:15px;
+	padding-top:5px;
+	padding-bottom:5px;
+	width:175px;
+	margin:25px;
 }
 
 #NewAdvantageNumbers{
-    color:white;
-    font-size:23px;
-    margin:0;
-    font-weight:bolder;
+	color:white;
+	font-size:23px;
+	margin:0;
+	font-weight:bolder;
 }
 
 #AdvantageLabel{
-    font-size:35px;
-    color:white;
+	font-size:35px;
+	color:white;
 }
 
 #AdvantageTextAdamNote{
-    text-indent:35px;
-    font-size:18px;
-    color:white;
-    margin-right:10px;
-    margin-left:10px;
-    margin-top:2%;
+	text-indent:35px;
+	font-size:18px;
+	color:white;
+	margin-right:10px;
+	margin-left:10px;
+	margin-top:2%;
 }
 
 #AdvantageText{
-    text-indent:35px;
-    font-size:18px;
-    color:white;
+	text-indent:35px;
+	font-size:18px;
+	color:white;
 }
 
 #AdvantageTextBottom{
-    font-size:18px;
-    color:white;
+	font-size:18px;
+	color:white;
 }
 
 #NewAdvantageNBHA{
-     font-style:italic;
-     position:relative;
+	 font-style:italic;
+	 position:relative;
 }
 
 /*About Page*/
 
 #AdamHeadshot{
-    width:200px;
+	width:200px;
 }
 
 #AboutNBHA{
-    padding-top:200px;
-    width:100%;
-    height:auto;
+	padding-top:200px;
+	width:100%;
+	height:auto;
 }
 
 #AboutSignature{
-    margin-left:55px;
-    padding:0;
+	margin-left:55px;
+	padding:0;
 }
 
 #AboutWelcomeStory{
-    margin-bottom:1%;
-    margin-left:5%;
-    margin-right:5%;
-    margin-top:5%;
-    font-size:20px;
-    font-family:DroidSans;
-    font-weight:bolder;
-    color:white;
+	margin-bottom:1%;
+	margin-left:5%;
+	margin-right:5%;
+	margin-top:5%;
+	font-size:20px;
+	font-family:DroidSans;
+	font-weight:bolder;
+	color:white;
 }
 
 #AboutTop{
-    text-indent:50px;
-    margin-left:5%;
-    margin-right:5%;
-    margin-bottom:20px;
-    font-size:18px;
-    font-family:DroidSans;
-    color:lightgray;
+	text-indent:50px;
+	margin-left:5%;
+	margin-right:5%;
+	margin-bottom:20px;
+	font-size:18px;
+	font-family:DroidSans;
+	color:lightgray;
 }
 
 #AboutUsButton{
-    width:75%;
+	width:75%;
 }
 
 #AboutPage{
-    margin-top:200px;
-    margin-bottom:100px;
+	margin-top:200px;
+	margin-bottom:100px;
 }
 
 #AboutStoryParagraph{
-    text-indent:50px;
-    margin-top:20px;
-    margin-bottom:20px;
-    margin-left:5%;
-    margin-right:5%;
-    margin-bottom:20px;
-    font-size:18px;
-    font-family:DroidSans;
-    color:lightgray;
-    font-style:italic;
+	text-indent:50px;
+	margin-top:20px;
+	margin-bottom:20px;
+	margin-left:5%;
+	margin-right:5%;
+	margin-bottom:20px;
+	font-size:18px;
+	font-family:DroidSans;
+	color:lightgray;
+	font-style:italic;
 }
 
 #FounderPage{
-    margin-top:250px;
-    margin-bottom:373px;
+	margin-top:250px;
+	margin-bottom:373px;
 }
 
 #FounderHeader{
-    margin-bottom:20px;
+	margin-bottom:20px;
 }
 
 #FounderHeaderText{
-    margin-top:0px;
-    padding-right:3%;
-    text-indent:50px;
-    font-size:18px;
-    font-family:DroidSans;
-    color:lightgray;
+	margin-top:0px;
+	padding-right:3%;
+	text-indent:50px;
+	font-size:18px;
+	font-family:DroidSans;
+	color:lightgray;
 }
 
 #FounderBottom{
-    margin-top:0px;
-    margin-right:5%;
-    margin-left:5%;
-    text-indent:50px;
-    font-size:18px;
-    font-family:DroidSans;
-    color:lightgray;
+	margin-top:0px;
+	margin-right:5%;
+	margin-left:5%;
+	text-indent:50px;
+	font-size:18px;
+	font-family:DroidSans;
+	color:lightgray;
 }
 
 /*Science Page*/
 #SciencePhoto{
-    height:400px;
-    width:100%;
-    border-radius:10px;
-    padding:0;
+	height:400px;
+	width:100%;
+	border-radius:10px;
+	padding:0;
 }
 
 #ScienceHeadTop{
-    padding-top:25px;
-    width:1500px;
-    padding-left:20%;
-    font-size:30px;
-    font-family:Bombardier;
-    color:white;
+	padding-top:25px;
+	width:1500px;
+	padding-left:20%;
+	font-size:30px;
+	font-family:Bombardier;
+	color:white;
 }
 
 #ScienceButton{
-    width:75%;
-    margin-bottom:3px;
+	width:75%;
+	margin-bottom:3px;
 }
 #ScienceIntro{
-    text-indent:50px;
-    font-size:18px;
-    margin-left:5%;
-    margin-right:5%;
-    font-family:DroidSans;
-    color:lightgray;
-    margin-top:40px;
-    margin-bottom:40px;
+	text-indent:50px;
+	font-size:18px;
+	margin-left:5%;
+	margin-right:5%;
+	font-family:DroidSans;
+	color:lightgray;
+	margin-top:40px;
+	margin-bottom:40px;
 }
 
 #ScienceHead{
-    justify-content:center;
-    margin-top:25px;
-    margin-left:5%;
-    margin-right:5%;
-    font-size:30px;
-    font-family:Bombardier;
-    color:white;
+	justify-content:center;
+	margin-top:25px;
+	margin-left:5%;
+	margin-right:5%;
+	font-size:30px;
+	font-family:Bombardier;
+	color:white;
 }
 
 #Science{
-    text-indent:50px;
-    font-size:18px;
-    margin-left:5%;
-    margin-right:5%;
-    font-family:DroidSans;
-    color:lightgray;
+	text-indent:50px;
+	font-size:18px;
+	margin-left:5%;
+	margin-right:5%;
+	font-family:DroidSans;
+	color:lightgray;
 }
 
 #ScienceBottom{
-    text-indent:50px;
-    font-size:18px;
-    margin-left:5%;
-    margin-right:5%;
-    margin-bottom:75px;
-    font-family:DroidSans;
-    color:lightgray;
+	text-indent:50px;
+	font-size:18px;
+	margin-left:5%;
+	margin-right:5%;
+	margin-bottom:75px;
+	font-family:DroidSans;
+	color:lightgray;
 }
 
 #ScienceButtonBottom{
-    margin-bottom:100px;
+	margin-bottom:100px;
 }
 
 #SoundGraph{
-    margin-top:5%;
-    margin-bottom:5%;
-    margin-left:12%;
-    margin-right:5%;
+	margin-top:5%;
+	margin-bottom:5%;
+	margin-left:12%;
+	margin-right:5%;
 }
 
 /*Contact Page*/
 .contactInfo{
-    text-align:center;
-    padding-top:225px;
-    margin-bottom:625px;
-    font-size:18px;
-    font-family:DroidSans;
-    color:lightgray;
+	text-align:center;
+	padding-top:225px;
+	margin-bottom:625px;
+	font-size:18px;
+	font-family:DroidSans;
+	color:lightgray;
 }
 
 .contactHeader{
-    font-size:25px;
-    font-weight:bold;
-    font-style:italic;
-    text-decoration:underline;
-    font-size:30px;
-    font-family:Bombardier;
-    color:white;
+	font-size:25px;
+	font-weight:bold;
+	font-style:italic;
+	text-decoration:underline;
+	font-size:30px;
+	font-family:Bombardier;
+	color:white;
 }
 
 .form-group{
-    font-size:18px;
+	font-size:18px;
 }
 /*Products*/
 #Subscribe{
-    text-align:center;
-    padding-right:0;
-    font-size:18px;
-    font-family:DroidSans;
+	text-align:center;
+	padding-right:0;
+	font-size:18px;
+	font-family:DroidSans;
 }
 
 #ProductsPhoto {
-    width: 700px;
-    height:500px;
-    padding-top:200px;
-    border-radius:10px;
+	width: 700px;
+	height:500px;
+	padding-top:200px;
+	border-radius:10px;
 }
 
 #ProductsText{
-    padding-top:50px;
-    padding-left:0;
-    text-indent:50px;
-    padding-left:350px;
-    font-size:18px;
-    font-family:DroidSans;
-    width:1500px;
-    padding-bottom:150px;
+	padding-top:50px;
+	padding-left:0;
+	text-indent:50px;
+	padding-left:350px;
+	font-size:18px;
+	font-family:DroidSans;
+	width:1500px;
+	padding-bottom:150px;
 }
 
 /*Sound Advice*/
 #SoundAdviceButton{
-    font-size:25px;
-    padding-top:15px;
-    padding-bottom:15px;
-    width:275px;
-    margin:25px;
+	font-size:25px;
+	padding-top:15px;
+	padding-bottom:15px;
+	width:275px;
+	margin:25px;
 
 }
 
 #SoundAdviceTextTop{
-    text-indent:50px;
-    font-size:18px;
-    color:white;
-    margin:0;
-    border:0;
-    margin-top:33px;
-    margin-bottom:5px;
+	text-indent:50px;
+	font-size:18px;
+	color:white;
+	margin:0;
+	border:0;
+	margin-top:33px;
+	margin-bottom:5px;
 }
 
 #SoundAdviceTextMiddle{
-    text-indent:50px;
-    font-size:18px;
-    color:white;
-    margin:0;
-    border:0;
-    margin-top:20px;
-    margin-bottom:0px;
+	text-indent:50px;
+	font-size:18px;
+	color:white;
+	margin:0;
+	border:0;
+	margin-top:20px;
+	margin-bottom:0px;
 }
 
 #SoundAdviceTextBottom{
-    text-indent:50px;
-    font-size:18px;
-    color:white;
-    margin-top:33px;
-    margin-bottom:125px;
+	text-indent:50px;
+	font-size:18px;
+	color:white;
+	margin-top:33px;
+	margin-bottom:125px;
 }
 
 #SoundAdvicePhoto{
-    height:500px;
-    width:100%;
-    border-radius:10px;
-    margin-top:70px;
-    padding-top:100px;
+	height:500px;
+	width:100%;
+	border-radius:10px;
+	margin-top:70px;
+	padding-top:100px;
 }
 
 #SoundAdviceHeaderVideo{
-    font-size:30px;
-    font-family:Bombardier;
-    margin-left:5%;
-    color:white;
+	font-size:30px;
+	font-family:Bombardier;
+	margin-left:5%;
+	color:white;
 }
 #SoundAdviceHeaderArticle{
-    font-family:Bombardier;
-    font-size:30px;
-    margin-left:5%;
-    color:white;
+	font-family:Bombardier;
+	font-size:30px;
+	margin-left:5%;
+	color:white;
 }
 #SoundAdviceArticleParagraph{
-    text-indent:50px;
-    font-size:18px;
-    font-family:DroidSans;
-    margin-left:5%;
-    color:lightgray;
+	text-indent:50px;
+	font-size:18px;
+	font-family:DroidSans;
+	margin-left:5%;
+	color:lightgray;
 }
 #SoundAdviceVideoSentence{
-    font-size:30px;
-    font-family:Bombardier;
-    color:lightgray;
-    margin-bottom:15%;
+	font-size:30px;
+	font-family:Bombardier;
+	color:lightgray;
+	margin-bottom:15%;
 }
 
 #SoundAdviceBackButton{
-    padding-top:20px;
-    font-size:18px;
-    font-family:DroidSans;
-    margin-bottom:10%;
-    margin-left:5%
+	padding-top:20px;
+	font-size:18px;
+	font-family:DroidSans;
+	margin-bottom:10%;
+	margin-left:5%
 }
 
 #allVideos{
@@ -537,91 +537,91 @@ margin-bottom:5%;
 }
 
 #AllVideosRow{
-    border-bottom:2px solid gray;
-    padding:0;
-    margin:0;
+	border-bottom:2px solid gray;
+	padding:0;
+	margin:0;
 }
 
 #AllVideosCategory{
-    text-indent:50px;
-    font-size:18px;
-    color:white;
-    margin:0;
-    border:0;
-    margin-top:0px;
-    margin-bottom:20px;
+	text-indent:50px;
+	font-size:18px;
+	color:white;
+	margin:0;
+	border:0;
+	margin-top:0px;
+	margin-bottom:20px;
 }
 
 #BackToVideosButton{
-    padding-top:20px;
-    font-size:18px;
-    font-family:DroidSans;
-    margin-bottom:2%;
-    margin-left:5%
+	padding-top:20px;
+	font-size:18px;
+	font-family:DroidSans;
+	margin-bottom:2%;
+	margin-left:5%
 }
 
 #AllVideosButton{
 
-    font-size:18px;
-    font-family:DroidSans;
-    margin-bottom:2%;
-    margin-left:5%;
-    margin-top:5%;
+	font-size:18px;
+	font-family:DroidSans;
+	margin-bottom:2%;
+	margin-left:5%;
+	margin-top:5%;
 }
 
 #video{
-    margin:10px;
+	margin:10px;
 }
 #videoPadding{
-    margin-left:2%;
-    margin-bottom:5%;
+	margin-left:2%;
+	margin-bottom:5%;
 }
 
 #VideosMenu{
-    margin-bottom:20px;
+	margin-bottom:20px;
 }
 
 #VideosMenuButton{
-    width:50%;
-    font-size:18px;
-    color:white;
+	width:50%;
+	font-size:18px;
+	color:white;
 }
 
 #ThumbnailText{
-    text-indent:2%;
+	text-indent:2%;
 }
 
 #VideosMenuButton:hover{
-    width:50%;
-    font-size:18px;
-    color:limegreen;
-    text-decoration:none;
+	width:50%;
+	font-size:18px;
+	color:limegreen;
+	text-decoration:none;
 }
 
 #VideoListGroupLink{
-    border-radius:0;
-    border-color:darkgray;
-    background-color:#2c2c2c;
-    color:white;
-    font-size:13px;
-    font-family:DroidSans;
+	border-radius:0;
+	border-color:darkgray;
+	background-color:#2c2c2c;
+	color:white;
+	font-size:13px;
+	font-family:DroidSans;
 }
 
 #VideoCategories{
-    margin-bottom:7%;
+	margin-bottom:7%;
 }
 
 #RecentVideoList{
-    padding-left:10px;
-    padding-right:10px;
+	padding-left:10px;
+	padding-right:10px;
 }
 
 #FeaturedVideo{
-    margin-left:10px;
+	margin-left:10px;
 }
 
 #VideoFrame{
-    margin-bottom:10px;
+	margin-bottom:10px;
 }
 
 #videoWrapperVideos iframe {
@@ -630,41 +630,68 @@ margin-bottom:5%;
 	left: 0;
 	width: 100%;
 	height: 100%;
-    margin:0;
+	margin:0;
 }
 
 #VideoTitle{
-    font-size:25px;
+	font-size:25px;
 }
 
 #VideoTitle, #VideoDescription{
-    margin-left:40px;
-    color:white;
+	margin-left:40px;
+	color:white;
 }
 
 #ArticleText{
-    text-indent:35px;
-    font-size:18px;
-    color:white;
-    margin-left:5%;
-    margin-right:5%;
-    margin-bottom:5%;
-    margin-top:2%;
+	text-indent:35px;
+	font-size:18px;
+	color:white;
+	margin-left:5%;
+	margin-right:5%;
+	margin-bottom:5%;
+	margin-top:2%;
 }
 
 #ArticleDescriptionsLast{
-    font-family:DroidSans;
-    font-size:15px;
-    color:white;
-    margin-bottom:100px;
+	font-family:DroidSans;
+	font-size:15px;
+	color:white;
+	margin-bottom:100px;
 }
 
 #WoodsWaterCover{
-    width:300px;
-    height:350px;
-    margin:0px;
+	width:300px;
+	height:350px;
+	margin:0px;
 }
 
 #Thumbnail{
-    width:100px;
+	width:100px;
+}
+
+#ProductContainer{
+	margin-top:250px;
+	margin-bottom:525px;
+}
+
+#CartTitle{
+	font-family:DroidSans;
+	font-size:35px;
+	color:white;
+	margin-right:5%;
+	margin-left:5%;
+	margin-bottom:25px;
+	border-bottom:1px solid gray
+	
+}
+
+#CheckOutButton{
+	font-family:DroidSans;
+	font-size:15px;
+	color:white;
+	margin-right:75px;
+}
+
+cartTable td{
+	vertical-align:middle;
 }

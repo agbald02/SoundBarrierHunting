@@ -4,6 +4,8 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using System.Web.Routing;
+using SoundBarrierHunting.Domain.Entities;
+using SoundBarrierHunting.Infrastructure.Binders;
 
 namespace SoundBarrierHunting
 {
@@ -13,6 +15,7 @@ namespace SoundBarrierHunting
         {
             AreaRegistration.RegisterAllAreas();
             RouteConfig.RegisterRoutes(RouteTable.Routes);
+            ModelBinders.Binders.Add(typeof(Cart), new CartModelBinder());
         }
     }
 }

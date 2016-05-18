@@ -13,7 +13,7 @@ namespace SoundBarrierHunting.Controllers
 {
     public class ProductController : Controller
     {
-        private EFDbContext db = new EFDbContext();
+        private EFDbContextWebsite db = new EFDbContextWebsite();
         private IProductRepository repository;
 
         public ProductController(IProductRepository productRepository)
@@ -23,7 +23,13 @@ namespace SoundBarrierHunting.Controllers
 
         public ActionResult Products()
         {
-            return View();
+            ProductListViewModel model = new ProductListViewModel
+            {
+                Products = repository.Products
+                .OrderBy(p => p.ID)
+            };
+
+            return View(model);
         }
     }
 }
