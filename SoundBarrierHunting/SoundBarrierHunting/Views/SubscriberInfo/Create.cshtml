@@ -1,7 +1,7 @@
 ﻿@model SoundBarrierHunting.Models.Database.SubscriberInfo
 
 @{
-    Layout = "~/Views/Shared/Layouts/_Layout.cshtml";
+    Layout = null;
 }
 
 <!DOCTYPE html>
@@ -12,60 +12,57 @@
     <title>Create</title>
 </head>
 <body>
-    <div id="SubscriberContainer">
-@using (Html.BeginForm("Create","SubscriberInfo", FormMethod.Post))
-                {
-                    @Html.AntiForgeryToken()
-
-                    <div class="form-horizontal">
-                        <h4 id="SubscriberText">Take your hunting to a new level! Subscribe now for insider tips and access to our industry-first products!</h4>
-                        <hr />
-                        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
-
-                        <div class="form-group" id="SubscriberText">
-                            @Html.Label("First Name:")
-                            <div class="col-md-12">
-                                @Html.EditorFor(model => model.FirstName, new { htmlAttributes = new { @class = "form-control", required ="required" } })
-                                @Html.ValidationMessageFor(model => model.FirstName, "", new { @class = "text-danger" })
-                            </div>
-                        </div>
-
-                        <div class="form-group" id="SubscriberText">
-                            @Html.Label("Last Name:")
-                            <div class="col-md-12">
-                                @Html.EditorFor(model => model.LastName, new { htmlAttributes = new { @class = "form-control", required = "required" } })
-                                @Html.ValidationMessageFor(model => model.LastName, "", new { @class = "text-danger" })
-                            </div>
-                        </div>
-
-                        <div class="form-group" id="SubscriberText">
-                            @Html.Label("Email:")
-                            <div class="col-md-12">
-                                @Html.EditorFor(model => model.Email, new { htmlAttributes = new { @class = "form-control", required ="required" } })
-                                @Html.ValidationMessageFor(model => model.Email, "", new { @class = "text-danger" })
-                            </div>
-                        </div>
-
-                        <div class="form-group" id="SubscriberText">
-                            @Html.Label("Subscribe for updates")
-                            <div class="col-md-12">
-                                @Html.CheckBoxFor(model => model.IsSubscribed, new { htmlAttributes = new { @class = "form-control"} })
-                                @Html.ValidationMessageFor(model => model.IsSubscribed, "", new { @class = "text-danger" })
-                            </div>
-                        </div>
-
-                        <div class="form-group">
-                            <div class="col-md-offset-2 col-md-10">
-                                <input type="submit" value="Create" class="btn btn-success" />
-                                <button type="button" class="btn btn-success" data-dismiss="modal">Close</button>
-                            </div>
-                        </div>
-                    </div>
-                }
-    </div>
+    @using (Html.BeginForm()) 
+    {
+        @Html.AntiForgeryToken()
+        
+        <div class="form-horizontal">
+            <h4>SubscriberInfo</h4>
+            <hr />
+            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+    
+            <div class="form-group">
+                @Html.LabelFor(model => model.FirstName, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.FirstName, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.FirstName, "", new { @class = "text-danger" })
+                </div>
+            </div>
+    
+            <div class="form-group">
+                @Html.LabelFor(model => model.LastName, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.LastName, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.LastName, "", new { @class = "text-danger" })
+                </div>
+            </div>
+    
+            <div class="form-group">
+                @Html.LabelFor(model => model.Email, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.Email, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.Email, "", new { @class = "text-danger" })
+                </div>
+            </div>
+    
+            <div class="form-group">
+                @Html.LabelFor(model => model.IsSubscribed, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.CheckBoxFor(model => model.IsSubscribed, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.IsSubscribed, "", new { @class = "text-danger" })
+                </div>
+            </div>
+    
+            <div class="form-group">
+                <div class="col-md-offset-2 col-md-10">
+                    <input type="submit" value="Create" class="btn btn-default" />
+                </div>
+            </div>
+        </div>
+    }
     
     <div>
-        @Html.ActionLink("Back to List", "Index", "Home")
+        @Html.ActionLink("Back to List", "Index")
     </div>
 </body>
 </html>
