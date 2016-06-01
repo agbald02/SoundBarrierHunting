@@ -47,7 +47,7 @@ namespace SoundBarrierHunting.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "Id,FirstName,LastName,Email,IsSubscribed")] SubscriberInfo subscriberInfo)
+        public ActionResult Create([Bind(Include = "Id,FirstName,LastName,Email,SubscribeDate")] SubscriberInfo subscriberInfo)
         {
             if (ModelState.IsValid)
             {

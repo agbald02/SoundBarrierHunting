@@ -48,7 +48,6 @@ namespace SoundBarrierHunting.App_Start
                 RegisterServices(kernel);
                 return kernel;
             }
-
             catch
             {
                 kernel.Dispose();
@@ -62,8 +61,6 @@ namespace SoundBarrierHunting.App_Start
         /// <param name="kernel">The kernel.</param>
         private static void RegisterServices(IKernel kernel)
         {
-            System.Web.Mvc.DependencyResolver.SetResolver(new
-            WebUI.Infrastructure.NinjectDependencyResolver(kernel));
         }        
     }
 }

@@ -18,6 +18,6 @@ namespace SoundBarrierHunting.Models.Database
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public string Email { get; set; }
-        public bool IsSubscribed { get; set; }
+        public System.DateTime SubscribeDate { get; set; }
     }
 }

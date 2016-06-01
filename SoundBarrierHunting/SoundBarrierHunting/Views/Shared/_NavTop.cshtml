@@ -24,15 +24,10 @@
                     </a>
                 </li>
                 <li>
-                    <a href="http://goo.gl/forms/jLZkcuX7c3" id="navButtons" target="_blank">
-                        Team Membership
+                    <a href="@Url.Action("Create", "SubscriberInfo")" id="navButtons">
+                        Join Us
                     </a>
                 </li>
-                @*<li>
-                    <a href="@Url.Action("Products", "Product")" id="navButtons">
-                        Products
-                    </a>
-                </li>*@
                 <li>
                     <a href="@Url.Action("ContactUs", "Home")" id="navButtons">
                         Contact Us
@@ -76,11 +71,7 @@
                         <li><a href="@Url.Action("Articles","Home")" id="navMenuButton">Articles</a></li>
                     </ul>
                 </li>
-                <li>
-                    <a href="http://goo.gl/forms/jLZkcuX7c3" id="navMenuButtons" target="_blank">
-                        Team Membership
-                    </a>
-                </li>
+                <li><a href="@Url.Action("Create", "SubscriberInfo")">Join Us</a></li>
                 <li><a href="@Url.Action("ContactUs", "Home")">Contact Us</a></li>
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Social Media <b class="caret"></b></a>
