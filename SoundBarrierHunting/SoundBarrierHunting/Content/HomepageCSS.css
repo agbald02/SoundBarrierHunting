@@ -695,3 +695,19 @@ margin-bottom:5%;
 cartTable td{
 	vertical-align:middle;
 }
+
+#SubscriberForm{
+	margin-top:20%;
+	margin-bottom:40%;
+	margin-right:20%;
+	margin-left:20%;
+	color:white;
+	font-size:13px;
+	font-family:DroidSans;
+}
+
+#SubscriberText{
+	color:white;
+	font-size:13px;
+	font-family:DroidSans;
+}
